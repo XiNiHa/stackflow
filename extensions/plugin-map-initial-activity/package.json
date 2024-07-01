@@ -17,7 +17,11 @@
 	"main": "./dist/index.js",
 	"module": "./dist/index.mjs",
 	"types": "./dist/index.d.ts",
-	"files": ["dist", "src", "README.md"],
+	"files": [
+		"dist",
+		"src",
+		"README.md"
+	],
 	"scripts": {
 		"build": "yarn build:js && yarn build:dts",
 		"build:dts": "tsc --emitDeclarationOnly",
@@ -40,6 +44,9 @@
 		"access": "public"
 	},
 	"ultra": {
-		"concurrent": ["dev", "build"]
+		"concurrent": [
+			"dev",
+			"build"
+		]
 	}
 }
