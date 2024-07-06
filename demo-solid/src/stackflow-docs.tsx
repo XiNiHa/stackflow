@@ -2,10 +2,11 @@ import { vars } from "@seed-design/design-token";
 import { basicUIPlugin } from "@stackflow/plugin-basic-ui/solid";
 import { basicRendererPlugin } from "@stackflow/plugin-renderer-basic/solid";
 import { stackflow } from "@stackflow/solid";
+import { render } from "solid-js/web";
 
 import { activities } from "./stackflow";
 
-export const { Stack } = stackflow({
+const { Stack } = stackflow({
   transitionDuration: 350,
   activities,
   initialActivity: () => "Main",
@@ -22,3 +23,7 @@ export const { Stack } = stackflow({
     }),
   ],
 });
+
+export const renderApp = (el: HTMLElement, initialContext?: any) => {
+  render(() => <Stack initialContext={initialContext} />, el);
+};

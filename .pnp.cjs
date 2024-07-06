@@ -3407,6 +3407,7 @@ const RAW_RUNTIME_STATE =
           ["@vanilla-extract/css", "npm:1.15.3"],\
           ["@vanilla-extract/vite-plugin", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#patch:@vanilla-extract/vite-plugin@npm%3A4.0.12#~/.yarn/patches/@vanilla-extract-vite-plugin-npm-4.0.12-ed14a9ba3b.patch::version=4.0.12&hash=d3aa99"],\
           ["esbuild", "npm:0.23.0"],\
+          ["esbuild-plugin-solid", "virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#patch:esbuild-plugin-solid@npm%3A0.6.0#~/.yarn/patches/esbuild-plugin-solid-npm-0.6.0-49835b85dc.patch::version=0.6.0&hash=bf8c52"],\
           ["lorem-ipsum", "npm:2.0.8"],\
           ["lz-string", "npm:1.5.0"],\
           ["normalize.css", "npm:8.0.1"],\
@@ -3429,6 +3430,7 @@ const RAW_RUNTIME_STATE =
           ["@seed-design/stylesheet", "npm:1.0.4"],\
           ["@stackflow/core", "workspace:core"],\
           ["@stackflow/demo", "workspace:demo"],\
+          ["@stackflow/demo-solid", "workspace:demo-solid"],\
           ["@stackflow/plugin-basic-ui", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-basic-ui"],\
           ["@stackflow/plugin-history-sync", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-history-sync"],\
           ["@stackflow/plugin-renderer-basic", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-renderer-basic"],\
