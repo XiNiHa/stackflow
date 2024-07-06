@@ -1,5 +1,6 @@
 import config from "@stackflow/esbuild-config";
 import { context } from "esbuild";
+import { solidPlugin } from "esbuild-plugin-solid";
 
 import pkg from "./package.json" assert { type: "json" };
 
@@ -12,8 +13,9 @@ const external = Object.keys({
 Promise.all([
   context({
     ...config({
-      entryPoints: ["./src/stackflow-docs.ts"],
+      entryPoints: ["./src/stackflow-docs.tsx"],
       vanillaExtractExternal: ["@seed-design"],
+      plugins: [solidPlugin({ solid: { generate: "dom" } })],
     }),
     format: "cjs",
     external,
@@ -22,8 +24,9 @@ Promise.all([
   ),
   context({
     ...config({
-      entryPoints: ["./src/stackflow-docs.ts"],
+      entryPoints: ["./src/stackflow-docs.tsx"],
       vanillaExtractExternal: ["@seed-design"],
+      plugins: [solidPlugin({ solid: { generate: "dom" } })],
     }),
     format: "esm",
     outExtension: {
