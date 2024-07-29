@@ -1,5 +1,33 @@
 # @stackflow/docs
 
+## 2.0.4
+
+### Patch Changes
+
+- Updated dependencies [bd65894]
+  - @contentstech/stackflow-plugin-history-sync@0.9.0
+  - @stackflow/demo@1.4.4
+
+## 2.0.3
+
+### Patch Changes
+
+- Updated dependencies [b733361]
+  - @contentstech/stackflow-plugin-history-sync@0.8.0
+  - @stackflow/demo@1.4.3
+
+## 2.0.2
+
+### Patch Changes
+
+- Updated dependencies [e3c7070]
+- Updated dependencies [04f54c2]
+- Updated dependencies [0a105c3]
+  - @contentstech/stackflow-plugin-basic-ui@0.6.0
+  - @contentstech/stackflow-plugin-history-sync@0.7.0
+  - @contentstech/stackflow-plugin-renderer-basic@0.6.0
+  - @stackflow/demo@1.4.2
+
 ## 2.0.1
 
 ### Patch Changes

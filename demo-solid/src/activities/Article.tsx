@@ -2,7 +2,7 @@ import {
   type ActivityComponentType,
   useActivityParams,
   useLoaderData,
-} from "@stackflow/solid/future";
+} from "@contentstech/stackflow-solid/future";
 import { For } from "solid-js";
 
 import ArticleCard from "../components/ArticleCard";
