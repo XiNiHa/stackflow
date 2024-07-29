@@ -1,6 +1,6 @@
 /* @jsxImportSource solid-js */
 
-import type { StackflowSolidPlugin } from "@stackflow/solid";
+import type { StackflowSolidPlugin } from "@contentstech/stackflow-solid";
 
 import { makeHistorySyncPlugin } from "../common/makeHistorySyncPlugin";
 import { HistoryQueueProvider } from "./HistoryQueueContext.solid";

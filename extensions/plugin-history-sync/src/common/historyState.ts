@@ -2,7 +2,7 @@ import type { Activity, ActivityStep } from "@stackflow/core";
 import type { History } from "history";
 import { decycle, retrocycle } from "json-cycle";
 
-const STATE_TAG = "@stackflow/plugin-history-sync";
+const STATE_TAG = "@contentstech/stackflow-plugin-history-sync";
 
 interface State {
   activity: Activity;
