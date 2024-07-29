@@ -1,5 +1,5 @@
-import type { ActivityComponentType } from "@stackflow/solid/future";
-import { useLoaderData } from "@stackflow/solid/future";
+import type { ActivityComponentType } from "@contentstech/stackflow-solid/future";
+import { useLoaderData } from "@contentstech/stackflow-solid/future";
 import { For } from "solid-js";
 
 import IconBell from "../assets/IconBell";

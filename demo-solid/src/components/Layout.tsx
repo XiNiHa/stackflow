@@ -1,4 +1,4 @@
-import { AppScreen } from "@stackflow/plugin-basic-ui/solid";
+import { AppScreen } from "@contentstech/stackflow-plugin-basic-ui/solid";
 import type { Component, JSXElement } from "solid-js";
 
 type PropOf<T> = T extends Component<infer U> ? U : never;

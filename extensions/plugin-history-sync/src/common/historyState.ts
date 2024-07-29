@@ -2,7 +2,7 @@ import type { Activity, ActivityStep } from "@stackflow/core";
 import { parse, stringify } from "flatted";
 import type { History } from "history";
 
-const STATE_TAG = "@stackflow/plugin-history-sync";
+const STATE_TAG = "@contentstech/stackflow-plugin-history-sync";
 
 interface State {
   activity: Activity;

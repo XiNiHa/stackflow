@@ -1,5 +1,29 @@
 # @stackflow/demo
 
+## 1.4.2
+
+### Patch Changes
+
+- Updated dependencies [e3c7070]
+- Updated dependencies [04f54c2]
+- Updated dependencies [0a105c3]
+  - @contentstech/stackflow-link@0.4.0
+  - @contentstech/stackflow-plugin-basic-ui@0.6.0
+  - @contentstech/stackflow-plugin-history-sync@0.7.0
+  - @contentstech/stackflow-plugin-preload@0.4.0
+  - @contentstech/stackflow-plugin-renderer-basic@0.6.0
+
+## 1.4.1
+
+### Patch Changes
+
+- Updated dependencies [ece2314]
+  - @contentstech/stackflow-link@0.3.0
+  - @contentstech/stackflow-plugin-basic-ui@0.5.0
+  - @contentstech/stackflow-plugin-history-sync@0.6.0
+  - @contentstech/stackflow-plugin-preload@0.3.0
+  - @contentstech/stackflow-plugin-renderer-basic@0.5.0
+
 ## 1.4.0
 
 ### Minor Changes
