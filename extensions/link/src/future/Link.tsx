@@ -1,4 +1,4 @@
-/// <reference types="@stackflow/plugin-history-sync" />
+/// <reference types="@contentstech/stackflow-plugin-history-sync" />
 
 import type {
   InferActivityParams,

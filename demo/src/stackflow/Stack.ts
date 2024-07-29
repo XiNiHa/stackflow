@@ -1,7 +1,7 @@
+import { basicUIPlugin } from "@contentstech/stackflow-plugin-basic-ui";
+import { historySyncPlugin } from "@contentstech/stackflow-plugin-history-sync";
+import { basicRendererPlugin } from "@contentstech/stackflow-plugin-renderer-basic";
 import { vars } from "@seed-design/design-token";
-import { basicUIPlugin } from "@stackflow/plugin-basic-ui";
-import { historySyncPlugin } from "@stackflow/plugin-history-sync";
-import { basicRendererPlugin } from "@stackflow/plugin-renderer-basic";
 import { stackflow } from "@stackflow/react/future";
 import Article from "../activities/Article";
 import Main from "../activities/Main";

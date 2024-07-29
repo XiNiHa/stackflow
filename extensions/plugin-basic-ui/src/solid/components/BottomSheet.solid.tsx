@@ -1,6 +1,6 @@
 /* @jsxImportSource solid-js */
 
-import { useActions, useActivity } from "@stackflow/solid";
+import { useActions, useActivity } from "@contentstech/stackflow-solid";
 import { assignInlineVars } from "@vanilla-extract/dynamic";
 import type { Accessor, Component, JSXElement } from "solid-js";
 import { createMemo } from "solid-js";
@@ -9,7 +9,7 @@ import {
   createLazy,
   createStyleEffect,
   createZIndexBase,
-} from "@stackflow/solid-ui-core";
+} from "@contentstech/stackflow-solid-ui-core";
 import type { GlobalVars } from "../../common/basicUIPlugin.css";
 import { globalVars } from "../../common/basicUIPlugin.css";
 import * as css from "../../common/components/BottomSheet.css";

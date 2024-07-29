@@ -1,6 +1,6 @@
 /* @jsxImportSource solid-js */
 
-import type { StackflowSolidPlugin } from "@stackflow/solid";
+import type { StackflowSolidPlugin } from "@contentstech/stackflow-solid";
 import { assignInlineVars } from "@vanilla-extract/dynamic";
 import type { JSXElement } from "solid-js";
 import { createContext, useContext } from "solid-js";
