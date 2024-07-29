@@ -10,13 +10,13 @@
     "dev": "next -p 6006"
   },
   "dependencies": {
+    "@contentstech/stackflow-plugin-basic-ui": "^0.5.0",
+    "@contentstech/stackflow-plugin-history-sync": "^0.6.0",
+    "@contentstech/stackflow-plugin-renderer-basic": "^0.5.0",
     "@mdx-js/react": "^3.0.1",
     "@seed-design/design-token": "^1.0.3",
     "@stackflow/core": "^1.1.0",
     "@stackflow/demo": "^1.4.0",
-    "@stackflow/plugin-basic-ui": "^1.9.2",
-    "@stackflow/plugin-history-sync": "^1.7.0",
-    "@stackflow/plugin-renderer-basic": "^1.1.13",
     "@stackflow/react": "^1.4.0",
     "@types/react": "^18.3.3",
     "autoprefixer": "^10.4.20",

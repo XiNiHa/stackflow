@@ -1,7 +1,7 @@
+import { basicUIPlugin } from "@contentstech/stackflow-plugin-basic-ui/solid";
+import { basicRendererPlugin } from "@contentstech/stackflow-plugin-renderer-basic/solid";
+import { stackflow } from "@contentstech/stackflow-solid/future";
 import { vars } from "@seed-design/design-token";
-import { basicUIPlugin } from "@stackflow/plugin-basic-ui/solid";
-import { basicRendererPlugin } from "@stackflow/plugin-renderer-basic/solid";
-import { stackflow } from "@stackflow/solid/future";
 import { render } from "solid-js/web";
 import { config } from "./stackflow.config";
 

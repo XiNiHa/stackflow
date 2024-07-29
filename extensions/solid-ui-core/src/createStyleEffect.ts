@@ -1,5 +1,5 @@
+import { useActivity } from "@contentstech/stackflow-solid";
 import type { ActivityTransitionState } from "@stackflow/core";
-import { useActivity } from "@stackflow/solid";
 import type { Accessor } from "solid-js";
 import { createEffect, onCleanup, untrack } from "solid-js";
 
