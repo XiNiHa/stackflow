@@ -1,5 +1,5 @@
+import type { ActivityComponentType as SolidActivityComponentType } from "@contentstech/stackflow-solid";
 import type { ActivityComponentType as ReactActivityComponentType } from "@stackflow/react";
-import type { ActivityComponentType as SolidActivityComponentType } from "@stackflow/solid";
 
 export type Route<K> = {
   path: string;
