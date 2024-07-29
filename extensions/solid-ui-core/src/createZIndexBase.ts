@@ -1,4 +1,4 @@
-import { useActivity } from "@stackflow/solid";
+import { useActivity } from "@contentstech/stackflow-solid";
 import { createMemo } from "solid-js";
 
 export function createZIndexBase() {

@@ -1,5 +1,5 @@
 ---
-"@stackflow/plugin-history-sync": minor
+"@contentstech/stackflow-plugin-history-sync": minor
 ---
 
 Add `encode` interface

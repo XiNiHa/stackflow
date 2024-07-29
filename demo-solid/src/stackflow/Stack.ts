@@ -1,8 +1,8 @@
+import { basicUIPlugin } from "@contentstech/stackflow-plugin-basic-ui/solid";
+import { historySyncPlugin } from "@contentstech/stackflow-plugin-history-sync/solid";
+import { basicRendererPlugin } from "@contentstech/stackflow-plugin-renderer-basic/solid";
+import { stackflow } from "@contentstech/stackflow-solid/future";
 import { vars } from "@seed-design/design-token";
-import { basicUIPlugin } from "@stackflow/plugin-basic-ui/solid";
-import { historySyncPlugin } from "@stackflow/plugin-history-sync/solid";
-import { basicRendererPlugin } from "@stackflow/plugin-renderer-basic/solid";
-import { stackflow } from "@stackflow/solid/future";
 import { config } from "./stackflow.config";
 
 import Article from "../activities/Article";
