@@ -129,7 +129,7 @@ export function stackflow<
                 " There is no initial activity." +
                 " If you want to set the initial activity," +
                 " add the `initialActivity` option of the `stackflow()` function or" +
-                " add a plugin that sets the initial activity. (e.g. `@stackflow/plugin-history-sync`)",
+                " add a plugin that sets the initial activity. (e.g. `@contentstech/stackflow-plugin-history-sync`)",
             );
           },
         },

@@ -1,4 +1,4 @@
-import { cssVars } from "@stackflow/plugin-basic-ui";
+import { cssVars } from "@contentstech/stackflow-plugin-basic-ui";
 import { style } from "@vanilla-extract/css";
 
 import { f } from "../styles";

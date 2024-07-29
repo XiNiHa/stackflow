@@ -1,10 +1,10 @@
+import { basicUIPlugin } from "@contentstech/stackflow-plugin-basic-ui/solid";
+import { historySyncPlugin } from "@contentstech/stackflow-plugin-history-sync/solid";
+import { basicRendererPlugin } from "@contentstech/stackflow-plugin-renderer-basic/solid";
+import { stackflow } from "@contentstech/stackflow-solid";
 import { vars } from "@seed-design/design-token";
-import { basicUIPlugin } from "@stackflow/plugin-basic-ui/solid";
 import { devtoolsPlugin } from "@stackflow/plugin-devtools";
-import { historySyncPlugin } from "@stackflow/plugin-history-sync/solid";
 import { mapInitialActivityPlugin } from "@stackflow/plugin-map-initial-activity";
-import { basicRendererPlugin } from "@stackflow/plugin-renderer-basic/solid";
-import { stackflow } from "@stackflow/solid";
 import { decompressFromEncodedURIComponent } from "lz-string";
 
 import Article from "./activities/Article";

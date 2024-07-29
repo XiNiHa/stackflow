@@ -1,6 +1,6 @@
 /* @jsxImportSource solid-js */
 
-import { useActions, useActivity } from "@stackflow/solid";
+import { useActions, useActivity } from "@contentstech/stackflow-solid";
 import { assignInlineVars } from "@vanilla-extract/dynamic";
 import type { Component, JSXElement } from "solid-js";
 import { createContext, createMemo, useContext } from "solid-js";
@@ -12,7 +12,7 @@ import {
   createStyleEffectSwipeBack,
   createZIndexBase,
   useMounted,
-} from "@stackflow/solid-ui-core";
+} from "@contentstech/stackflow-solid-ui-core";
 import type { GlobalVars } from "../../common/basicUIPlugin.css";
 import { globalVars } from "../../common/basicUIPlugin.css";
 import * as css from "../../common/components/AppScreen.css";

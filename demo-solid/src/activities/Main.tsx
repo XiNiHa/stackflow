@@ -1,4 +1,4 @@
-import type { ActivityComponentType } from "@stackflow/solid";
+import type { ActivityComponentType } from "@contentstech/stackflow-solid";
 import { For } from "solid-js";
 
 import IconBell from "../assets/IconBell";

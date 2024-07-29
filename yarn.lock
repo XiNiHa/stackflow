@@ -1190,6 +1190,202 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@contentstech/stackflow-plugin-basic-ui@npm:^0.1.1, @contentstech/stackflow-plugin-basic-ui@workspace:extensions/plugin-basic-ui":
+  version: 0.0.0-use.local
+  resolution: "@contentstech/stackflow-plugin-basic-ui@workspace:extensions/plugin-basic-ui"
+  dependencies:
+    "@contentstech/stackflow-solid": "npm:^0.1.0"
+    "@contentstech/stackflow-solid-ui-core": "npm:^0.1"
+    "@stackflow/core": "npm:^1.1.0"
+    "@stackflow/esbuild-config": "npm:^1.0.3"
+    "@stackflow/react": "npm:^1.3.0"
+    "@stackflow/react-ui-core": "npm:^1.1.1"
+    "@types/react": "npm:^18.3.3"
+    "@vanilla-extract/css": "npm:^1.15.3"
+    "@vanilla-extract/dynamic": "npm:^2.1.1"
+    "@vanilla-extract/private": "npm:^1.0.5"
+    "@vanilla-extract/recipes": "npm:^0.5.3"
+    esbuild: "npm:^0.23.0"
+    esbuild-plugin-solid: "patch:esbuild-plugin-solid@npm%3A0.6.0#~/.yarn/patches/esbuild-plugin-solid-npm-0.6.0-49835b85dc.patch"
+    react: "npm:^18.3.1"
+    rimraf: "npm:^3.0.2"
+    solid-js: "npm:^1.8.18"
+    typescript: "npm:^5.5.3"
+  peerDependencies:
+    "@contentstech/stackflow-solid": ^0.1
+    "@stackflow/core": ^1.1.0-canary.0
+    "@stackflow/react": ^1.3.0-canary.0
+    "@types/react": ">=16.8.0"
+    react: ">=16.8.0"
+    solid-js: ">=1.4.0"
+  peerDependenciesMeta:
+    "@contentstech/stackflow-solid":
+      optional: true
+    "@stackflow/react":
+      optional: true
+    "@types/react":
+      optional: true
+    react:
+      optional: true
+    solid-js:
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@contentstech/stackflow-plugin-history-sync@npm:^0.2.0, @contentstech/stackflow-plugin-history-sync@workspace:extensions/plugin-history-sync":
+  version: 0.0.0-use.local
+  resolution: "@contentstech/stackflow-plugin-history-sync@workspace:extensions/plugin-history-sync"
+  dependencies:
+    "@contentstech/stackflow-solid": "npm:^0.1.0"
+    "@stackflow/config": "npm:^1.1.0"
+    "@stackflow/core": "npm:^1.1.0"
+    "@stackflow/esbuild-config": "npm:^1.0.3"
+    "@stackflow/react": "npm:^1.3.0"
+    "@swc/core": "npm:^1.6.6"
+    "@swc/jest": "npm:^0.2.36"
+    "@types/jest": "npm:^29.5.12"
+    "@types/node": "npm:^20.14.9"
+    "@types/react": "npm:^18.3.3"
+    esbuild: "npm:^0.23.0"
+    esbuild-plugin-solid: "npm:^0.6.0"
+    history: "npm:^5.3.0"
+    jest: "npm:^29.7.0"
+    json-cycle: "npm:^1.5.0"
+    react: "npm:^18.3.1"
+    rimraf: "npm:^3.0.2"
+    solid-js: "npm:^1.8.18"
+    typescript: "npm:^5.5.3"
+    url-pattern: "npm:^1.0.3"
+  peerDependencies:
+    "@contentstech/stackflow-solid": ^0.1
+    "@stackflow/config": ^1.0.1-canary.0
+    "@stackflow/core": ^1.1.0-canary.0
+    "@stackflow/react": ^1.3.0-canary.0
+    "@types/react": ">=16.8.0"
+    react: ">=16.8.0"
+    solid-js: ">=1.4.0"
+  peerDependenciesMeta:
+    "@contentstech/stackflow-solid":
+      optional: true
+    "@stackflow/react":
+      optional: true
+    "@types/react":
+      optional: true
+    react:
+      optional: true
+    solid-js:
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@contentstech/stackflow-plugin-renderer-basic@npm:^0.1.0, @contentstech/stackflow-plugin-renderer-basic@workspace:extensions/plugin-renderer-basic":
+  version: 0.0.0-use.local
+  resolution: "@contentstech/stackflow-plugin-renderer-basic@workspace:extensions/plugin-renderer-basic"
+  dependencies:
+    "@contentstech/stackflow-solid": "npm:^0.1.0"
+    "@stackflow/core": "npm:^1.1.0"
+    "@stackflow/esbuild-config": "npm:^1.0.3"
+    "@stackflow/react": "npm:^1.3.0"
+    "@types/react": "npm:^18.3.3"
+    esbuild: "npm:^0.23.0"
+    esbuild-plugin-solid: "npm:^0.6.0"
+    react: "npm:^18.3.1"
+    rimraf: "npm:^3.0.2"
+    solid-js: "npm:^1.8.18"
+    typescript: "npm:^5.5.3"
+  peerDependencies:
+    "@contentstech/stackflow-solid": ^0.1
+    "@stackflow/core": ^1.1.0-canary.0
+    "@stackflow/react": ^1.3.0-canary.0
+    "@types/react": ">=16.8.0"
+    react: ">=16.8.0"
+    solid-js: ">=1.4.0"
+  peerDependenciesMeta:
+    "@contentstech/stackflow-solid":
+      optional: true
+    "@stackflow/react":
+      optional: true
+    "@types/react":
+      optional: true
+    react:
+      optional: true
+    solid-js:
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@contentstech/stackflow-plugin-renderer-web@workspace:extensions/plugin-renderer-web":
+  version: 0.0.0-use.local
+  resolution: "@contentstech/stackflow-plugin-renderer-web@workspace:extensions/plugin-renderer-web"
+  dependencies:
+    "@contentstech/stackflow-solid": "npm:^0.1.0"
+    "@stackflow/core": "npm:^1.1.0"
+    "@stackflow/esbuild-config": "npm:^1.0.3"
+    "@stackflow/react": "npm:^1.3.0"
+    "@types/react": "npm:^18.3.3"
+    esbuild: "npm:^0.23.0"
+    esbuild-plugin-solid: "npm:^0.6.0"
+    react: "npm:^18.3.1"
+    rimraf: "npm:^3.0.2"
+    solid-js: "npm:^1.8.18"
+    typescript: "npm:^5.5.3"
+  peerDependencies:
+    "@contentstech/stackflow-solid": ^0.1
+    "@stackflow/core": ^1.1.0-canary.0
+    "@stackflow/react": ^1.3.0-canary.0
+    "@types/react": ">=16.8.0"
+    react: ">=16.8.0"
+    solid-js: ">=1.4.0"
+  peerDependenciesMeta:
+    "@contentstech/stackflow-solid":
+      optional: true
+    "@stackflow/react":
+      optional: true
+    "@types/react":
+      optional: true
+    react:
+      optional: true
+    solid-js:
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@contentstech/stackflow-solid-ui-core@npm:^0.1, @contentstech/stackflow-solid-ui-core@workspace:extensions/solid-ui-core":
+  version: 0.0.0-use.local
+  resolution: "@contentstech/stackflow-solid-ui-core@workspace:extensions/solid-ui-core"
+  dependencies:
+    "@contentstech/stackflow-solid": "npm:^0.1.0"
+    "@stackflow/core": "npm:^1.1.0"
+    "@stackflow/esbuild-config": "npm:^1.0.2"
+    esbuild: "npm:^0.23.0"
+    esbuild-plugin-solid: "patch:esbuild-plugin-solid@npm%3A0.6.0#~/.yarn/patches/esbuild-plugin-solid-npm-0.6.0-49835b85dc.patch"
+    rimraf: "npm:^3.0.2"
+    solid-js: "npm:^1.8.18"
+    typescript: "npm:^5.5.3"
+  peerDependencies:
+    "@contentstech/stackflow-solid": ^0.1
+    "@stackflow/core": ^1.1.0-canary.0
+    solid-js: ">=1.4.0"
+  languageName: unknown
+  linkType: soft
+
+"@contentstech/stackflow-solid@npm:^0.1.0, @contentstech/stackflow-solid@workspace:integrations/solid":
+  version: 0.0.0-use.local
+  resolution: "@contentstech/stackflow-solid@workspace:integrations/solid"
+  dependencies:
+    "@stackflow/core": "npm:^1.0.13"
+    "@stackflow/esbuild-config": "npm:^1.0.3"
+    esbuild: "npm:^0.23.0"
+    esbuild-plugin-solid: "patch:esbuild-plugin-solid@npm%3A0.6.0#~/.yarn/patches/esbuild-plugin-solid-npm-0.6.0-49835b85dc.patch"
+    rimraf: "npm:^3.0.2"
+    solid-js: "npm:^1.8.18"
+    typescript: "npm:^5.5.3"
+  peerDependencies:
+    "@stackflow/core": ^1
+    solid-js: ">=1.4.0"
+  languageName: unknown
+  linkType: soft
+
 "@emotion/hash@npm:^0.9.0":
   version: 0.9.1
   resolution: "@emotion/hash@npm:0.9.1"
@@ -2449,20 +2645,20 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@stackflow/demo-solid@workspace:demo-solid"
   dependencies:
+    "@contentstech/stackflow-plugin-basic-ui": "npm:^0.1.1"
+    "@contentstech/stackflow-plugin-history-sync": "npm:^0.2.0"
+    "@contentstech/stackflow-plugin-renderer-basic": "npm:^0.1.0"
+    "@contentstech/stackflow-solid": "npm:^0.1.0"
     "@seed-design/design-token": "npm:^1.0.3"
     "@seed-design/stylesheet": "npm:^1.0.4"
     "@stackflow/compat-await-push": "npm:^1.1.12"
     "@stackflow/core": "npm:^1.1.0"
     "@stackflow/esbuild-config": "npm:^1.0.1"
     "@stackflow/link": "npm:^1.4.4"
-    "@stackflow/plugin-basic-ui": "npm:^1.9.1"
     "@stackflow/plugin-devtools": "npm:^0.1.11"
-    "@stackflow/plugin-history-sync": "npm:^1.6.2"
     "@stackflow/plugin-map-initial-activity": "npm:^1.0.10"
     "@stackflow/plugin-preload": "npm:^1.4.1"
-    "@stackflow/plugin-renderer-basic": "npm:^1.1.12"
     "@stackflow/plugin-stack-depth-change": "npm:^1.1.4"
-    "@stackflow/solid": "npm:^1.3.1"
     "@vanilla-extract/css": "npm:^1.15.3"
     "@vanilla-extract/vite-plugin": "npm:^4.0.12"
     esbuild: "npm:^0.23.0"
@@ -2483,6 +2679,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@stackflow/demo@workspace:demo"
   dependencies:
+    "@contentstech/stackflow-plugin-basic-ui": "npm:^0.1.1"
+    "@contentstech/stackflow-plugin-history-sync": "npm:^0.2.0"
+    "@contentstech/stackflow-plugin-renderer-basic": "npm:^0.1.0"
     "@seed-design/design-token": "npm:^1.0.3"
     "@seed-design/stylesheet": "npm:^1.0.4"
     "@stackflow/compat-await-push": "npm:^1.1.12"
@@ -2490,12 +2689,9 @@ __metadata:
     "@stackflow/core": "npm:^1.1.0"
     "@stackflow/esbuild-config": "npm:^1.0.3"
     "@stackflow/link": "npm:^1.4.4"
-    "@stackflow/plugin-basic-ui": "npm:^1.9.1"
     "@stackflow/plugin-devtools": "npm:^0.1.11"
-    "@stackflow/plugin-history-sync": "npm:^1.6.2"
     "@stackflow/plugin-map-initial-activity": "npm:^1.0.10"
     "@stackflow/plugin-preload": "npm:^1.4.1"
-    "@stackflow/plugin-renderer-basic": "npm:^1.1.12"
     "@stackflow/plugin-stack-depth-change": "npm:^1.1.5"
     "@stackflow/react": "npm:^1.3.0"
     "@types/react": "npm:^18.3.3"
@@ -2523,14 +2719,14 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@stackflow/docs@workspace:docs"
   dependencies:
+    "@contentstech/stackflow-plugin-basic-ui": "npm:^0.1.1"
+    "@contentstech/stackflow-plugin-history-sync": "npm:^0.2.0"
+    "@contentstech/stackflow-plugin-renderer-basic": "npm:^0.1.0"
     "@mdx-js/react": "npm:^3.0.1"
     "@seed-design/stylesheet": "npm:^1.0.4"
     "@stackflow/core": "npm:^1.1.0"
     "@stackflow/demo": "npm:^1.3.1"
     "@stackflow/demo-solid": "npm:^1.3.1"
-    "@stackflow/plugin-basic-ui": "npm:^1.9.1"
-    "@stackflow/plugin-history-sync": "npm:^1.6.2"
-    "@stackflow/plugin-renderer-basic": "npm:^1.1.12"
     "@stackflow/react": "npm:^1.3.0"
     "@types/react": "npm:^18.3.3"
     next: "npm:^14.2.4"
@@ -2555,9 +2751,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@stackflow/link@workspace:extensions/link"
   dependencies:
+    "@contentstech/stackflow-plugin-history-sync": "npm:^0.2.0"
     "@stackflow/core": "npm:^1.1.0"
     "@stackflow/esbuild-config": "npm:^1.0.3"
-    "@stackflow/plugin-history-sync": "npm:^1.6.2"
     "@stackflow/plugin-preload": "npm:^1.4.1"
     "@stackflow/react": "npm:^1.3.0"
     "@types/react": "npm:^18.3.3"
@@ -2566,8 +2762,8 @@ __metadata:
     rimraf: "npm:^3.0.2"
     typescript: "npm:^5.5.3"
   peerDependencies:
+    "@contentstech/stackflow-plugin-history-sync": ^0.2.0
     "@stackflow/core": ^1.1.0-canary.0
-    "@stackflow/plugin-history-sync": ^1.6.2-canary.0
     "@stackflow/plugin-preload": ^1.4.1-canary.0
     "@stackflow/react": ^1.3.0-canary.0
     "@types/react": ">=16.8.0"
@@ -2586,48 +2782,6 @@ __metadata:
     "@types/react": "npm:^18.3.3"
     typescript: "npm:^5.5.3"
     ultra-runner: "npm:^3.10.5"
-  languageName: unknown
-  linkType: soft
-
-"@stackflow/plugin-basic-ui@npm:^1.9.1, @stackflow/plugin-basic-ui@workspace:extensions/plugin-basic-ui":
-  version: 0.0.0-use.local
-  resolution: "@stackflow/plugin-basic-ui@workspace:extensions/plugin-basic-ui"
-  dependencies:
-    "@stackflow/core": "npm:^1.1.0"
-    "@stackflow/esbuild-config": "npm:^1.0.3"
-    "@stackflow/react": "npm:^1.3.0"
-    "@stackflow/react-ui-core": "npm:^1.1.1"
-    "@stackflow/solid": "npm:^1.3.0"
-    "@stackflow/solid-ui-core": "npm:^1.1.1"
-    "@types/react": "npm:^18.3.3"
-    "@vanilla-extract/css": "npm:^1.15.3"
-    "@vanilla-extract/dynamic": "npm:^2.1.1"
-    "@vanilla-extract/private": "npm:^1.0.5"
-    "@vanilla-extract/recipes": "npm:^0.5.3"
-    esbuild: "npm:^0.23.0"
-    esbuild-plugin-solid: "patch:esbuild-plugin-solid@npm%3A0.6.0#~/.yarn/patches/esbuild-plugin-solid-npm-0.6.0-49835b85dc.patch"
-    react: "npm:^18.3.1"
-    rimraf: "npm:^3.0.2"
-    solid-js: "npm:^1.8.18"
-    typescript: "npm:^5.5.3"
-  peerDependencies:
-    "@stackflow/core": ^1.1.0-canary.0
-    "@stackflow/react": ^1.3.0-canary.0
-    "@stackflow/solid": ^1.3.0-canary.0
-    "@types/react": ">=16.8.0"
-    react: ">=16.8.0"
-    solid-js: ">=1.4.0"
-  peerDependenciesMeta:
-    "@stackflow/react":
-      optional: true
-    "@stackflow/solid":
-      optional: true
-    "@types/react":
-      optional: true
-    react:
-      optional: true
-    solid-js:
-      optional: true
   languageName: unknown
   linkType: soft
 
@@ -2667,63 +2821,17 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@stackflow/plugin-history-sync@npm:^1.6.2, @stackflow/plugin-history-sync@workspace:extensions/plugin-history-sync":
-  version: 0.0.0-use.local
-  resolution: "@stackflow/plugin-history-sync@workspace:extensions/plugin-history-sync"
-  dependencies:
-    "@stackflow/config": "npm:^1.1.0"
-    "@stackflow/core": "npm:^1.1.0"
-    "@stackflow/esbuild-config": "npm:^1.0.3"
-    "@stackflow/react": "npm:^1.3.0"
-    "@stackflow/solid": "npm:^1.3.0"
-    "@swc/core": "npm:^1.6.6"
-    "@swc/jest": "npm:^0.2.36"
-    "@types/jest": "npm:^29.5.12"
-    "@types/node": "npm:^20.14.9"
-    "@types/react": "npm:^18.3.3"
-    esbuild: "npm:^0.23.0"
-    esbuild-plugin-solid: "npm:^0.6.0"
-    history: "npm:^5.3.0"
-    jest: "npm:^29.7.0"
-    json-cycle: "npm:^1.5.0"
-    react: "npm:^18.3.1"
-    rimraf: "npm:^3.0.2"
-    solid-js: "npm:^1.8.18"
-    typescript: "npm:^5.5.3"
-    url-pattern: "npm:^1.0.3"
-  peerDependencies:
-    "@stackflow/config": ^1.0.1-canary.0
-    "@stackflow/core": ^1.1.0-canary.0
-    "@stackflow/react": ^1.3.0-canary.0
-    "@stackflow/solid": ^1.3.0-canary.0
-    "@types/react": ">=16.8.0"
-    react: ">=16.8.0"
-    solid-js: ">=1.4.0"
-  peerDependenciesMeta:
-    "@stackflow/react":
-      optional: true
-    "@stackflow/solid":
-      optional: true
-    "@types/react":
-      optional: true
-    react:
-      optional: true
-    solid-js:
-      optional: true
-  languageName: unknown
-  linkType: soft
-
 "@stackflow/plugin-map-initial-activity@npm:^1.0.10, @stackflow/plugin-map-initial-activity@workspace:extensions/plugin-map-initial-activity":
   version: 0.0.0-use.local
   resolution: "@stackflow/plugin-map-initial-activity@workspace:extensions/plugin-map-initial-activity"
   dependencies:
-    "@stackflow/core": "npm:^1.1.0"
+    "@stackflow/core": "npm:^1.0.13"
     "@stackflow/esbuild-config": "npm:^1.0.3"
     esbuild: "npm:^0.23.0"
     rimraf: "npm:^3.0.2"
     typescript: "npm:^5.5.3"
   peerDependencies:
-    "@stackflow/core": ^1.1.0-canary.0
+    "@stackflow/core": ^1
   languageName: unknown
   linkType: soft
 
@@ -2731,9 +2839,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@stackflow/plugin-preload@workspace:extensions/plugin-preload"
   dependencies:
+    "@contentstech/stackflow-plugin-history-sync": "npm:^0.2.0"
     "@stackflow/core": "npm:^1.1.0"
     "@stackflow/esbuild-config": "npm:^1.0.3"
-    "@stackflow/plugin-history-sync": "npm:^1.6.2"
     "@stackflow/react": "npm:^1.3.0"
     "@types/react": "npm:^18.3.3"
     esbuild: "npm:^0.23.0"
@@ -2741,83 +2849,11 @@ __metadata:
     rimraf: "npm:^3.0.2"
     typescript: "npm:^5.5.3"
   peerDependencies:
+    "@contentstech/stackflow-plugin-history-sync": ^0.2.0
     "@stackflow/core": ^1.1.0-canary.0
-    "@stackflow/plugin-history-sync": ^1.6.2-canary.0
     "@stackflow/react": ^1.3.0-canary.0
     "@types/react": ">=16.8.0"
     react: ">=16.8.0"
-  languageName: unknown
-  linkType: soft
-
-"@stackflow/plugin-renderer-basic@npm:^1.1.12, @stackflow/plugin-renderer-basic@workspace:extensions/plugin-renderer-basic":
-  version: 0.0.0-use.local
-  resolution: "@stackflow/plugin-renderer-basic@workspace:extensions/plugin-renderer-basic"
-  dependencies:
-    "@stackflow/core": "npm:^1.1.0"
-    "@stackflow/esbuild-config": "npm:^1.0.3"
-    "@stackflow/react": "npm:^1.3.0"
-    "@stackflow/solid": "npm:^1.3.0"
-    "@types/react": "npm:^18.3.3"
-    esbuild: "npm:^0.23.0"
-    esbuild-plugin-solid: "npm:^0.6.0"
-    react: "npm:^18.3.1"
-    rimraf: "npm:^3.0.2"
-    solid-js: "npm:^1.8.18"
-    typescript: "npm:^5.5.3"
-  peerDependencies:
-    "@stackflow/core": ^1.1.0-canary.0
-    "@stackflow/react": ^1.3.0-canary.0
-    "@stackflow/solid": ^1.3.0-canary.0
-    "@types/react": ">=16.8.0"
-    react: ">=16.8.0"
-    solid-js: ">=1.4.0"
-  peerDependenciesMeta:
-    "@stackflow/react":
-      optional: true
-    "@stackflow/solid":
-      optional: true
-    "@types/react":
-      optional: true
-    react:
-      optional: true
-    solid-js:
-      optional: true
-  languageName: unknown
-  linkType: soft
-
-"@stackflow/plugin-renderer-web@workspace:extensions/plugin-renderer-web":
-  version: 0.0.0-use.local
-  resolution: "@stackflow/plugin-renderer-web@workspace:extensions/plugin-renderer-web"
-  dependencies:
-    "@stackflow/core": "npm:^1.1.0"
-    "@stackflow/esbuild-config": "npm:^1.0.3"
-    "@stackflow/react": "npm:^1.3.0"
-    "@stackflow/solid": "npm:^1.3.0"
-    "@types/react": "npm:^18.3.3"
-    esbuild: "npm:^0.23.0"
-    esbuild-plugin-solid: "npm:^0.6.0"
-    react: "npm:^18.3.1"
-    rimraf: "npm:^3.0.2"
-    solid-js: "npm:^1.8.18"
-    typescript: "npm:^5.5.3"
-  peerDependencies:
-    "@stackflow/core": ^1.1.0-canary.0
-    "@stackflow/react": ^1.3.0-canary.0
-    "@stackflow/solid": ^1.3.0-canary.0
-    "@types/react": ">=16.8.0"
-    react: ">=16.8.0"
-    solid-js: ">=1.4.0"
-  peerDependenciesMeta:
-    "@stackflow/react":
-      optional: true
-    "@stackflow/solid":
-      optional: true
-    "@types/react":
-      optional: true
-    react:
-      optional: true
-    solid-js:
-      optional: true
   languageName: unknown
   linkType: soft
 
@@ -2877,42 +2913,6 @@ __metadata:
     "@stackflow/core": ^1.1.0-canary.0
     "@types/react": ">=16.8.0"
     react: ">=16.8.0"
-  languageName: unknown
-  linkType: soft
-
-"@stackflow/solid-ui-core@npm:^1.1.1, @stackflow/solid-ui-core@workspace:extensions/solid-ui-core":
-  version: 0.0.0-use.local
-  resolution: "@stackflow/solid-ui-core@workspace:extensions/solid-ui-core"
-  dependencies:
-    "@stackflow/core": "npm:^1.1.0"
-    "@stackflow/esbuild-config": "npm:^1.0.2"
-    "@stackflow/solid": "npm:^1.3.0"
-    esbuild: "npm:^0.23.0"
-    esbuild-plugin-solid: "patch:esbuild-plugin-solid@npm%3A0.6.0#~/.yarn/patches/esbuild-plugin-solid-npm-0.6.0-49835b85dc.patch"
-    rimraf: "npm:^3.0.2"
-    solid-js: "npm:^1.8.18"
-    typescript: "npm:^5.5.3"
-  peerDependencies:
-    "@stackflow/core": ^1.1.0-canary.0
-    "@stackflow/solid": ^1.3.0-canary.0
-    solid-js: ">=1.4.0"
-  languageName: unknown
-  linkType: soft
-
-"@stackflow/solid@npm:^1.3.0, @stackflow/solid@npm:^1.3.1, @stackflow/solid@workspace:integrations/solid":
-  version: 0.0.0-use.local
-  resolution: "@stackflow/solid@workspace:integrations/solid"
-  dependencies:
-    "@stackflow/core": "npm:^1.0.13"
-    "@stackflow/esbuild-config": "npm:^1.0.3"
-    esbuild: "npm:^0.23.0"
-    esbuild-plugin-solid: "patch:esbuild-plugin-solid@npm%3A0.6.0#~/.yarn/patches/esbuild-plugin-solid-npm-0.6.0-49835b85dc.patch"
-    rimraf: "npm:^3.0.2"
-    solid-js: "npm:^1.8.18"
-    typescript: "npm:^5.5.3"
-  peerDependencies:
-    "@stackflow/core": ^1
-    solid-js: ">=1.4.0"
   languageName: unknown
   linkType: soft
 

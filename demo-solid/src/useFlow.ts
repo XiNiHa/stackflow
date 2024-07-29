@@ -1,4 +1,4 @@
-import { useActions } from "@stackflow/solid";
+import { useActions } from "@contentstech/stackflow-solid";
 
 import type { TypeActivities } from "./stackflow";
 

@@ -1,52 +1,53 @@
 {
-  "name": "@stackflow/plugin-devtools",
-  "version": "0.1.11",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/daangn/stackflow.git",
-    "directory": "extensions/plugin-devtools"
-  },
-  "license": "MIT",
-  "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "require": "./dist/index.js",
-      "import": "./dist/index.mjs"
-    }
-  },
-  "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.ts",
-  "files": [
-    "dist",
-    "src",
-    "README.md"
-  ],
-  "scripts": {
-    "build": "yarn build:js && yarn build:dts",
-    "build:dts": "tsc --emitDeclarationOnly",
-    "build:js": "node ./esbuild.config.js",
-    "clean": "rimraf dist",
-    "dev": "yarn build:js --watch && yarn build:dts --watch"
-  },
-  "devDependencies": {
-    "@stackflow/core": "^1.1.0",
-    "@stackflow/esbuild-config": "^1.0.3",
-    "@types/node": "^20.14.9",
-    "esbuild": "^0.23.0",
-    "rimraf": "^3.0.2",
-    "typescript": "^5.5.3"
-  },
-  "peerDependencies": {
-    "@stackflow/core": "^1.1.0-canary.0"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "ultra": {
-    "concurrent": [
-      "dev",
-      "build"
-    ]
-  }
+	"name": "@stackflow/plugin-devtools",
+	"version": "0.1.11",
+	"private": true,
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/daangn/stackflow.git",
+		"directory": "extensions/plugin-devtools"
+	},
+	"license": "MIT",
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"require": "./dist/index.js",
+			"import": "./dist/index.mjs"
+		}
+	},
+	"main": "./dist/index.js",
+	"module": "./dist/index.mjs",
+	"types": "./dist/index.d.ts",
+	"files": [
+		"dist",
+		"src",
+		"README.md"
+	],
+	"scripts": {
+		"build": "yarn build:js && yarn build:dts",
+		"build:dts": "tsc --emitDeclarationOnly",
+		"build:js": "node ./esbuild.config.js",
+		"clean": "rimraf dist",
+		"dev": "yarn build:js --watch && yarn build:dts --watch"
+	},
+	"devDependencies": {
+		"@stackflow/core": "^1.1.0",
+		"@stackflow/esbuild-config": "^1.0.3",
+		"@types/node": "^20.14.9",
+		"esbuild": "^0.23.0",
+		"rimraf": "^3.0.2",
+		"typescript": "^5.5.3"
+	},
+	"peerDependencies": {
+		"@stackflow/core": "^1.1.0-canary.0"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"ultra": {
+		"concurrent": [
+			"dev",
+			"build"
+		]
+	}
 }

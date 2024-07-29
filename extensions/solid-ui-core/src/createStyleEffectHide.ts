@@ -5,45 +5,45 @@ import { createStyleEffect } from "./createStyleEffect";
 import { requestNextFrame } from "./utils";
 
 export function createStyleEffectHide({
-	refs,
+  refs,
 }: {
-	refs: Array<Accessor<any>>;
+  refs: Array<Accessor<any>>;
 }) {
-	createStyleEffect({
-		styleName: "hide",
-		refs,
-		effect: ({ activityTransitionState, refs }) => {
-			const cleanup = () => {
-				refs.forEach((ref) => {
-					const $el = ref();
-					if (!$el) {
-						return;
-					}
+  createStyleEffect({
+    styleName: "hide",
+    refs,
+    effect: ({ activityTransitionState, refs }) => {
+      const cleanup = () => {
+        refs.forEach((ref) => {
+          const $el = ref();
+          if (!$el) {
+            return;
+          }
 
-					$el.style.display = "";
-				});
-			};
+          $el.style.display = "";
+        });
+      };
 
-			switch (activityTransitionState) {
-				case "enter-done": {
-					requestNextFrame(() => {
-						refs.forEach((ref) => {
-							const $el = ref();
-							if (!$el) {
-								return;
-							}
+      switch (activityTransitionState) {
+        case "enter-done": {
+          requestNextFrame(() => {
+            refs.forEach((ref) => {
+              const $el = ref();
+              if (!$el) {
+                return;
+              }
 
-							$el.style.display = "none";
-						});
-					});
+              $el.style.display = "none";
+            });
+          });
 
-					onCleanup(cleanup);
-					break;
-				}
-				default: {
-					cleanup();
-				}
-			}
-		},
-	});
+          onCleanup(cleanup);
+          break;
+        }
+        default: {
+          cleanup();
+        }
+      }
+    },
+  });
 }

@@ -26,7 +26,7 @@ const MainRenderer: Component<MainRendererProps> = (props) => {
     console.warn(
       "Stackflow -" +
         ` There is no rendering plugin, so "<Stack />" doesn't render anything.` +
-        ` If you want to render some UI, use "@stackflow/plugin-renderer-basic"` +
+        ` If you want to render some UI, use "@contentstech/stackflow-plugin-renderer-basic"` +
         " or add another rendering plugin.",
     );
   }

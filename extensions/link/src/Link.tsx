@@ -1,5 +1,8 @@
-import type { UrlPatternOptions } from "@stackflow/plugin-history-sync";
-import { makeTemplate, useRoutes } from "@stackflow/plugin-history-sync";
+import type { UrlPatternOptions } from "@contentstech/stackflow-plugin-history-sync";
+import {
+  makeTemplate,
+  useRoutes,
+} from "@contentstech/stackflow-plugin-history-sync";
 import { usePreloader } from "@stackflow/plugin-preload";
 import type { ActivityComponentType } from "@stackflow/react";
 import { useActions } from "@stackflow/react";

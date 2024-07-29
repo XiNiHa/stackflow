@@ -1,5 +1,5 @@
-import type { ActivityComponentType } from "@stackflow/solid";
-import { useActivityParams } from "@stackflow/solid";
+import type { ActivityComponentType } from "@contentstech/stackflow-solid";
+import { useActivityParams } from "@contentstech/stackflow-solid";
 import { For, createMemo } from "solid-js";
 
 import ArticleCard from "../components/ArticleCard";
