@@ -1,4 +1,4 @@
-import { useFlow } from "@stackflow/solid/future";
+import { useFlow } from "@contentstech/stackflow-solid/future";
 import { type Component, createMemo } from "solid-js";
 import * as css from "./FeedCard.css";
 

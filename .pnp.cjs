@@ -39,11 +39,11 @@ const RAW_RUNTIME_STATE =
       "reference": "workspace:extensions/compat-await-push"\
     },\
     {\
-      "name": "@stackflow/link",\
+      "name": "@contentstech/stackflow-link",\
       "reference": "workspace:extensions/link"\
     },\
     {\
-      "name": "@stackflow/plugin-basic-ui",\
+      "name": "@contentstech/stackflow-plugin-basic-ui",\
       "reference": "workspace:extensions/plugin-basic-ui"\
     },\
     {\
@@ -55,7 +55,7 @@ const RAW_RUNTIME_STATE =
       "reference": "workspace:extensions/plugin-google-analytics-4"\
     },\
     {\
-      "name": "@stackflow/plugin-history-sync",\
+      "name": "@contentstech/stackflow-plugin-history-sync",\
       "reference": "workspace:extensions/plugin-history-sync"\
     },\
     {\
@@ -63,15 +63,15 @@ const RAW_RUNTIME_STATE =
       "reference": "workspace:extensions/plugin-map-initial-activity"\
     },\
     {\
-      "name": "@stackflow/plugin-preload",\
+      "name": "@contentstech/stackflow-plugin-preload",\
       "reference": "workspace:extensions/plugin-preload"\
     },\
     {\
-      "name": "@stackflow/plugin-renderer-basic",\
+      "name": "@contentstech/stackflow-plugin-renderer-basic",\
       "reference": "workspace:extensions/plugin-renderer-basic"\
     },\
     {\
-      "name": "@stackflow/plugin-renderer-web",\
+      "name": "@contentstech/stackflow-plugin-renderer-web",\
       "reference": "workspace:extensions/plugin-renderer-web"\
     },\
     {\
@@ -83,7 +83,7 @@ const RAW_RUNTIME_STATE =
       "reference": "workspace:extensions/react-ui-core"\
     },\
     {\
-      "name": "@stackflow/solid-ui-core",\
+      "name": "@contentstech/stackflow-solid-ui-core",\
       "reference": "workspace:extensions/solid-ui-core"\
     },\
     {\
@@ -91,7 +91,7 @@ const RAW_RUNTIME_STATE =
       "reference": "workspace:integrations/react"\
     },\
     {\
-      "name": "@stackflow/solid",\
+      "name": "@contentstech/stackflow-solid",\
       "reference": "workspace:integrations/solid"\
     },\
     {\
@@ -102,6 +102,14 @@ const RAW_RUNTIME_STATE =
   "enableTopLevelFallback": true,\
   "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
   "fallbackExclusionList": [\
+    ["@contentstech/stackflow-link", ["virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/link", "virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#workspace:extensions/link", "workspace:extensions/link"]],\
+    ["@contentstech/stackflow-plugin-basic-ui", ["virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-basic-ui", "virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#workspace:extensions/plugin-basic-ui", "workspace:extensions/plugin-basic-ui"]],\
+    ["@contentstech/stackflow-plugin-history-sync", ["virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-history-sync", "virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#workspace:extensions/plugin-history-sync", "workspace:extensions/plugin-history-sync"]],\
+    ["@contentstech/stackflow-plugin-preload", ["virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-preload", "virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#workspace:extensions/plugin-preload", "workspace:extensions/plugin-preload"]],\
+    ["@contentstech/stackflow-plugin-renderer-basic", ["virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-renderer-basic", "virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#workspace:extensions/plugin-renderer-basic", "workspace:extensions/plugin-renderer-basic"]],\
+    ["@contentstech/stackflow-plugin-renderer-web", ["workspace:extensions/plugin-renderer-web"]],\
+    ["@contentstech/stackflow-solid", ["virtual:3a45caa1b2bc385e8c50f05a491a102f4acbd661408940917e35407388a5817209632364a41018747631d6faa70465552d7189a4defa0d13c7815d17737537ef#workspace:integrations/solid", "workspace:integrations/solid"]],\
+    ["@contentstech/stackflow-solid-ui-core", ["virtual:3a45caa1b2bc385e8c50f05a491a102f4acbd661408940917e35407388a5817209632364a41018747631d6faa70465552d7189a4defa0d13c7815d17737537ef#workspace:extensions/solid-ui-core", "workspace:extensions/solid-ui-core"]],\
     ["@stackflow/compat-await-push", ["virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/compat-await-push", "virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#workspace:extensions/compat-await-push", "workspace:extensions/compat-await-push"]],\
     ["@stackflow/config", ["workspace:config"]],\
     ["@stackflow/core", ["workspace:core"]],\
@@ -109,21 +117,13 @@ const RAW_RUNTIME_STATE =
     ["@stackflow/demo-solid", ["workspace:demo-solid"]],\
     ["@stackflow/docs", ["workspace:docs"]],\
     ["@stackflow/esbuild-config", ["workspace:packages/esbuild-config"]],\
-    ["@stackflow/link", ["virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/link", "virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#workspace:extensions/link", "workspace:extensions/link"]],\
     ["@stackflow/monorepo", ["workspace:."]],\
-    ["@stackflow/plugin-basic-ui", ["virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-basic-ui", "virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#workspace:extensions/plugin-basic-ui", "workspace:extensions/plugin-basic-ui"]],\
     ["@stackflow/plugin-devtools", ["virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-devtools", "workspace:extensions/plugin-devtools"]],\
     ["@stackflow/plugin-google-analytics-4", ["workspace:extensions/plugin-google-analytics-4"]],\
-    ["@stackflow/plugin-history-sync", ["virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-history-sync", "virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#workspace:extensions/plugin-history-sync", "workspace:extensions/plugin-history-sync"]],\
     ["@stackflow/plugin-map-initial-activity", ["virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-map-initial-activity", "workspace:extensions/plugin-map-initial-activity"]],\
-    ["@stackflow/plugin-preload", ["virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-preload", "virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#workspace:extensions/plugin-preload", "workspace:extensions/plugin-preload"]],\
-    ["@stackflow/plugin-renderer-basic", ["virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-renderer-basic", "virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#workspace:extensions/plugin-renderer-basic", "workspace:extensions/plugin-renderer-basic"]],\
-    ["@stackflow/plugin-renderer-web", ["workspace:extensions/plugin-renderer-web"]],\
     ["@stackflow/plugin-stack-depth-change", ["virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-stack-depth-change", "workspace:extensions/plugin-stack-depth-change"]],\
     ["@stackflow/react", ["virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:integrations/react", "workspace:integrations/react"]],\
-    ["@stackflow/react-ui-core", ["virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#workspace:extensions/react-ui-core", "workspace:extensions/react-ui-core"]],\
-    ["@stackflow/solid", ["virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#workspace:integrations/solid", "workspace:integrations/solid"]],\
-    ["@stackflow/solid-ui-core", ["virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#workspace:extensions/solid-ui-core", "workspace:extensions/solid-ui-core"]]\
+    ["@stackflow/react-ui-core", ["virtual:3a45caa1b2bc385e8c50f05a491a102f4acbd661408940917e35407388a5817209632364a41018747631d6faa70465552d7189a4defa0d13c7815d17737537ef#workspace:extensions/react-ui-core", "workspace:extensions/react-ui-core"]]\
   ],\
   "fallbackPool": [\
   ],\
@@ -304,15 +304,15 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:e7371264fcb39ae1020f18e8e90dad2b498ca39496157ac5491cb15f10f3de2f1f45fe32f7d6abb480ba98ba03bd40eba2f95148c23814bdcffebae167a519b5#npm:7.25.7", {\
-        "packageLocation": "./.yarn/__virtual__/@babel-helper-create-class-features-plugin-virtual-014051f609/0/cache/@babel-helper-create-class-features-plugin-npm-7.25.7-05f7eb9482-76e3bb727d.zip/node_modules/@babel/helper-create-class-features-plugin/",\
+      ["virtual:1b86b44126ea987cc0694c0a794cd8f8e88c41628253c2960002de9a59783baf9de83bb0cae611ecd0e1343b5abc23bc85d3667bc55e3d50592dd24cd0276ebf#npm:7.25.7", {\
+        "packageLocation": "./.yarn/__virtual__/@babel-helper-create-class-features-plugin-virtual-7754afc80a/0/cache/@babel-helper-create-class-features-plugin-npm-7.25.7-05f7eb9482-76e3bb727d.zip/node_modules/@babel/helper-create-class-features-plugin/",\
         "packageDependencies": [\
-          ["@babel/helper-create-class-features-plugin", "virtual:e7371264fcb39ae1020f18e8e90dad2b498ca39496157ac5491cb15f10f3de2f1f45fe32f7d6abb480ba98ba03bd40eba2f95148c23814bdcffebae167a519b5#npm:7.25.7"],\
+          ["@babel/helper-create-class-features-plugin", "virtual:1b86b44126ea987cc0694c0a794cd8f8e88c41628253c2960002de9a59783baf9de83bb0cae611ecd0e1343b5abc23bc85d3667bc55e3d50592dd24cd0276ebf#npm:7.25.7"],\
           ["@babel/core", "npm:7.25.8"],\
           ["@babel/helper-annotate-as-pure", "npm:7.25.7"],\
           ["@babel/helper-member-expression-to-functions", "npm:7.25.7"],\
           ["@babel/helper-optimise-call-expression", "npm:7.25.7"],\
-          ["@babel/helper-replace-supers", "virtual:014051f609741ed5e95a45284ab54221254b5e6cddfbdb05956c3a7109b6c3f0c81187850654afa7e4151285aec961de047091fd034cd8a1516679437de39141#npm:7.25.7"],\
+          ["@babel/helper-replace-supers", "virtual:7754afc80acd46b5d0a6b238e0c3f857095cdd99de3206c9c4963ab69b34f5d4c727b91e43c03f0df0817dbd2d520fd00a2d9ef6277606e03e0cd8f07e25d7d3#npm:7.25.7"],\
           ["@babel/helper-skip-transparent-expression-wrappers", "npm:7.25.7"],\
           ["@babel/traverse", "npm:7.25.7"],\
           ["@types/babel__core", null],\
@@ -480,10 +480,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:014051f609741ed5e95a45284ab54221254b5e6cddfbdb05956c3a7109b6c3f0c81187850654afa7e4151285aec961de047091fd034cd8a1516679437de39141#npm:7.25.7", {\
-        "packageLocation": "./.yarn/__virtual__/@babel-helper-replace-supers-virtual-c5f6605193/0/cache/@babel-helper-replace-supers-npm-7.25.7-035efbe67f-87b65c7b27.zip/node_modules/@babel/helper-replace-supers/",\
+      ["virtual:7754afc80acd46b5d0a6b238e0c3f857095cdd99de3206c9c4963ab69b34f5d4c727b91e43c03f0df0817dbd2d520fd00a2d9ef6277606e03e0cd8f07e25d7d3#npm:7.25.7", {\
+        "packageLocation": "./.yarn/__virtual__/@babel-helper-replace-supers-virtual-32527713e4/0/cache/@babel-helper-replace-supers-npm-7.25.7-035efbe67f-87b65c7b27.zip/node_modules/@babel/helper-replace-supers/",\
         "packageDependencies": [\
-          ["@babel/helper-replace-supers", "virtual:014051f609741ed5e95a45284ab54221254b5e6cddfbdb05956c3a7109b6c3f0c81187850654afa7e4151285aec961de047091fd034cd8a1516679437de39141#npm:7.25.7"],\
+          ["@babel/helper-replace-supers", "virtual:7754afc80acd46b5d0a6b238e0c3f857095cdd99de3206c9c4963ab69b34f5d4c727b91e43c03f0df0817dbd2d520fd00a2d9ef6277606e03e0cd8f07e25d7d3#npm:7.25.7"],\
           ["@babel/core", "npm:7.25.8"],\
           ["@babel/helper-member-expression-to-functions", "npm:7.25.7"],\
           ["@babel/helper-optimise-call-expression", "npm:7.25.7"],\
@@ -876,10 +876,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["virtual:a49e7c7391fc324b7960796fda92a13b08a3be41256a14fa848af201fd67467b86e686b912de1e8d6b3167e184e2e0b9c4fb44e23bbbbcb1d6711d6da634a31e#npm:7.25.7", {\
-        "packageLocation": "./.yarn/__virtual__/@babel-plugin-syntax-jsx-virtual-005b28fc64/0/cache/@babel-plugin-syntax-jsx-npm-7.25.7-77bfb68a8c-243476a943.zip/node_modules/@babel/plugin-syntax-jsx/",\
+      ["virtual:d3362da3958155e900a4b39f154cf894aaacfda0ee8f5bb6129d16d17842c4941b7897b2387cd56cfb1ccc8b5f9b1e6eb50fb06e40d9ac808cf510b76d2a4d7f#npm:7.25.7", {\
+        "packageLocation": "./.yarn/__virtual__/@babel-plugin-syntax-jsx-virtual-8572fa57bb/0/cache/@babel-plugin-syntax-jsx-npm-7.25.7-77bfb68a8c-243476a943.zip/node_modules/@babel/plugin-syntax-jsx/",\
         "packageDependencies": [\
-          ["@babel/plugin-syntax-jsx", "virtual:a49e7c7391fc324b7960796fda92a13b08a3be41256a14fa848af201fd67467b86e686b912de1e8d6b3167e184e2e0b9c4fb44e23bbbbcb1d6711d6da634a31e#npm:7.25.7"],\
+          ["@babel/plugin-syntax-jsx", "virtual:d3362da3958155e900a4b39f154cf894aaacfda0ee8f5bb6129d16d17842c4941b7897b2387cd56cfb1ccc8b5f9b1e6eb50fb06e40d9ac808cf510b76d2a4d7f#npm:7.25.7"],\
           ["@babel/core", "npm:7.25.8"],\
           ["@babel/helper-plugin-utils", "npm:7.25.7"],\
           ["@types/babel__core", null]\
@@ -1165,12 +1165,12 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:cf020c7449686297fcba1e9af61c861df9a11b630c2e9e8a2866372f651af78a6a88fae84bf6e8c35ce574d3e754ca851b114b13b06e50f1415d7c777f57bfd0#npm:7.24.7", {\
-        "packageLocation": "./.yarn/__virtual__/@babel-plugin-syntax-typescript-virtual-88b5d3e225/0/cache/@babel-plugin-syntax-typescript-npm-7.24.7-099e795473-2518cc0632.zip/node_modules/@babel/plugin-syntax-typescript/",\
+      ["virtual:1b86b44126ea987cc0694c0a794cd8f8e88c41628253c2960002de9a59783baf9de83bb0cae611ecd0e1343b5abc23bc85d3667bc55e3d50592dd24cd0276ebf#npm:7.25.7", {\
+        "packageLocation": "./.yarn/__virtual__/@babel-plugin-syntax-typescript-virtual-e828346c35/0/cache/@babel-plugin-syntax-typescript-npm-7.25.7-56f702acc1-f149233623.zip/node_modules/@babel/plugin-syntax-typescript/",\
         "packageDependencies": [\
-          ["@babel/plugin-syntax-typescript", "virtual:cf020c7449686297fcba1e9af61c861df9a11b630c2e9e8a2866372f651af78a6a88fae84bf6e8c35ce574d3e754ca851b114b13b06e50f1415d7c777f57bfd0#npm:7.24.7"],\
-          ["@babel/core", "npm:7.24.7"],\
-          ["@babel/helper-plugin-utils", "npm:7.24.7"],\
+          ["@babel/plugin-syntax-typescript", "virtual:1b86b44126ea987cc0694c0a794cd8f8e88c41628253c2960002de9a59783baf9de83bb0cae611ecd0e1343b5abc23bc85d3667bc55e3d50592dd24cd0276ebf#npm:7.25.7"],\
+          ["@babel/core", "npm:7.25.8"],\
+          ["@babel/helper-plugin-utils", "npm:7.25.7"],\
           ["@types/babel__core", null]\
         ],\
         "packagePeers": [\
@@ -1179,12 +1179,12 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["virtual:e7371264fcb39ae1020f18e8e90dad2b498ca39496157ac5491cb15f10f3de2f1f45fe32f7d6abb480ba98ba03bd40eba2f95148c23814bdcffebae167a519b5#npm:7.25.7", {\
-        "packageLocation": "./.yarn/__virtual__/@babel-plugin-syntax-typescript-virtual-1427e62690/0/cache/@babel-plugin-syntax-typescript-npm-7.25.7-56f702acc1-f149233623.zip/node_modules/@babel/plugin-syntax-typescript/",\
+      ["virtual:cf020c7449686297fcba1e9af61c861df9a11b630c2e9e8a2866372f651af78a6a88fae84bf6e8c35ce574d3e754ca851b114b13b06e50f1415d7c777f57bfd0#npm:7.24.7", {\
+        "packageLocation": "./.yarn/__virtual__/@babel-plugin-syntax-typescript-virtual-88b5d3e225/0/cache/@babel-plugin-syntax-typescript-npm-7.24.7-099e795473-2518cc0632.zip/node_modules/@babel/plugin-syntax-typescript/",\
         "packageDependencies": [\
-          ["@babel/plugin-syntax-typescript", "virtual:e7371264fcb39ae1020f18e8e90dad2b498ca39496157ac5491cb15f10f3de2f1f45fe32f7d6abb480ba98ba03bd40eba2f95148c23814bdcffebae167a519b5#npm:7.25.7"],\
-          ["@babel/core", "npm:7.25.8"],\
-          ["@babel/helper-plugin-utils", "npm:7.25.7"],\
+          ["@babel/plugin-syntax-typescript", "virtual:cf020c7449686297fcba1e9af61c861df9a11b630c2e9e8a2866372f651af78a6a88fae84bf6e8c35ce574d3e754ca851b114b13b06e50f1415d7c777f57bfd0#npm:7.24.7"],\
+          ["@babel/core", "npm:7.24.7"],\
+          ["@babel/helper-plugin-utils", "npm:7.24.7"],\
           ["@types/babel__core", null]\
         ],\
         "packagePeers": [\
@@ -1202,10 +1202,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:a49e7c7391fc324b7960796fda92a13b08a3be41256a14fa848af201fd67467b86e686b912de1e8d6b3167e184e2e0b9c4fb44e23bbbbcb1d6711d6da634a31e#npm:7.25.7", {\
-        "packageLocation": "./.yarn/__virtual__/@babel-plugin-transform-modules-commonjs-virtual-5de365af1c/0/cache/@babel-plugin-transform-modules-commonjs-npm-7.25.7-fa24f371e3-4b3d038b55.zip/node_modules/@babel/plugin-transform-modules-commonjs/",\
+      ["virtual:d3362da3958155e900a4b39f154cf894aaacfda0ee8f5bb6129d16d17842c4941b7897b2387cd56cfb1ccc8b5f9b1e6eb50fb06e40d9ac808cf510b76d2a4d7f#npm:7.25.7", {\
+        "packageLocation": "./.yarn/__virtual__/@babel-plugin-transform-modules-commonjs-virtual-a19209d7e9/0/cache/@babel-plugin-transform-modules-commonjs-npm-7.25.7-fa24f371e3-4b3d038b55.zip/node_modules/@babel/plugin-transform-modules-commonjs/",\
         "packageDependencies": [\
-          ["@babel/plugin-transform-modules-commonjs", "virtual:a49e7c7391fc324b7960796fda92a13b08a3be41256a14fa848af201fd67467b86e686b912de1e8d6b3167e184e2e0b9c4fb44e23bbbbcb1d6711d6da634a31e#npm:7.25.7"],\
+          ["@babel/plugin-transform-modules-commonjs", "virtual:d3362da3958155e900a4b39f154cf894aaacfda0ee8f5bb6129d16d17842c4941b7897b2387cd56cfb1ccc8b5f9b1e6eb50fb06e40d9ac808cf510b76d2a4d7f#npm:7.25.7"],\
           ["@babel/core", "npm:7.25.8"],\
           ["@babel/helper-module-transforms", "virtual:e5a00584a285b0af54cef0dd0f4aa450c66fb9ff72a926747912c010361531d86226daef2c61386b254279bb40b28aaca6512cf376825cb81e1a7b6b7404d417#npm:7.25.7"],\
           ["@babel/helper-plugin-utils", "npm:7.25.7"],\
@@ -1273,16 +1273,16 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:a49e7c7391fc324b7960796fda92a13b08a3be41256a14fa848af201fd67467b86e686b912de1e8d6b3167e184e2e0b9c4fb44e23bbbbcb1d6711d6da634a31e#npm:7.25.7", {\
-        "packageLocation": "./.yarn/__virtual__/@babel-plugin-transform-typescript-virtual-e7371264fc/0/cache/@babel-plugin-transform-typescript-npm-7.25.7-7e29b973d6-2648da981c.zip/node_modules/@babel/plugin-transform-typescript/",\
+      ["virtual:d3362da3958155e900a4b39f154cf894aaacfda0ee8f5bb6129d16d17842c4941b7897b2387cd56cfb1ccc8b5f9b1e6eb50fb06e40d9ac808cf510b76d2a4d7f#npm:7.25.7", {\
+        "packageLocation": "./.yarn/__virtual__/@babel-plugin-transform-typescript-virtual-1b86b44126/0/cache/@babel-plugin-transform-typescript-npm-7.25.7-7e29b973d6-2648da981c.zip/node_modules/@babel/plugin-transform-typescript/",\
         "packageDependencies": [\
-          ["@babel/plugin-transform-typescript", "virtual:a49e7c7391fc324b7960796fda92a13b08a3be41256a14fa848af201fd67467b86e686b912de1e8d6b3167e184e2e0b9c4fb44e23bbbbcb1d6711d6da634a31e#npm:7.25.7"],\
+          ["@babel/plugin-transform-typescript", "virtual:d3362da3958155e900a4b39f154cf894aaacfda0ee8f5bb6129d16d17842c4941b7897b2387cd56cfb1ccc8b5f9b1e6eb50fb06e40d9ac808cf510b76d2a4d7f#npm:7.25.7"],\
           ["@babel/core", "npm:7.25.8"],\
           ["@babel/helper-annotate-as-pure", "npm:7.25.7"],\
-          ["@babel/helper-create-class-features-plugin", "virtual:e7371264fcb39ae1020f18e8e90dad2b498ca39496157ac5491cb15f10f3de2f1f45fe32f7d6abb480ba98ba03bd40eba2f95148c23814bdcffebae167a519b5#npm:7.25.7"],\
+          ["@babel/helper-create-class-features-plugin", "virtual:1b86b44126ea987cc0694c0a794cd8f8e88c41628253c2960002de9a59783baf9de83bb0cae611ecd0e1343b5abc23bc85d3667bc55e3d50592dd24cd0276ebf#npm:7.25.7"],\
           ["@babel/helper-plugin-utils", "npm:7.25.7"],\
           ["@babel/helper-skip-transparent-expression-wrappers", "npm:7.25.7"],\
-          ["@babel/plugin-syntax-typescript", "virtual:e7371264fcb39ae1020f18e8e90dad2b498ca39496157ac5491cb15f10f3de2f1f45fe32f7d6abb480ba98ba03bd40eba2f95148c23814bdcffebae167a519b5#npm:7.25.7"],\
+          ["@babel/plugin-syntax-typescript", "virtual:1b86b44126ea987cc0694c0a794cd8f8e88c41628253c2960002de9a59783baf9de83bb0cae611ecd0e1343b5abc23bc85d3667bc55e3d50592dd24cd0276ebf#npm:7.25.7"],\
           ["@types/babel__core", null]\
         ],\
         "packagePeers": [\
@@ -1300,16 +1300,16 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:ab31efd3d7312653d47cbbf5769b6ffc0d512ea4472fdc6e5551bbcc56c160ffc1ffacd204d496f3ee2103be25e79aab27954e12fac4b3f210daa7f0bc6f92f0#npm:7.25.7", {\
-        "packageLocation": "./.yarn/__virtual__/@babel-preset-typescript-virtual-a49e7c7391/0/cache/@babel-preset-typescript-npm-7.25.7-4c33c9d8aa-cf6501971f.zip/node_modules/@babel/preset-typescript/",\
+      ["virtual:831405067794c500c75a12f1d8fa4a6e734c6bc43a6146b513ae8c98814185c08c8dcb163e049f92518b6532f97996c64a395688157dcce661ef562fcd0dd244#npm:7.25.7", {\
+        "packageLocation": "./.yarn/__virtual__/@babel-preset-typescript-virtual-d3362da395/0/cache/@babel-preset-typescript-npm-7.25.7-4c33c9d8aa-cf6501971f.zip/node_modules/@babel/preset-typescript/",\
         "packageDependencies": [\
-          ["@babel/preset-typescript", "virtual:ab31efd3d7312653d47cbbf5769b6ffc0d512ea4472fdc6e5551bbcc56c160ffc1ffacd204d496f3ee2103be25e79aab27954e12fac4b3f210daa7f0bc6f92f0#npm:7.25.7"],\
+          ["@babel/preset-typescript", "virtual:831405067794c500c75a12f1d8fa4a6e734c6bc43a6146b513ae8c98814185c08c8dcb163e049f92518b6532f97996c64a395688157dcce661ef562fcd0dd244#npm:7.25.7"],\
           ["@babel/core", "npm:7.25.8"],\
           ["@babel/helper-plugin-utils", "npm:7.25.7"],\
           ["@babel/helper-validator-option", "npm:7.25.7"],\
-          ["@babel/plugin-syntax-jsx", "virtual:a49e7c7391fc324b7960796fda92a13b08a3be41256a14fa848af201fd67467b86e686b912de1e8d6b3167e184e2e0b9c4fb44e23bbbbcb1d6711d6da634a31e#npm:7.25.7"],\
-          ["@babel/plugin-transform-modules-commonjs", "virtual:a49e7c7391fc324b7960796fda92a13b08a3be41256a14fa848af201fd67467b86e686b912de1e8d6b3167e184e2e0b9c4fb44e23bbbbcb1d6711d6da634a31e#npm:7.25.7"],\
-          ["@babel/plugin-transform-typescript", "virtual:a49e7c7391fc324b7960796fda92a13b08a3be41256a14fa848af201fd67467b86e686b912de1e8d6b3167e184e2e0b9c4fb44e23bbbbcb1d6711d6da634a31e#npm:7.25.7"],\
+          ["@babel/plugin-syntax-jsx", "virtual:d3362da3958155e900a4b39f154cf894aaacfda0ee8f5bb6129d16d17842c4941b7897b2387cd56cfb1ccc8b5f9b1e6eb50fb06e40d9ac808cf510b76d2a4d7f#npm:7.25.7"],\
+          ["@babel/plugin-transform-modules-commonjs", "virtual:d3362da3958155e900a4b39f154cf894aaacfda0ee8f5bb6129d16d17842c4941b7897b2387cd56cfb1ccc8b5f9b1e6eb50fb06e40d9ac808cf510b76d2a4d7f#npm:7.25.7"],\
+          ["@babel/plugin-transform-typescript", "virtual:d3362da3958155e900a4b39f154cf894aaacfda0ee8f5bb6129d16d17842c4941b7897b2387cd56cfb1ccc8b5f9b1e6eb50fb06e40d9ac808cf510b76d2a4d7f#npm:7.25.7"],\
           ["@types/babel__core", null]\
         ],\
         "packagePeers": [\
@@ -1778,6 +1778,595 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@contentstech/stackflow-link", [\
+      ["virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/link", {\
+        "packageLocation": "./.yarn/__virtual__/@contentstech-stackflow-link-virtual-8ebbd7d3e8/1/extensions/link/",\
+        "packageDependencies": [\
+          ["@contentstech/stackflow-link", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/link"],\
+          ["@contentstech/stackflow-plugin-history-sync", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-history-sync"],\
+          ["@contentstech/stackflow-plugin-preload", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-preload"],\
+          ["@stackflow/config", "workspace:config"],\
+          ["@stackflow/core", "workspace:core"],\
+          ["@stackflow/esbuild-config", "workspace:packages/esbuild-config"],\
+          ["@stackflow/react", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:integrations/react"],\
+          ["@types/contentstech__stackflow-plugin-history-sync", null],\
+          ["@types/contentstech__stackflow-plugin-preload", null],\
+          ["@types/react", "npm:18.3.3"],\
+          ["@types/stackflow__core", null],\
+          ["@types/stackflow__react", null],\
+          ["esbuild", "npm:0.23.0"],\
+          ["esbuild-plugin-file-path-extensions", "npm:2.1.3"],\
+          ["react", "npm:18.3.1"],\
+          ["rimraf", "npm:3.0.2"],\
+          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"]\
+        ],\
+        "packagePeers": [\
+          "@contentstech/stackflow-plugin-history-sync",\
+          "@contentstech/stackflow-plugin-preload",\
+          "@stackflow/core",\
+          "@stackflow/react",\
+          "@types/contentstech__stackflow-plugin-history-sync",\
+          "@types/contentstech__stackflow-plugin-preload",\
+          "@types/react",\
+          "@types/stackflow__core",\
+          "@types/stackflow__react",\
+          "react"\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#workspace:extensions/link", {\
+        "packageLocation": "./.yarn/__virtual__/@contentstech-stackflow-link-virtual-d4a4ee2966/1/extensions/link/",\
+        "packageDependencies": [\
+          ["@contentstech/stackflow-link", "virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#workspace:extensions/link"],\
+          ["@contentstech/stackflow-plugin-history-sync", "virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#workspace:extensions/plugin-history-sync"],\
+          ["@contentstech/stackflow-plugin-preload", "virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#workspace:extensions/plugin-preload"],\
+          ["@stackflow/config", "workspace:config"],\
+          ["@stackflow/core", "workspace:core"],\
+          ["@stackflow/esbuild-config", "workspace:packages/esbuild-config"],\
+          ["@stackflow/react", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:integrations/react"],\
+          ["@types/contentstech__stackflow-plugin-history-sync", null],\
+          ["@types/contentstech__stackflow-plugin-preload", null],\
+          ["@types/react", "npm:18.3.3"],\
+          ["@types/stackflow__core", null],\
+          ["@types/stackflow__react", null],\
+          ["esbuild", "npm:0.23.0"],\
+          ["esbuild-plugin-file-path-extensions", "npm:2.1.3"],\
+          ["react", "npm:18.3.1"],\
+          ["rimraf", "npm:3.0.2"],\
+          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"]\
+        ],\
+        "packagePeers": [\
+          "@contentstech/stackflow-plugin-history-sync",\
+          "@contentstech/stackflow-plugin-preload",\
+          "@stackflow/core",\
+          "@types/contentstech__stackflow-plugin-history-sync",\
+          "@types/contentstech__stackflow-plugin-preload",\
+          "@types/stackflow__core",\
+          "@types/stackflow__react"\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["workspace:extensions/link", {\
+        "packageLocation": "./extensions/link/",\
+        "packageDependencies": [\
+          ["@contentstech/stackflow-link", "workspace:extensions/link"],\
+          ["@contentstech/stackflow-plugin-history-sync", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-history-sync"],\
+          ["@contentstech/stackflow-plugin-preload", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-preload"],\
+          ["@stackflow/config", "workspace:config"],\
+          ["@stackflow/core", "workspace:core"],\
+          ["@stackflow/esbuild-config", "workspace:packages/esbuild-config"],\
+          ["@stackflow/react", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:integrations/react"],\
+          ["@types/react", "npm:18.3.3"],\
+          ["esbuild", "npm:0.23.0"],\
+          ["esbuild-plugin-file-path-extensions", "npm:2.1.3"],\
+          ["react", "npm:18.3.1"],\
+          ["rimraf", "npm:3.0.2"],\
+          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"]\
+        ],\
+        "linkType": "SOFT"\
+      }]\
+    ]],\
+    ["@contentstech/stackflow-plugin-basic-ui", [\
+      ["virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-basic-ui", {\
+        "packageLocation": "./.yarn/__virtual__/@contentstech-stackflow-plugin-basic-ui-virtual-3a45caa1b2/1/extensions/plugin-basic-ui/",\
+        "packageDependencies": [\
+          ["@contentstech/stackflow-plugin-basic-ui", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-basic-ui"],\
+          ["@contentstech/stackflow-solid", "virtual:3a45caa1b2bc385e8c50f05a491a102f4acbd661408940917e35407388a5817209632364a41018747631d6faa70465552d7189a4defa0d13c7815d17737537ef#workspace:integrations/solid"],\
+          ["@contentstech/stackflow-solid-ui-core", "virtual:3a45caa1b2bc385e8c50f05a491a102f4acbd661408940917e35407388a5817209632364a41018747631d6faa70465552d7189a4defa0d13c7815d17737537ef#workspace:extensions/solid-ui-core"],\
+          ["@stackflow/core", "workspace:core"],\
+          ["@stackflow/esbuild-config", "workspace:packages/esbuild-config"],\
+          ["@stackflow/react", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:integrations/react"],\
+          ["@stackflow/react-ui-core", "virtual:3a45caa1b2bc385e8c50f05a491a102f4acbd661408940917e35407388a5817209632364a41018747631d6faa70465552d7189a4defa0d13c7815d17737537ef#workspace:extensions/react-ui-core"],\
+          ["@types/contentstech__stackflow-solid", null],\
+          ["@types/react", "npm:18.3.3"],\
+          ["@types/solid-js", null],\
+          ["@types/stackflow__core", null],\
+          ["@types/stackflow__react", null],\
+          ["@vanilla-extract/css", "npm:1.15.3"],\
+          ["@vanilla-extract/dynamic", "npm:2.1.1"],\
+          ["@vanilla-extract/private", "npm:1.0.5"],\
+          ["@vanilla-extract/recipes", "virtual:3a45caa1b2bc385e8c50f05a491a102f4acbd661408940917e35407388a5817209632364a41018747631d6faa70465552d7189a4defa0d13c7815d17737537ef#npm:0.5.3"],\
+          ["esbuild", "npm:0.23.0"],\
+          ["esbuild-plugin-solid", "virtual:3a45caa1b2bc385e8c50f05a491a102f4acbd661408940917e35407388a5817209632364a41018747631d6faa70465552d7189a4defa0d13c7815d17737537ef#patch:esbuild-plugin-solid@npm%3A0.6.0#~/.yarn/patches/esbuild-plugin-solid-npm-0.6.0-49835b85dc.patch::version=0.6.0&hash=bf8c52"],\
+          ["react", "npm:18.3.1"],\
+          ["rimraf", "npm:3.0.2"],\
+          ["solid-js", "npm:1.9.2"],\
+          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"]\
+        ],\
+        "packagePeers": [\
+          "@stackflow/core",\
+          "@stackflow/react",\
+          "@types/contentstech__stackflow-solid",\
+          "@types/react",\
+          "@types/solid-js",\
+          "@types/stackflow__core",\
+          "@types/stackflow__react",\
+          "react"\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#workspace:extensions/plugin-basic-ui", {\
+        "packageLocation": "./.yarn/__virtual__/@contentstech-stackflow-plugin-basic-ui-virtual-2b8ab63cdc/1/extensions/plugin-basic-ui/",\
+        "packageDependencies": [\
+          ["@contentstech/stackflow-plugin-basic-ui", "virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#workspace:extensions/plugin-basic-ui"],\
+          ["@contentstech/stackflow-solid", "virtual:3a45caa1b2bc385e8c50f05a491a102f4acbd661408940917e35407388a5817209632364a41018747631d6faa70465552d7189a4defa0d13c7815d17737537ef#workspace:integrations/solid"],\
+          ["@contentstech/stackflow-solid-ui-core", "virtual:3a45caa1b2bc385e8c50f05a491a102f4acbd661408940917e35407388a5817209632364a41018747631d6faa70465552d7189a4defa0d13c7815d17737537ef#workspace:extensions/solid-ui-core"],\
+          ["@stackflow/core", "workspace:core"],\
+          ["@stackflow/esbuild-config", "workspace:packages/esbuild-config"],\
+          ["@stackflow/react", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:integrations/react"],\
+          ["@stackflow/react-ui-core", "virtual:3a45caa1b2bc385e8c50f05a491a102f4acbd661408940917e35407388a5817209632364a41018747631d6faa70465552d7189a4defa0d13c7815d17737537ef#workspace:extensions/react-ui-core"],\
+          ["@types/contentstech__stackflow-solid", null],\
+          ["@types/react", "npm:18.3.3"],\
+          ["@types/solid-js", null],\
+          ["@types/stackflow__core", null],\
+          ["@types/stackflow__react", null],\
+          ["@vanilla-extract/css", "npm:1.15.3"],\
+          ["@vanilla-extract/dynamic", "npm:2.1.1"],\
+          ["@vanilla-extract/private", "npm:1.0.5"],\
+          ["@vanilla-extract/recipes", "virtual:3a45caa1b2bc385e8c50f05a491a102f4acbd661408940917e35407388a5817209632364a41018747631d6faa70465552d7189a4defa0d13c7815d17737537ef#npm:0.5.3"],\
+          ["esbuild", "npm:0.23.0"],\
+          ["esbuild-plugin-solid", "virtual:3a45caa1b2bc385e8c50f05a491a102f4acbd661408940917e35407388a5817209632364a41018747631d6faa70465552d7189a4defa0d13c7815d17737537ef#patch:esbuild-plugin-solid@npm%3A0.6.0#~/.yarn/patches/esbuild-plugin-solid-npm-0.6.0-49835b85dc.patch::version=0.6.0&hash=bf8c52"],\
+          ["react", "npm:18.3.1"],\
+          ["rimraf", "npm:3.0.2"],\
+          ["solid-js", "npm:1.9.2"],\
+          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"]\
+        ],\
+        "packagePeers": [\
+          "@contentstech/stackflow-solid",\
+          "@stackflow/core",\
+          "@types/contentstech__stackflow-solid",\
+          "@types/solid-js",\
+          "@types/stackflow__core",\
+          "@types/stackflow__react",\
+          "solid-js"\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["workspace:extensions/plugin-basic-ui", {\
+        "packageLocation": "./extensions/plugin-basic-ui/",\
+        "packageDependencies": [\
+          ["@contentstech/stackflow-plugin-basic-ui", "workspace:extensions/plugin-basic-ui"],\
+          ["@contentstech/stackflow-solid", "virtual:3a45caa1b2bc385e8c50f05a491a102f4acbd661408940917e35407388a5817209632364a41018747631d6faa70465552d7189a4defa0d13c7815d17737537ef#workspace:integrations/solid"],\
+          ["@contentstech/stackflow-solid-ui-core", "virtual:3a45caa1b2bc385e8c50f05a491a102f4acbd661408940917e35407388a5817209632364a41018747631d6faa70465552d7189a4defa0d13c7815d17737537ef#workspace:extensions/solid-ui-core"],\
+          ["@stackflow/core", "workspace:core"],\
+          ["@stackflow/esbuild-config", "workspace:packages/esbuild-config"],\
+          ["@stackflow/react", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:integrations/react"],\
+          ["@stackflow/react-ui-core", "virtual:3a45caa1b2bc385e8c50f05a491a102f4acbd661408940917e35407388a5817209632364a41018747631d6faa70465552d7189a4defa0d13c7815d17737537ef#workspace:extensions/react-ui-core"],\
+          ["@types/react", "npm:18.3.3"],\
+          ["@vanilla-extract/css", "npm:1.15.3"],\
+          ["@vanilla-extract/dynamic", "npm:2.1.1"],\
+          ["@vanilla-extract/private", "npm:1.0.5"],\
+          ["@vanilla-extract/recipes", "virtual:3a45caa1b2bc385e8c50f05a491a102f4acbd661408940917e35407388a5817209632364a41018747631d6faa70465552d7189a4defa0d13c7815d17737537ef#npm:0.5.3"],\
+          ["esbuild", "npm:0.23.0"],\
+          ["esbuild-plugin-solid", "virtual:3a45caa1b2bc385e8c50f05a491a102f4acbd661408940917e35407388a5817209632364a41018747631d6faa70465552d7189a4defa0d13c7815d17737537ef#patch:esbuild-plugin-solid@npm%3A0.6.0#~/.yarn/patches/esbuild-plugin-solid-npm-0.6.0-49835b85dc.patch::version=0.6.0&hash=bf8c52"],\
+          ["react", "npm:18.3.1"],\
+          ["rimraf", "npm:3.0.2"],\
+          ["solid-js", "npm:1.9.2"],\
+          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"]\
+        ],\
+        "linkType": "SOFT"\
+      }]\
+    ]],\
+    ["@contentstech/stackflow-plugin-history-sync", [\
+      ["virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-history-sync", {\
+        "packageLocation": "./.yarn/__virtual__/@contentstech-stackflow-plugin-history-sync-virtual-34742779f5/1/extensions/plugin-history-sync/",\
+        "packageDependencies": [\
+          ["@contentstech/stackflow-plugin-history-sync", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-history-sync"],\
+          ["@contentstech/stackflow-solid", "virtual:3a45caa1b2bc385e8c50f05a491a102f4acbd661408940917e35407388a5817209632364a41018747631d6faa70465552d7189a4defa0d13c7815d17737537ef#workspace:integrations/solid"],\
+          ["@graphql-tools/schema", "virtual:34742779f53b35ce360a787fe90920999f9219b5a879f313cb62ce0e32661b412c568f569ea31493034faab36e9edecfd44085e9d0ecfa5eaf9f985c8b64ac2c#npm:10.0.5"],\
+          ["@stackflow/config", "workspace:config"],\
+          ["@stackflow/core", "workspace:core"],\
+          ["@stackflow/esbuild-config", "workspace:packages/esbuild-config"],\
+          ["@stackflow/react", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:integrations/react"],\
+          ["@swc/core", "virtual:b327d7e228fba669b88a8bb23bcf526374e46fa67e617b1e6848e8a205357fee5ce94b47c49b5a570fd9e8a44fa218a13cd00e2eca327c99114cbd21d72ecf9c#npm:1.6.6"],\
+          ["@swc/jest", "virtual:b327d7e228fba669b88a8bb23bcf526374e46fa67e617b1e6848e8a205357fee5ce94b47c49b5a570fd9e8a44fa218a13cd00e2eca327c99114cbd21d72ecf9c#npm:0.2.36"],\
+          ["@types/contentstech__stackflow-solid", null],\
+          ["@types/jest", "npm:29.5.12"],\
+          ["@types/node", "npm:20.14.9"],\
+          ["@types/react", "npm:18.3.3"],\
+          ["@types/react-relay", "npm:16.0.6"],\
+          ["@types/relay-runtime", "npm:17.0.4"],\
+          ["@types/solid-js", null],\
+          ["@types/stackflow__config", null],\
+          ["@types/stackflow__core", null],\
+          ["@types/stackflow__react", null],\
+          ["esbuild", "npm:0.23.0"],\
+          ["esbuild-plugin-solid", "virtual:3a45caa1b2bc385e8c50f05a491a102f4acbd661408940917e35407388a5817209632364a41018747631d6faa70465552d7189a4defa0d13c7815d17737537ef#patch:esbuild-plugin-solid@npm%3A0.6.0#~/.yarn/patches/esbuild-plugin-solid-npm-0.6.0-49835b85dc.patch::version=0.6.0&hash=bf8c52"],\
+          ["flatted", "npm:3.3.1"],\
+          ["graphql", "npm:16.9.0"],\
+          ["history", "npm:5.3.0"],\
+          ["jest", "virtual:b327d7e228fba669b88a8bb23bcf526374e46fa67e617b1e6848e8a205357fee5ce94b47c49b5a570fd9e8a44fa218a13cd00e2eca327c99114cbd21d72ecf9c#npm:29.7.0"],\
+          ["react", "npm:18.3.1"],\
+          ["react-relay", "virtual:34742779f53b35ce360a787fe90920999f9219b5a879f313cb62ce0e32661b412c568f569ea31493034faab36e9edecfd44085e9d0ecfa5eaf9f985c8b64ac2c#npm:17.0.0"],\
+          ["relay-compiler", "npm:17.0.0"],\
+          ["relay-runtime", "npm:17.0.0"],\
+          ["rimraf", "npm:3.0.2"],\
+          ["solid-js", "npm:1.9.2"],\
+          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"],\
+          ["url-pattern", "npm:1.0.3"]\
+        ],\
+        "packagePeers": [\
+          "@stackflow/config",\
+          "@stackflow/core",\
+          "@stackflow/react",\
+          "@types/contentstech__stackflow-solid",\
+          "@types/react",\
+          "@types/solid-js",\
+          "@types/stackflow__config",\
+          "@types/stackflow__core",\
+          "@types/stackflow__react",\
+          "react"\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#workspace:extensions/plugin-history-sync", {\
+        "packageLocation": "./.yarn/__virtual__/@contentstech-stackflow-plugin-history-sync-virtual-d5c6f114a2/1/extensions/plugin-history-sync/",\
+        "packageDependencies": [\
+          ["@contentstech/stackflow-plugin-history-sync", "virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#workspace:extensions/plugin-history-sync"],\
+          ["@contentstech/stackflow-solid", "virtual:3a45caa1b2bc385e8c50f05a491a102f4acbd661408940917e35407388a5817209632364a41018747631d6faa70465552d7189a4defa0d13c7815d17737537ef#workspace:integrations/solid"],\
+          ["@graphql-tools/schema", "virtual:34742779f53b35ce360a787fe90920999f9219b5a879f313cb62ce0e32661b412c568f569ea31493034faab36e9edecfd44085e9d0ecfa5eaf9f985c8b64ac2c#npm:10.0.5"],\
+          ["@stackflow/config", "workspace:config"],\
+          ["@stackflow/core", "workspace:core"],\
+          ["@stackflow/esbuild-config", "workspace:packages/esbuild-config"],\
+          ["@stackflow/react", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:integrations/react"],\
+          ["@swc/core", "virtual:b327d7e228fba669b88a8bb23bcf526374e46fa67e617b1e6848e8a205357fee5ce94b47c49b5a570fd9e8a44fa218a13cd00e2eca327c99114cbd21d72ecf9c#npm:1.6.6"],\
+          ["@swc/jest", "virtual:b327d7e228fba669b88a8bb23bcf526374e46fa67e617b1e6848e8a205357fee5ce94b47c49b5a570fd9e8a44fa218a13cd00e2eca327c99114cbd21d72ecf9c#npm:0.2.36"],\
+          ["@types/contentstech__stackflow-solid", null],\
+          ["@types/jest", "npm:29.5.12"],\
+          ["@types/node", "npm:20.14.9"],\
+          ["@types/react", "npm:18.3.3"],\
+          ["@types/react-relay", "npm:16.0.6"],\
+          ["@types/relay-runtime", "npm:17.0.4"],\
+          ["@types/solid-js", null],\
+          ["@types/stackflow__config", null],\
+          ["@types/stackflow__core", null],\
+          ["@types/stackflow__react", null],\
+          ["esbuild", "npm:0.23.0"],\
+          ["esbuild-plugin-solid", "virtual:3a45caa1b2bc385e8c50f05a491a102f4acbd661408940917e35407388a5817209632364a41018747631d6faa70465552d7189a4defa0d13c7815d17737537ef#patch:esbuild-plugin-solid@npm%3A0.6.0#~/.yarn/patches/esbuild-plugin-solid-npm-0.6.0-49835b85dc.patch::version=0.6.0&hash=bf8c52"],\
+          ["flatted", "npm:3.3.1"],\
+          ["graphql", "npm:16.9.0"],\
+          ["history", "npm:5.3.0"],\
+          ["jest", "virtual:b327d7e228fba669b88a8bb23bcf526374e46fa67e617b1e6848e8a205357fee5ce94b47c49b5a570fd9e8a44fa218a13cd00e2eca327c99114cbd21d72ecf9c#npm:29.7.0"],\
+          ["react", "npm:18.3.1"],\
+          ["react-relay", "virtual:34742779f53b35ce360a787fe90920999f9219b5a879f313cb62ce0e32661b412c568f569ea31493034faab36e9edecfd44085e9d0ecfa5eaf9f985c8b64ac2c#npm:17.0.0"],\
+          ["relay-compiler", "npm:17.0.0"],\
+          ["relay-runtime", "npm:17.0.0"],\
+          ["rimraf", "npm:3.0.2"],\
+          ["solid-js", "npm:1.9.2"],\
+          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"],\
+          ["url-pattern", "npm:1.0.3"]\
+        ],\
+        "packagePeers": [\
+          "@contentstech/stackflow-solid",\
+          "@stackflow/config",\
+          "@stackflow/core",\
+          "@types/contentstech__stackflow-solid",\
+          "@types/solid-js",\
+          "@types/stackflow__config",\
+          "@types/stackflow__core",\
+          "@types/stackflow__react",\
+          "solid-js"\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["workspace:extensions/plugin-history-sync", {\
+        "packageLocation": "./extensions/plugin-history-sync/",\
+        "packageDependencies": [\
+          ["@contentstech/stackflow-plugin-history-sync", "workspace:extensions/plugin-history-sync"],\
+          ["@contentstech/stackflow-solid", "virtual:3a45caa1b2bc385e8c50f05a491a102f4acbd661408940917e35407388a5817209632364a41018747631d6faa70465552d7189a4defa0d13c7815d17737537ef#workspace:integrations/solid"],\
+          ["@graphql-tools/schema", "virtual:34742779f53b35ce360a787fe90920999f9219b5a879f313cb62ce0e32661b412c568f569ea31493034faab36e9edecfd44085e9d0ecfa5eaf9f985c8b64ac2c#npm:10.0.5"],\
+          ["@stackflow/config", "workspace:config"],\
+          ["@stackflow/core", "workspace:core"],\
+          ["@stackflow/esbuild-config", "workspace:packages/esbuild-config"],\
+          ["@stackflow/react", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:integrations/react"],\
+          ["@swc/core", "virtual:b327d7e228fba669b88a8bb23bcf526374e46fa67e617b1e6848e8a205357fee5ce94b47c49b5a570fd9e8a44fa218a13cd00e2eca327c99114cbd21d72ecf9c#npm:1.6.6"],\
+          ["@swc/jest", "virtual:b327d7e228fba669b88a8bb23bcf526374e46fa67e617b1e6848e8a205357fee5ce94b47c49b5a570fd9e8a44fa218a13cd00e2eca327c99114cbd21d72ecf9c#npm:0.2.36"],\
+          ["@types/jest", "npm:29.5.12"],\
+          ["@types/node", "npm:20.14.9"],\
+          ["@types/react", "npm:18.3.3"],\
+          ["@types/react-relay", "npm:16.0.6"],\
+          ["@types/relay-runtime", "npm:17.0.4"],\
+          ["esbuild", "npm:0.23.0"],\
+          ["esbuild-plugin-solid", "virtual:3a45caa1b2bc385e8c50f05a491a102f4acbd661408940917e35407388a5817209632364a41018747631d6faa70465552d7189a4defa0d13c7815d17737537ef#patch:esbuild-plugin-solid@npm%3A0.6.0#~/.yarn/patches/esbuild-plugin-solid-npm-0.6.0-49835b85dc.patch::version=0.6.0&hash=bf8c52"],\
+          ["flatted", "npm:3.3.1"],\
+          ["graphql", "npm:16.9.0"],\
+          ["history", "npm:5.3.0"],\
+          ["jest", "virtual:b327d7e228fba669b88a8bb23bcf526374e46fa67e617b1e6848e8a205357fee5ce94b47c49b5a570fd9e8a44fa218a13cd00e2eca327c99114cbd21d72ecf9c#npm:29.7.0"],\
+          ["react", "npm:18.3.1"],\
+          ["react-relay", "virtual:34742779f53b35ce360a787fe90920999f9219b5a879f313cb62ce0e32661b412c568f569ea31493034faab36e9edecfd44085e9d0ecfa5eaf9f985c8b64ac2c#npm:17.0.0"],\
+          ["relay-compiler", "npm:17.0.0"],\
+          ["relay-runtime", "npm:17.0.0"],\
+          ["rimraf", "npm:3.0.2"],\
+          ["solid-js", "npm:1.9.2"],\
+          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"],\
+          ["url-pattern", "npm:1.0.3"]\
+        ],\
+        "linkType": "SOFT"\
+      }]\
+    ]],\
+    ["@contentstech/stackflow-plugin-preload", [\
+      ["virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-preload", {\
+        "packageLocation": "./.yarn/__virtual__/@contentstech-stackflow-plugin-preload-virtual-9c9389324a/1/extensions/plugin-preload/",\
+        "packageDependencies": [\
+          ["@contentstech/stackflow-plugin-preload", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-preload"],\
+          ["@contentstech/stackflow-plugin-history-sync", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-history-sync"],\
+          ["@stackflow/core", "workspace:core"],\
+          ["@stackflow/esbuild-config", "workspace:packages/esbuild-config"],\
+          ["@stackflow/react", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:integrations/react"],\
+          ["@types/contentstech__stackflow-plugin-history-sync", null],\
+          ["@types/react", "npm:18.3.3"],\
+          ["@types/stackflow__core", null],\
+          ["@types/stackflow__react", null],\
+          ["esbuild", "npm:0.23.0"],\
+          ["react", "npm:18.3.1"],\
+          ["rimraf", "npm:3.0.2"],\
+          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"]\
+        ],\
+        "packagePeers": [\
+          "@contentstech/stackflow-plugin-history-sync",\
+          "@stackflow/core",\
+          "@stackflow/react",\
+          "@types/contentstech__stackflow-plugin-history-sync",\
+          "@types/react",\
+          "@types/stackflow__core",\
+          "@types/stackflow__react",\
+          "react"\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#workspace:extensions/plugin-preload", {\
+        "packageLocation": "./.yarn/__virtual__/@contentstech-stackflow-plugin-preload-virtual-e8c1753bfc/1/extensions/plugin-preload/",\
+        "packageDependencies": [\
+          ["@contentstech/stackflow-plugin-preload", "virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#workspace:extensions/plugin-preload"],\
+          ["@contentstech/stackflow-plugin-history-sync", "virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#workspace:extensions/plugin-history-sync"],\
+          ["@stackflow/core", "workspace:core"],\
+          ["@stackflow/esbuild-config", "workspace:packages/esbuild-config"],\
+          ["@stackflow/react", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:integrations/react"],\
+          ["@types/contentstech__stackflow-plugin-history-sync", null],\
+          ["@types/react", "npm:18.3.3"],\
+          ["@types/stackflow__core", null],\
+          ["@types/stackflow__react", null],\
+          ["esbuild", "npm:0.23.0"],\
+          ["react", "npm:18.3.1"],\
+          ["rimraf", "npm:3.0.2"],\
+          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"]\
+        ],\
+        "packagePeers": [\
+          "@contentstech/stackflow-plugin-history-sync",\
+          "@stackflow/core",\
+          "@types/contentstech__stackflow-plugin-history-sync",\
+          "@types/stackflow__core",\
+          "@types/stackflow__react"\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["workspace:extensions/plugin-preload", {\
+        "packageLocation": "./extensions/plugin-preload/",\
+        "packageDependencies": [\
+          ["@contentstech/stackflow-plugin-preload", "workspace:extensions/plugin-preload"],\
+          ["@contentstech/stackflow-plugin-history-sync", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-history-sync"],\
+          ["@stackflow/core", "workspace:core"],\
+          ["@stackflow/esbuild-config", "workspace:packages/esbuild-config"],\
+          ["@stackflow/react", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:integrations/react"],\
+          ["@types/react", "npm:18.3.3"],\
+          ["esbuild", "npm:0.23.0"],\
+          ["react", "npm:18.3.1"],\
+          ["rimraf", "npm:3.0.2"],\
+          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"]\
+        ],\
+        "linkType": "SOFT"\
+      }]\
+    ]],\
+    ["@contentstech/stackflow-plugin-renderer-basic", [\
+      ["virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-renderer-basic", {\
+        "packageLocation": "./.yarn/__virtual__/@contentstech-stackflow-plugin-renderer-basic-virtual-c59f107000/1/extensions/plugin-renderer-basic/",\
+        "packageDependencies": [\
+          ["@contentstech/stackflow-plugin-renderer-basic", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-renderer-basic"],\
+          ["@contentstech/stackflow-solid", "virtual:3a45caa1b2bc385e8c50f05a491a102f4acbd661408940917e35407388a5817209632364a41018747631d6faa70465552d7189a4defa0d13c7815d17737537ef#workspace:integrations/solid"],\
+          ["@stackflow/core", "workspace:core"],\
+          ["@stackflow/esbuild-config", "workspace:packages/esbuild-config"],\
+          ["@stackflow/react", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:integrations/react"],\
+          ["@types/contentstech__stackflow-solid", null],\
+          ["@types/react", "npm:18.3.3"],\
+          ["@types/solid-js", null],\
+          ["@types/stackflow__core", null],\
+          ["@types/stackflow__react", null],\
+          ["esbuild", "npm:0.23.0"],\
+          ["esbuild-plugin-solid", "virtual:3a45caa1b2bc385e8c50f05a491a102f4acbd661408940917e35407388a5817209632364a41018747631d6faa70465552d7189a4defa0d13c7815d17737537ef#patch:esbuild-plugin-solid@npm%3A0.6.0#~/.yarn/patches/esbuild-plugin-solid-npm-0.6.0-49835b85dc.patch::version=0.6.0&hash=bf8c52"],\
+          ["react", "npm:18.3.1"],\
+          ["rimraf", "npm:3.0.2"],\
+          ["solid-js", "npm:1.9.2"],\
+          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"]\
+        ],\
+        "packagePeers": [\
+          "@stackflow/core",\
+          "@stackflow/react",\
+          "@types/contentstech__stackflow-solid",\
+          "@types/react",\
+          "@types/solid-js",\
+          "@types/stackflow__core",\
+          "@types/stackflow__react",\
+          "react"\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#workspace:extensions/plugin-renderer-basic", {\
+        "packageLocation": "./.yarn/__virtual__/@contentstech-stackflow-plugin-renderer-basic-virtual-bfcfc38bb5/1/extensions/plugin-renderer-basic/",\
+        "packageDependencies": [\
+          ["@contentstech/stackflow-plugin-renderer-basic", "virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#workspace:extensions/plugin-renderer-basic"],\
+          ["@contentstech/stackflow-solid", "virtual:3a45caa1b2bc385e8c50f05a491a102f4acbd661408940917e35407388a5817209632364a41018747631d6faa70465552d7189a4defa0d13c7815d17737537ef#workspace:integrations/solid"],\
+          ["@stackflow/core", "workspace:core"],\
+          ["@stackflow/esbuild-config", "workspace:packages/esbuild-config"],\
+          ["@stackflow/react", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:integrations/react"],\
+          ["@types/contentstech__stackflow-solid", null],\
+          ["@types/react", "npm:18.3.3"],\
+          ["@types/solid-js", null],\
+          ["@types/stackflow__core", null],\
+          ["@types/stackflow__react", null],\
+          ["esbuild", "npm:0.23.0"],\
+          ["esbuild-plugin-solid", "virtual:3a45caa1b2bc385e8c50f05a491a102f4acbd661408940917e35407388a5817209632364a41018747631d6faa70465552d7189a4defa0d13c7815d17737537ef#patch:esbuild-plugin-solid@npm%3A0.6.0#~/.yarn/patches/esbuild-plugin-solid-npm-0.6.0-49835b85dc.patch::version=0.6.0&hash=bf8c52"],\
+          ["react", "npm:18.3.1"],\
+          ["rimraf", "npm:3.0.2"],\
+          ["solid-js", "npm:1.9.2"],\
+          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"]\
+        ],\
+        "packagePeers": [\
+          "@contentstech/stackflow-solid",\
+          "@stackflow/core",\
+          "@types/contentstech__stackflow-solid",\
+          "@types/solid-js",\
+          "@types/stackflow__core",\
+          "@types/stackflow__react",\
+          "solid-js"\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["workspace:extensions/plugin-renderer-basic", {\
+        "packageLocation": "./extensions/plugin-renderer-basic/",\
+        "packageDependencies": [\
+          ["@contentstech/stackflow-plugin-renderer-basic", "workspace:extensions/plugin-renderer-basic"],\
+          ["@contentstech/stackflow-solid", "virtual:3a45caa1b2bc385e8c50f05a491a102f4acbd661408940917e35407388a5817209632364a41018747631d6faa70465552d7189a4defa0d13c7815d17737537ef#workspace:integrations/solid"],\
+          ["@stackflow/core", "workspace:core"],\
+          ["@stackflow/esbuild-config", "workspace:packages/esbuild-config"],\
+          ["@stackflow/react", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:integrations/react"],\
+          ["@types/react", "npm:18.3.3"],\
+          ["esbuild", "npm:0.23.0"],\
+          ["esbuild-plugin-solid", "virtual:3a45caa1b2bc385e8c50f05a491a102f4acbd661408940917e35407388a5817209632364a41018747631d6faa70465552d7189a4defa0d13c7815d17737537ef#patch:esbuild-plugin-solid@npm%3A0.6.0#~/.yarn/patches/esbuild-plugin-solid-npm-0.6.0-49835b85dc.patch::version=0.6.0&hash=bf8c52"],\
+          ["react", "npm:18.3.1"],\
+          ["rimraf", "npm:3.0.2"],\
+          ["solid-js", "npm:1.9.2"],\
+          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"]\
+        ],\
+        "linkType": "SOFT"\
+      }]\
+    ]],\
+    ["@contentstech/stackflow-plugin-renderer-web", [\
+      ["workspace:extensions/plugin-renderer-web", {\
+        "packageLocation": "./extensions/plugin-renderer-web/",\
+        "packageDependencies": [\
+          ["@contentstech/stackflow-plugin-renderer-web", "workspace:extensions/plugin-renderer-web"],\
+          ["@contentstech/stackflow-solid", "virtual:3a45caa1b2bc385e8c50f05a491a102f4acbd661408940917e35407388a5817209632364a41018747631d6faa70465552d7189a4defa0d13c7815d17737537ef#workspace:integrations/solid"],\
+          ["@stackflow/core", "workspace:core"],\
+          ["@stackflow/esbuild-config", "workspace:packages/esbuild-config"],\
+          ["@stackflow/react", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:integrations/react"],\
+          ["@types/react", "npm:18.3.3"],\
+          ["esbuild", "npm:0.23.0"],\
+          ["esbuild-plugin-solid", "virtual:3a45caa1b2bc385e8c50f05a491a102f4acbd661408940917e35407388a5817209632364a41018747631d6faa70465552d7189a4defa0d13c7815d17737537ef#patch:esbuild-plugin-solid@npm%3A0.6.0#~/.yarn/patches/esbuild-plugin-solid-npm-0.6.0-49835b85dc.patch::version=0.6.0&hash=bf8c52"],\
+          ["react", "npm:18.3.1"],\
+          ["rimraf", "npm:3.0.2"],\
+          ["solid-js", "npm:1.9.2"],\
+          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"]\
+        ],\
+        "linkType": "SOFT"\
+      }]\
+    ]],\
+    ["@contentstech/stackflow-solid", [\
+      ["virtual:3a45caa1b2bc385e8c50f05a491a102f4acbd661408940917e35407388a5817209632364a41018747631d6faa70465552d7189a4defa0d13c7815d17737537ef#workspace:integrations/solid", {\
+        "packageLocation": "./.yarn/__virtual__/@contentstech-stackflow-solid-virtual-0f7bf1e3c6/1/integrations/solid/",\
+        "packageDependencies": [\
+          ["@contentstech/stackflow-solid", "virtual:3a45caa1b2bc385e8c50f05a491a102f4acbd661408940917e35407388a5817209632364a41018747631d6faa70465552d7189a4defa0d13c7815d17737537ef#workspace:integrations/solid"],\
+          ["@stackflow/config", "workspace:config"],\
+          ["@stackflow/core", "workspace:core"],\
+          ["@stackflow/esbuild-config", "workspace:packages/esbuild-config"],\
+          ["@types/solid-js", null],\
+          ["@types/stackflow__config", null],\
+          ["@types/stackflow__core", null],\
+          ["esbuild", "npm:0.23.0"],\
+          ["esbuild-plugin-file-path-extensions", "npm:2.1.3"],\
+          ["esbuild-plugin-solid", "virtual:3a45caa1b2bc385e8c50f05a491a102f4acbd661408940917e35407388a5817209632364a41018747631d6faa70465552d7189a4defa0d13c7815d17737537ef#patch:esbuild-plugin-solid@npm%3A0.6.0#~/.yarn/patches/esbuild-plugin-solid-npm-0.6.0-49835b85dc.patch::version=0.6.0&hash=bf8c52"],\
+          ["rimraf", "npm:3.0.2"],\
+          ["solid-js", "npm:1.9.2"],\
+          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"]\
+        ],\
+        "packagePeers": [\
+          "@stackflow/core",\
+          "@types/solid-js",\
+          "@types/stackflow__config",\
+          "@types/stackflow__core",\
+          "solid-js"\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["workspace:integrations/solid", {\
+        "packageLocation": "./integrations/solid/",\
+        "packageDependencies": [\
+          ["@contentstech/stackflow-solid", "workspace:integrations/solid"],\
+          ["@stackflow/config", "workspace:config"],\
+          ["@stackflow/core", "workspace:core"],\
+          ["@stackflow/esbuild-config", "workspace:packages/esbuild-config"],\
+          ["esbuild", "npm:0.23.0"],\
+          ["esbuild-plugin-file-path-extensions", "npm:2.1.3"],\
+          ["esbuild-plugin-solid", "virtual:3a45caa1b2bc385e8c50f05a491a102f4acbd661408940917e35407388a5817209632364a41018747631d6faa70465552d7189a4defa0d13c7815d17737537ef#patch:esbuild-plugin-solid@npm%3A0.6.0#~/.yarn/patches/esbuild-plugin-solid-npm-0.6.0-49835b85dc.patch::version=0.6.0&hash=bf8c52"],\
+          ["rimraf", "npm:3.0.2"],\
+          ["solid-js", "npm:1.9.2"],\
+          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"]\
+        ],\
+        "linkType": "SOFT"\
+      }]\
+    ]],\
+    ["@contentstech/stackflow-solid-ui-core", [\
+      ["virtual:3a45caa1b2bc385e8c50f05a491a102f4acbd661408940917e35407388a5817209632364a41018747631d6faa70465552d7189a4defa0d13c7815d17737537ef#workspace:extensions/solid-ui-core", {\
+        "packageLocation": "./.yarn/__virtual__/@contentstech-stackflow-solid-ui-core-virtual-6659801962/1/extensions/solid-ui-core/",\
+        "packageDependencies": [\
+          ["@contentstech/stackflow-solid-ui-core", "virtual:3a45caa1b2bc385e8c50f05a491a102f4acbd661408940917e35407388a5817209632364a41018747631d6faa70465552d7189a4defa0d13c7815d17737537ef#workspace:extensions/solid-ui-core"],\
+          ["@contentstech/stackflow-solid", "virtual:3a45caa1b2bc385e8c50f05a491a102f4acbd661408940917e35407388a5817209632364a41018747631d6faa70465552d7189a4defa0d13c7815d17737537ef#workspace:integrations/solid"],\
+          ["@stackflow/core", "workspace:core"],\
+          ["@stackflow/esbuild-config", "workspace:packages/esbuild-config"],\
+          ["@types/contentstech__stackflow-solid", null],\
+          ["@types/solid-js", null],\
+          ["@types/stackflow__core", null],\
+          ["esbuild", "npm:0.23.0"],\
+          ["esbuild-plugin-solid", "virtual:3a45caa1b2bc385e8c50f05a491a102f4acbd661408940917e35407388a5817209632364a41018747631d6faa70465552d7189a4defa0d13c7815d17737537ef#patch:esbuild-plugin-solid@npm%3A0.6.0#~/.yarn/patches/esbuild-plugin-solid-npm-0.6.0-49835b85dc.patch::version=0.6.0&hash=bf8c52"],\
+          ["rimraf", "npm:3.0.2"],\
+          ["solid-js", "npm:1.9.2"],\
+          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"]\
+        ],\
+        "packagePeers": [\
+          "@contentstech/stackflow-solid",\
+          "@stackflow/core",\
+          "@types/contentstech__stackflow-solid",\
+          "@types/solid-js",\
+          "@types/stackflow__core",\
+          "solid-js"\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["workspace:extensions/solid-ui-core", {\
+        "packageLocation": "./extensions/solid-ui-core/",\
+        "packageDependencies": [\
+          ["@contentstech/stackflow-solid-ui-core", "workspace:extensions/solid-ui-core"],\
+          ["@contentstech/stackflow-solid", "virtual:3a45caa1b2bc385e8c50f05a491a102f4acbd661408940917e35407388a5817209632364a41018747631d6faa70465552d7189a4defa0d13c7815d17737537ef#workspace:integrations/solid"],\
+          ["@stackflow/core", "workspace:core"],\
+          ["@stackflow/esbuild-config", "workspace:packages/esbuild-config"],\
+          ["esbuild", "npm:0.23.0"],\
+          ["esbuild-plugin-solid", "virtual:3a45caa1b2bc385e8c50f05a491a102f4acbd661408940917e35407388a5817209632364a41018747631d6faa70465552d7189a4defa0d13c7815d17737537ef#patch:esbuild-plugin-solid@npm%3A0.6.0#~/.yarn/patches/esbuild-plugin-solid-npm-0.6.0-49835b85dc.patch::version=0.6.0&hash=bf8c52"],\
+          ["rimraf", "npm:3.0.2"],\
+          ["solid-js", "npm:1.9.2"],\
+          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"]\
+        ],\
+        "linkType": "SOFT"\
+      }]\
+    ]],\
     ["@emotion/hash", [\
       ["npm:0.9.1", {\
         "packageLocation": "./.yarn/cache/@emotion-hash-npm-0.9.1-650576c2b1-716e17e48b.zip/node_modules/@emotion/hash/",\
@@ -2181,11 +2770,11 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:7820b1058ab201fdeb15e2ae90b3d9467f9bf503a03b13675ef60298acfa62ebbe755d1ae535dc888da7bb6689adfe7648e5bebd5fff1e9df6ed725f24ef9762#npm:9.0.5", {\
-        "packageLocation": "./.yarn/__virtual__/@graphql-tools-merge-virtual-42c12897ec/0/cache/@graphql-tools-merge-npm-9.0.5-a514a8ad9b-ec98638e78.zip/node_modules/@graphql-tools/merge/",\
+      ["virtual:5beb7912325d1f9451f2b4b0fe8f0e826c9497199313aa09678f8386740eacb5986197689464ab7611b142d1b830632d5be41e2ea60142c638699cce7151ff18#npm:9.0.5", {\
+        "packageLocation": "./.yarn/__virtual__/@graphql-tools-merge-virtual-be3402c8d8/0/cache/@graphql-tools-merge-npm-9.0.5-a514a8ad9b-ec98638e78.zip/node_modules/@graphql-tools/merge/",\
         "packageDependencies": [\
-          ["@graphql-tools/merge", "virtual:7820b1058ab201fdeb15e2ae90b3d9467f9bf503a03b13675ef60298acfa62ebbe755d1ae535dc888da7bb6689adfe7648e5bebd5fff1e9df6ed725f24ef9762#npm:9.0.5"],\
-          ["@graphql-tools/utils", "virtual:7820b1058ab201fdeb15e2ae90b3d9467f9bf503a03b13675ef60298acfa62ebbe755d1ae535dc888da7bb6689adfe7648e5bebd5fff1e9df6ed725f24ef9762#npm:10.5.2"],\
+          ["@graphql-tools/merge", "virtual:5beb7912325d1f9451f2b4b0fe8f0e826c9497199313aa09678f8386740eacb5986197689464ab7611b142d1b830632d5be41e2ea60142c638699cce7151ff18#npm:9.0.5"],\
+          ["@graphql-tools/utils", "virtual:5beb7912325d1f9451f2b4b0fe8f0e826c9497199313aa09678f8386740eacb5986197689464ab7611b142d1b830632d5be41e2ea60142c638699cce7151ff18#npm:10.5.2"],\
           ["@types/graphql", null],\
           ["graphql", "npm:16.9.0"],\
           ["tslib", "npm:2.5.0"]\
@@ -2205,12 +2794,12 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:991015ceb8acca106af7e64cf676369bf8fb98370003b1af0559fb22931c330c3a09d064107412d6cc26ef286f0afdd26340443bd43177eeda3558644ba5f206#npm:10.0.5", {\
-        "packageLocation": "./.yarn/__virtual__/@graphql-tools-schema-virtual-7820b1058a/0/cache/@graphql-tools-schema-npm-10.0.5-ec976a54e7-f5c275a580.zip/node_modules/@graphql-tools/schema/",\
+      ["virtual:34742779f53b35ce360a787fe90920999f9219b5a879f313cb62ce0e32661b412c568f569ea31493034faab36e9edecfd44085e9d0ecfa5eaf9f985c8b64ac2c#npm:10.0.5", {\
+        "packageLocation": "./.yarn/__virtual__/@graphql-tools-schema-virtual-5beb791232/0/cache/@graphql-tools-schema-npm-10.0.5-ec976a54e7-f5c275a580.zip/node_modules/@graphql-tools/schema/",\
         "packageDependencies": [\
-          ["@graphql-tools/schema", "virtual:991015ceb8acca106af7e64cf676369bf8fb98370003b1af0559fb22931c330c3a09d064107412d6cc26ef286f0afdd26340443bd43177eeda3558644ba5f206#npm:10.0.5"],\
-          ["@graphql-tools/merge", "virtual:7820b1058ab201fdeb15e2ae90b3d9467f9bf503a03b13675ef60298acfa62ebbe755d1ae535dc888da7bb6689adfe7648e5bebd5fff1e9df6ed725f24ef9762#npm:9.0.5"],\
-          ["@graphql-tools/utils", "virtual:7820b1058ab201fdeb15e2ae90b3d9467f9bf503a03b13675ef60298acfa62ebbe755d1ae535dc888da7bb6689adfe7648e5bebd5fff1e9df6ed725f24ef9762#npm:10.5.2"],\
+          ["@graphql-tools/schema", "virtual:34742779f53b35ce360a787fe90920999f9219b5a879f313cb62ce0e32661b412c568f569ea31493034faab36e9edecfd44085e9d0ecfa5eaf9f985c8b64ac2c#npm:10.0.5"],\
+          ["@graphql-tools/merge", "virtual:5beb7912325d1f9451f2b4b0fe8f0e826c9497199313aa09678f8386740eacb5986197689464ab7611b142d1b830632d5be41e2ea60142c638699cce7151ff18#npm:9.0.5"],\
+          ["@graphql-tools/utils", "virtual:5beb7912325d1f9451f2b4b0fe8f0e826c9497199313aa09678f8386740eacb5986197689464ab7611b142d1b830632d5be41e2ea60142c638699cce7151ff18#npm:10.5.2"],\
           ["@types/graphql", null],\
           ["graphql", "npm:16.9.0"],\
           ["tslib", "npm:2.5.0"],\
@@ -2231,11 +2820,11 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:7820b1058ab201fdeb15e2ae90b3d9467f9bf503a03b13675ef60298acfa62ebbe755d1ae535dc888da7bb6689adfe7648e5bebd5fff1e9df6ed725f24ef9762#npm:10.5.2", {\
-        "packageLocation": "./.yarn/__virtual__/@graphql-tools-utils-virtual-59fa508c2d/0/cache/@graphql-tools-utils-npm-10.5.2-b443d9e793-f400ef22ac.zip/node_modules/@graphql-tools/utils/",\
+      ["virtual:5beb7912325d1f9451f2b4b0fe8f0e826c9497199313aa09678f8386740eacb5986197689464ab7611b142d1b830632d5be41e2ea60142c638699cce7151ff18#npm:10.5.2", {\
+        "packageLocation": "./.yarn/__virtual__/@graphql-tools-utils-virtual-aed8e7489f/0/cache/@graphql-tools-utils-npm-10.5.2-b443d9e793-f400ef22ac.zip/node_modules/@graphql-tools/utils/",\
         "packageDependencies": [\
-          ["@graphql-tools/utils", "virtual:7820b1058ab201fdeb15e2ae90b3d9467f9bf503a03b13675ef60298acfa62ebbe755d1ae535dc888da7bb6689adfe7648e5bebd5fff1e9df6ed725f24ef9762#npm:10.5.2"],\
-          ["@graphql-typed-document-node/core", "virtual:59fa508c2d6ac83f9e6a4217a2a909d49172063ef19de181fda567b14acbcd131ce10102c4a2abbbb19bded1d72a453f295bc0d95acdb36a8703a8d922c17579#npm:3.2.0"],\
+          ["@graphql-tools/utils", "virtual:5beb7912325d1f9451f2b4b0fe8f0e826c9497199313aa09678f8386740eacb5986197689464ab7611b142d1b830632d5be41e2ea60142c638699cce7151ff18#npm:10.5.2"],\
+          ["@graphql-typed-document-node/core", "virtual:aed8e7489fa97cf0686fc03a21a564227f2ea0c5be581136c170591843ca4dc1e033b739766153ce3d042504af36ed10fa32e67ba46322763161f9ecd00d09cc#npm:3.2.0"],\
           ["@types/graphql", null],\
           ["cross-inspect", "npm:1.0.1"],\
           ["dset", "npm:3.1.3"],\
@@ -2257,10 +2846,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:59fa508c2d6ac83f9e6a4217a2a909d49172063ef19de181fda567b14acbcd131ce10102c4a2abbbb19bded1d72a453f295bc0d95acdb36a8703a8d922c17579#npm:3.2.0", {\
-        "packageLocation": "./.yarn/__virtual__/@graphql-typed-document-node-core-virtual-456a6a440a/0/cache/@graphql-typed-document-node-core-npm-3.2.0-505adb1e90-fa44443acc.zip/node_modules/@graphql-typed-document-node/core/",\
+      ["virtual:aed8e7489fa97cf0686fc03a21a564227f2ea0c5be581136c170591843ca4dc1e033b739766153ce3d042504af36ed10fa32e67ba46322763161f9ecd00d09cc#npm:3.2.0", {\
+        "packageLocation": "./.yarn/__virtual__/@graphql-typed-document-node-core-virtual-45815e8009/0/cache/@graphql-typed-document-node-core-npm-3.2.0-505adb1e90-fa44443acc.zip/node_modules/@graphql-typed-document-node/core/",\
         "packageDependencies": [\
-          ["@graphql-typed-document-node/core", "virtual:59fa508c2d6ac83f9e6a4217a2a909d49172063ef19de181fda567b14acbcd131ce10102c4a2abbbb19bded1d72a453f295bc0d95acdb36a8703a8d922c17579#npm:3.2.0"],\
+          ["@graphql-typed-document-node/core", "virtual:aed8e7489fa97cf0686fc03a21a564227f2ea0c5be581136c170591843ca4dc1e033b739766153ce3d042504af36ed10fa32e67ba46322763161f9ecd00d09cc#npm:3.2.0"],\
           ["@types/graphql", null],\
           ["graphql", "npm:16.9.0"]\
         ],\
@@ -3284,19 +3873,19 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./demo/",\
         "packageDependencies": [\
           ["@stackflow/demo", "workspace:demo"],\
+          ["@contentstech/stackflow-link", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/link"],\
+          ["@contentstech/stackflow-plugin-basic-ui", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-basic-ui"],\
+          ["@contentstech/stackflow-plugin-history-sync", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-history-sync"],\
+          ["@contentstech/stackflow-plugin-preload", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-preload"],\
+          ["@contentstech/stackflow-plugin-renderer-basic", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-renderer-basic"],\
           ["@seed-design/design-token", "npm:1.0.3"],\
           ["@seed-design/stylesheet", "npm:1.0.4"],\
           ["@stackflow/compat-await-push", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/compat-await-push"],\
           ["@stackflow/config", "workspace:config"],\
           ["@stackflow/core", "workspace:core"],\
           ["@stackflow/esbuild-config", "workspace:packages/esbuild-config"],\
-          ["@stackflow/link", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/link"],\
-          ["@stackflow/plugin-basic-ui", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-basic-ui"],\
           ["@stackflow/plugin-devtools", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-devtools"],\
-          ["@stackflow/plugin-history-sync", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-history-sync"],\
           ["@stackflow/plugin-map-initial-activity", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-map-initial-activity"],\
-          ["@stackflow/plugin-preload", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-preload"],\
-          ["@stackflow/plugin-renderer-basic", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-renderer-basic"],\
           ["@stackflow/plugin-stack-depth-change", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-stack-depth-change"],\
           ["@stackflow/react", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:integrations/react"],\
           ["@types/react", "npm:18.3.3"],\
@@ -3326,25 +3915,25 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./demo-solid/",\
         "packageDependencies": [\
           ["@stackflow/demo-solid", "workspace:demo-solid"],\
+          ["@contentstech/stackflow-link", "virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#workspace:extensions/link"],\
+          ["@contentstech/stackflow-plugin-basic-ui", "virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#workspace:extensions/plugin-basic-ui"],\
+          ["@contentstech/stackflow-plugin-history-sync", "virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#workspace:extensions/plugin-history-sync"],\
+          ["@contentstech/stackflow-plugin-preload", "virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#workspace:extensions/plugin-preload"],\
+          ["@contentstech/stackflow-plugin-renderer-basic", "virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#workspace:extensions/plugin-renderer-basic"],\
+          ["@contentstech/stackflow-solid", "virtual:3a45caa1b2bc385e8c50f05a491a102f4acbd661408940917e35407388a5817209632364a41018747631d6faa70465552d7189a4defa0d13c7815d17737537ef#workspace:integrations/solid"],\
           ["@seed-design/design-token", "npm:1.0.3"],\
           ["@seed-design/stylesheet", "npm:1.0.4"],\
           ["@stackflow/compat-await-push", "virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#workspace:extensions/compat-await-push"],\
           ["@stackflow/config", "workspace:config"],\
           ["@stackflow/core", "workspace:core"],\
           ["@stackflow/esbuild-config", "workspace:packages/esbuild-config"],\
-          ["@stackflow/link", "virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#workspace:extensions/link"],\
-          ["@stackflow/plugin-basic-ui", "virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#workspace:extensions/plugin-basic-ui"],\
           ["@stackflow/plugin-devtools", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-devtools"],\
-          ["@stackflow/plugin-history-sync", "virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#workspace:extensions/plugin-history-sync"],\
           ["@stackflow/plugin-map-initial-activity", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-map-initial-activity"],\
-          ["@stackflow/plugin-preload", "virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#workspace:extensions/plugin-preload"],\
-          ["@stackflow/plugin-renderer-basic", "virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#workspace:extensions/plugin-renderer-basic"],\
           ["@stackflow/plugin-stack-depth-change", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-stack-depth-change"],\
-          ["@stackflow/solid", "virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#workspace:integrations/solid"],\
           ["@vanilla-extract/css", "npm:1.15.3"],\
           ["@vanilla-extract/vite-plugin", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#patch:@vanilla-extract/vite-plugin@npm%3A4.0.12#~/.yarn/patches/@vanilla-extract-vite-plugin-npm-4.0.12-ed14a9ba3b.patch::version=4.0.12&hash=d3aa99"],\
           ["esbuild", "npm:0.23.0"],\
-          ["esbuild-plugin-solid", "virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#patch:esbuild-plugin-solid@npm%3A0.6.0#~/.yarn/patches/esbuild-plugin-solid-npm-0.6.0-49835b85dc.patch::version=0.6.0&hash=bf8c52"],\
+          ["esbuild-plugin-solid", "virtual:3a45caa1b2bc385e8c50f05a491a102f4acbd661408940917e35407388a5817209632364a41018747631d6faa70465552d7189a4defa0d13c7815d17737537ef#patch:esbuild-plugin-solid@npm%3A0.6.0#~/.yarn/patches/esbuild-plugin-solid-npm-0.6.0-49835b85dc.patch::version=0.6.0&hash=bf8c52"],\
           ["lorem-ipsum", "npm:2.0.8"],\
           ["lz-string", "npm:1.5.0"],\
           ["normalize.css", "npm:8.0.1"],\
@@ -3364,14 +3953,14 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./docs/",\
         "packageDependencies": [\
           ["@stackflow/docs", "workspace:docs"],\
+          ["@contentstech/stackflow-plugin-basic-ui", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-basic-ui"],\
+          ["@contentstech/stackflow-plugin-history-sync", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-history-sync"],\
+          ["@contentstech/stackflow-plugin-renderer-basic", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-renderer-basic"],\
           ["@mdx-js/react", "virtual:0349e4c3e3c13e6c2c3644c139b8cc36986a13e674699ef552f832f4811603d25720461dd0f421afb36637b7bef854e2b3f31dfc5b707238429c2469f85316ac#npm:3.0.1"],\
           ["@seed-design/stylesheet", "npm:1.0.4"],\
           ["@stackflow/core", "workspace:core"],\
           ["@stackflow/demo", "workspace:demo"],\
           ["@stackflow/demo-solid", "workspace:demo-solid"],\
-          ["@stackflow/plugin-basic-ui", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-basic-ui"],\
-          ["@stackflow/plugin-history-sync", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-history-sync"],\
-          ["@stackflow/plugin-renderer-basic", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-renderer-basic"],\
           ["@stackflow/react", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:integrations/react"],\
           ["@types/react", "npm:18.3.3"],\
           ["next", "virtual:0349e4c3e3c13e6c2c3644c139b8cc36986a13e674699ef552f832f4811603d25720461dd0f421afb36637b7bef854e2b3f31dfc5b707238429c2469f85316ac#npm:14.2.4"],\
@@ -3395,94 +3984,6 @@ const RAW_RUNTIME_STATE =
         "linkType": "SOFT"\
       }]\
     ]],\
-    ["@stackflow/link", [\
-      ["virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/link", {\
-        "packageLocation": "./.yarn/__virtual__/@stackflow-link-virtual-9ebc34fcb6/1/extensions/link/",\
-        "packageDependencies": [\
-          ["@stackflow/link", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/link"],\
-          ["@stackflow/config", "workspace:config"],\
-          ["@stackflow/core", "workspace:core"],\
-          ["@stackflow/esbuild-config", "workspace:packages/esbuild-config"],\
-          ["@stackflow/plugin-history-sync", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-history-sync"],\
-          ["@stackflow/plugin-preload", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-preload"],\
-          ["@stackflow/react", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:integrations/react"],\
-          ["@types/react", "npm:18.3.3"],\
-          ["@types/stackflow__core", null],\
-          ["@types/stackflow__plugin-history-sync", null],\
-          ["@types/stackflow__plugin-preload", null],\
-          ["@types/stackflow__react", null],\
-          ["esbuild", "npm:0.23.0"],\
-          ["esbuild-plugin-file-path-extensions", "npm:2.1.3"],\
-          ["react", "npm:18.3.1"],\
-          ["rimraf", "npm:3.0.2"],\
-          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"]\
-        ],\
-        "packagePeers": [\
-          "@stackflow/core",\
-          "@stackflow/plugin-history-sync",\
-          "@stackflow/plugin-preload",\
-          "@stackflow/react",\
-          "@types/react",\
-          "@types/stackflow__core",\
-          "@types/stackflow__plugin-history-sync",\
-          "@types/stackflow__plugin-preload",\
-          "@types/stackflow__react",\
-          "react"\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#workspace:extensions/link", {\
-        "packageLocation": "./.yarn/__virtual__/@stackflow-link-virtual-19ad45f132/1/extensions/link/",\
-        "packageDependencies": [\
-          ["@stackflow/link", "virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#workspace:extensions/link"],\
-          ["@stackflow/config", "workspace:config"],\
-          ["@stackflow/core", "workspace:core"],\
-          ["@stackflow/esbuild-config", "workspace:packages/esbuild-config"],\
-          ["@stackflow/plugin-history-sync", "virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#workspace:extensions/plugin-history-sync"],\
-          ["@stackflow/plugin-preload", "virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#workspace:extensions/plugin-preload"],\
-          ["@stackflow/react", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:integrations/react"],\
-          ["@types/react", "npm:18.3.3"],\
-          ["@types/stackflow__core", null],\
-          ["@types/stackflow__plugin-history-sync", null],\
-          ["@types/stackflow__plugin-preload", null],\
-          ["@types/stackflow__react", null],\
-          ["esbuild", "npm:0.23.0"],\
-          ["esbuild-plugin-file-path-extensions", "npm:2.1.3"],\
-          ["react", "npm:18.3.1"],\
-          ["rimraf", "npm:3.0.2"],\
-          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"]\
-        ],\
-        "packagePeers": [\
-          "@stackflow/core",\
-          "@stackflow/plugin-history-sync",\
-          "@stackflow/plugin-preload",\
-          "@types/stackflow__core",\
-          "@types/stackflow__plugin-history-sync",\
-          "@types/stackflow__plugin-preload",\
-          "@types/stackflow__react"\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["workspace:extensions/link", {\
-        "packageLocation": "./extensions/link/",\
-        "packageDependencies": [\
-          ["@stackflow/link", "workspace:extensions/link"],\
-          ["@stackflow/config", "workspace:config"],\
-          ["@stackflow/core", "workspace:core"],\
-          ["@stackflow/esbuild-config", "workspace:packages/esbuild-config"],\
-          ["@stackflow/plugin-history-sync", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-history-sync"],\
-          ["@stackflow/plugin-preload", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-preload"],\
-          ["@stackflow/react", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:integrations/react"],\
-          ["@types/react", "npm:18.3.3"],\
-          ["esbuild", "npm:0.23.0"],\
-          ["esbuild-plugin-file-path-extensions", "npm:2.1.3"],\
-          ["react", "npm:18.3.1"],\
-          ["rimraf", "npm:3.0.2"],\
-          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"]\
-        ],\
-        "linkType": "SOFT"\
-      }]\
-    ]],\
     ["@stackflow/monorepo", [\
       ["workspace:.", {\
         "packageLocation": "./",\
@@ -3495,107 +3996,6 @@ const RAW_RUNTIME_STATE =
           ["@types/react", "npm:18.3.3"],\
           ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"],\
           ["ultra-runner", "npm:3.10.5"]\
-        ],\
-        "linkType": "SOFT"\
-      }]\
-    ]],\
-    ["@stackflow/plugin-basic-ui", [\
-      ["virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-basic-ui", {\
-        "packageLocation": "./.yarn/__virtual__/@stackflow-plugin-basic-ui-virtual-669046a185/1/extensions/plugin-basic-ui/",\
-        "packageDependencies": [\
-          ["@stackflow/plugin-basic-ui", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-basic-ui"],\
-          ["@stackflow/core", "workspace:core"],\
-          ["@stackflow/esbuild-config", "workspace:packages/esbuild-config"],\
-          ["@stackflow/react", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:integrations/react"],\
-          ["@stackflow/react-ui-core", "virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#workspace:extensions/react-ui-core"],\
-          ["@stackflow/solid", "virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#workspace:integrations/solid"],\
-          ["@stackflow/solid-ui-core", "virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#workspace:extensions/solid-ui-core"],\
-          ["@types/react", "npm:18.3.3"],\
-          ["@types/solid-js", null],\
-          ["@types/stackflow__core", null],\
-          ["@types/stackflow__react", null],\
-          ["@types/stackflow__solid", null],\
-          ["@vanilla-extract/css", "npm:1.15.3"],\
-          ["@vanilla-extract/dynamic", "npm:2.1.1"],\
-          ["@vanilla-extract/private", "npm:1.0.5"],\
-          ["@vanilla-extract/recipes", "virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#npm:0.5.3"],\
-          ["esbuild", "npm:0.23.0"],\
-          ["esbuild-plugin-solid", "virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#patch:esbuild-plugin-solid@npm%3A0.6.0#~/.yarn/patches/esbuild-plugin-solid-npm-0.6.0-49835b85dc.patch::version=0.6.0&hash=bf8c52"],\
-          ["react", "npm:18.3.1"],\
-          ["rimraf", "npm:3.0.2"],\
-          ["solid-js", "npm:1.9.2"],\
-          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"]\
-        ],\
-        "packagePeers": [\
-          "@stackflow/core",\
-          "@stackflow/react",\
-          "@types/react",\
-          "@types/solid-js",\
-          "@types/stackflow__core",\
-          "@types/stackflow__react",\
-          "@types/stackflow__solid",\
-          "react"\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#workspace:extensions/plugin-basic-ui", {\
-        "packageLocation": "./.yarn/__virtual__/@stackflow-plugin-basic-ui-virtual-eac40ba00e/1/extensions/plugin-basic-ui/",\
-        "packageDependencies": [\
-          ["@stackflow/plugin-basic-ui", "virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#workspace:extensions/plugin-basic-ui"],\
-          ["@stackflow/core", "workspace:core"],\
-          ["@stackflow/esbuild-config", "workspace:packages/esbuild-config"],\
-          ["@stackflow/react", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:integrations/react"],\
-          ["@stackflow/react-ui-core", "virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#workspace:extensions/react-ui-core"],\
-          ["@stackflow/solid", "virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#workspace:integrations/solid"],\
-          ["@stackflow/solid-ui-core", "virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#workspace:extensions/solid-ui-core"],\
-          ["@types/react", "npm:18.3.3"],\
-          ["@types/solid-js", null],\
-          ["@types/stackflow__core", null],\
-          ["@types/stackflow__react", null],\
-          ["@types/stackflow__solid", null],\
-          ["@vanilla-extract/css", "npm:1.15.3"],\
-          ["@vanilla-extract/dynamic", "npm:2.1.1"],\
-          ["@vanilla-extract/private", "npm:1.0.5"],\
-          ["@vanilla-extract/recipes", "virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#npm:0.5.3"],\
-          ["esbuild", "npm:0.23.0"],\
-          ["esbuild-plugin-solid", "virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#patch:esbuild-plugin-solid@npm%3A0.6.0#~/.yarn/patches/esbuild-plugin-solid-npm-0.6.0-49835b85dc.patch::version=0.6.0&hash=bf8c52"],\
-          ["react", "npm:18.3.1"],\
-          ["rimraf", "npm:3.0.2"],\
-          ["solid-js", "npm:1.9.2"],\
-          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"]\
-        ],\
-        "packagePeers": [\
-          "@stackflow/core",\
-          "@stackflow/solid",\
-          "@types/solid-js",\
-          "@types/stackflow__core",\
-          "@types/stackflow__react",\
-          "@types/stackflow__solid",\
-          "solid-js"\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["workspace:extensions/plugin-basic-ui", {\
-        "packageLocation": "./extensions/plugin-basic-ui/",\
-        "packageDependencies": [\
-          ["@stackflow/plugin-basic-ui", "workspace:extensions/plugin-basic-ui"],\
-          ["@stackflow/core", "workspace:core"],\
-          ["@stackflow/esbuild-config", "workspace:packages/esbuild-config"],\
-          ["@stackflow/react", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:integrations/react"],\
-          ["@stackflow/react-ui-core", "virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#workspace:extensions/react-ui-core"],\
-          ["@stackflow/solid", "virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#workspace:integrations/solid"],\
-          ["@stackflow/solid-ui-core", "virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#workspace:extensions/solid-ui-core"],\
-          ["@types/react", "npm:18.3.3"],\
-          ["@vanilla-extract/css", "npm:1.15.3"],\
-          ["@vanilla-extract/dynamic", "npm:2.1.1"],\
-          ["@vanilla-extract/private", "npm:1.0.5"],\
-          ["@vanilla-extract/recipes", "virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#npm:0.5.3"],\
-          ["esbuild", "npm:0.23.0"],\
-          ["esbuild-plugin-solid", "virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#patch:esbuild-plugin-solid@npm%3A0.6.0#~/.yarn/patches/esbuild-plugin-solid-npm-0.6.0-49835b85dc.patch::version=0.6.0&hash=bf8c52"],\
-          ["react", "npm:18.3.1"],\
-          ["rimraf", "npm:3.0.2"],\
-          ["solid-js", "npm:1.9.2"],\
-          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -3651,143 +4051,6 @@ const RAW_RUNTIME_STATE =
         "linkType": "SOFT"\
       }]\
     ]],\
-    ["@stackflow/plugin-history-sync", [\
-      ["virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-history-sync", {\
-        "packageLocation": "./.yarn/__virtual__/@stackflow-plugin-history-sync-virtual-991015ceb8/1/extensions/plugin-history-sync/",\
-        "packageDependencies": [\
-          ["@stackflow/plugin-history-sync", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-history-sync"],\
-          ["@graphql-tools/schema", "virtual:991015ceb8acca106af7e64cf676369bf8fb98370003b1af0559fb22931c330c3a09d064107412d6cc26ef286f0afdd26340443bd43177eeda3558644ba5f206#npm:10.0.5"],\
-          ["@stackflow/config", "workspace:config"],\
-          ["@stackflow/core", "workspace:core"],\
-          ["@stackflow/esbuild-config", "workspace:packages/esbuild-config"],\
-          ["@stackflow/react", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:integrations/react"],\
-          ["@stackflow/solid", "virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#workspace:integrations/solid"],\
-          ["@swc/core", "virtual:b327d7e228fba669b88a8bb23bcf526374e46fa67e617b1e6848e8a205357fee5ce94b47c49b5a570fd9e8a44fa218a13cd00e2eca327c99114cbd21d72ecf9c#npm:1.6.6"],\
-          ["@swc/jest", "virtual:b327d7e228fba669b88a8bb23bcf526374e46fa67e617b1e6848e8a205357fee5ce94b47c49b5a570fd9e8a44fa218a13cd00e2eca327c99114cbd21d72ecf9c#npm:0.2.36"],\
-          ["@types/jest", "npm:29.5.12"],\
-          ["@types/node", "npm:20.14.9"],\
-          ["@types/react", "npm:18.3.3"],\
-          ["@types/react-relay", "npm:16.0.6"],\
-          ["@types/relay-runtime", "npm:17.0.4"],\
-          ["@types/solid-js", null],\
-          ["@types/stackflow__config", null],\
-          ["@types/stackflow__core", null],\
-          ["@types/stackflow__react", null],\
-          ["@types/stackflow__solid", null],\
-          ["esbuild", "npm:0.23.0"],\
-          ["esbuild-plugin-solid", "virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#patch:esbuild-plugin-solid@npm%3A0.6.0#~/.yarn/patches/esbuild-plugin-solid-npm-0.6.0-49835b85dc.patch::version=0.6.0&hash=bf8c52"],\
-          ["flatted", "npm:3.3.1"],\
-          ["graphql", "npm:16.9.0"],\
-          ["history", "npm:5.3.0"],\
-          ["jest", "virtual:b327d7e228fba669b88a8bb23bcf526374e46fa67e617b1e6848e8a205357fee5ce94b47c49b5a570fd9e8a44fa218a13cd00e2eca327c99114cbd21d72ecf9c#npm:29.7.0"],\
-          ["react", "npm:18.3.1"],\
-          ["react-relay", "virtual:991015ceb8acca106af7e64cf676369bf8fb98370003b1af0559fb22931c330c3a09d064107412d6cc26ef286f0afdd26340443bd43177eeda3558644ba5f206#npm:17.0.0"],\
-          ["relay-compiler", "npm:17.0.0"],\
-          ["relay-runtime", "npm:17.0.0"],\
-          ["rimraf", "npm:3.0.2"],\
-          ["solid-js", "npm:1.9.2"],\
-          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"],\
-          ["url-pattern", "npm:1.0.3"]\
-        ],\
-        "packagePeers": [\
-          "@stackflow/config",\
-          "@stackflow/core",\
-          "@stackflow/react",\
-          "@types/react",\
-          "@types/solid-js",\
-          "@types/stackflow__config",\
-          "@types/stackflow__core",\
-          "@types/stackflow__react",\
-          "@types/stackflow__solid",\
-          "react"\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#workspace:extensions/plugin-history-sync", {\
-        "packageLocation": "./.yarn/__virtual__/@stackflow-plugin-history-sync-virtual-77031793bf/1/extensions/plugin-history-sync/",\
-        "packageDependencies": [\
-          ["@stackflow/plugin-history-sync", "virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#workspace:extensions/plugin-history-sync"],\
-          ["@graphql-tools/schema", "virtual:991015ceb8acca106af7e64cf676369bf8fb98370003b1af0559fb22931c330c3a09d064107412d6cc26ef286f0afdd26340443bd43177eeda3558644ba5f206#npm:10.0.5"],\
-          ["@stackflow/config", "workspace:config"],\
-          ["@stackflow/core", "workspace:core"],\
-          ["@stackflow/esbuild-config", "workspace:packages/esbuild-config"],\
-          ["@stackflow/react", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:integrations/react"],\
-          ["@stackflow/solid", "virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#workspace:integrations/solid"],\
-          ["@swc/core", "virtual:b327d7e228fba669b88a8bb23bcf526374e46fa67e617b1e6848e8a205357fee5ce94b47c49b5a570fd9e8a44fa218a13cd00e2eca327c99114cbd21d72ecf9c#npm:1.6.6"],\
-          ["@swc/jest", "virtual:b327d7e228fba669b88a8bb23bcf526374e46fa67e617b1e6848e8a205357fee5ce94b47c49b5a570fd9e8a44fa218a13cd00e2eca327c99114cbd21d72ecf9c#npm:0.2.36"],\
-          ["@types/jest", "npm:29.5.12"],\
-          ["@types/node", "npm:20.14.9"],\
-          ["@types/react", "npm:18.3.3"],\
-          ["@types/react-relay", "npm:16.0.6"],\
-          ["@types/relay-runtime", "npm:17.0.4"],\
-          ["@types/solid-js", null],\
-          ["@types/stackflow__config", null],\
-          ["@types/stackflow__core", null],\
-          ["@types/stackflow__react", null],\
-          ["@types/stackflow__solid", null],\
-          ["esbuild", "npm:0.23.0"],\
-          ["esbuild-plugin-solid", "virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#patch:esbuild-plugin-solid@npm%3A0.6.0#~/.yarn/patches/esbuild-plugin-solid-npm-0.6.0-49835b85dc.patch::version=0.6.0&hash=bf8c52"],\
-          ["flatted", "npm:3.3.1"],\
-          ["graphql", "npm:16.9.0"],\
-          ["history", "npm:5.3.0"],\
-          ["jest", "virtual:b327d7e228fba669b88a8bb23bcf526374e46fa67e617b1e6848e8a205357fee5ce94b47c49b5a570fd9e8a44fa218a13cd00e2eca327c99114cbd21d72ecf9c#npm:29.7.0"],\
-          ["react", "npm:18.3.1"],\
-          ["react-relay", "virtual:991015ceb8acca106af7e64cf676369bf8fb98370003b1af0559fb22931c330c3a09d064107412d6cc26ef286f0afdd26340443bd43177eeda3558644ba5f206#npm:17.0.0"],\
-          ["relay-compiler", "npm:17.0.0"],\
-          ["relay-runtime", "npm:17.0.0"],\
-          ["rimraf", "npm:3.0.2"],\
-          ["solid-js", "npm:1.9.2"],\
-          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"],\
-          ["url-pattern", "npm:1.0.3"]\
-        ],\
-        "packagePeers": [\
-          "@stackflow/config",\
-          "@stackflow/core",\
-          "@stackflow/solid",\
-          "@types/solid-js",\
-          "@types/stackflow__config",\
-          "@types/stackflow__core",\
-          "@types/stackflow__react",\
-          "@types/stackflow__solid",\
-          "solid-js"\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["workspace:extensions/plugin-history-sync", {\
-        "packageLocation": "./extensions/plugin-history-sync/",\
-        "packageDependencies": [\
-          ["@stackflow/plugin-history-sync", "workspace:extensions/plugin-history-sync"],\
-          ["@graphql-tools/schema", "virtual:991015ceb8acca106af7e64cf676369bf8fb98370003b1af0559fb22931c330c3a09d064107412d6cc26ef286f0afdd26340443bd43177eeda3558644ba5f206#npm:10.0.5"],\
-          ["@stackflow/config", "workspace:config"],\
-          ["@stackflow/core", "workspace:core"],\
-          ["@stackflow/esbuild-config", "workspace:packages/esbuild-config"],\
-          ["@stackflow/react", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:integrations/react"],\
-          ["@stackflow/solid", "virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#workspace:integrations/solid"],\
-          ["@swc/core", "virtual:b327d7e228fba669b88a8bb23bcf526374e46fa67e617b1e6848e8a205357fee5ce94b47c49b5a570fd9e8a44fa218a13cd00e2eca327c99114cbd21d72ecf9c#npm:1.6.6"],\
-          ["@swc/jest", "virtual:b327d7e228fba669b88a8bb23bcf526374e46fa67e617b1e6848e8a205357fee5ce94b47c49b5a570fd9e8a44fa218a13cd00e2eca327c99114cbd21d72ecf9c#npm:0.2.36"],\
-          ["@types/jest", "npm:29.5.12"],\
-          ["@types/node", "npm:20.14.9"],\
-          ["@types/react", "npm:18.3.3"],\
-          ["@types/react-relay", "npm:16.0.6"],\
-          ["@types/relay-runtime", "npm:17.0.4"],\
-          ["esbuild", "npm:0.23.0"],\
-          ["esbuild-plugin-solid", "virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#patch:esbuild-plugin-solid@npm%3A0.6.0#~/.yarn/patches/esbuild-plugin-solid-npm-0.6.0-49835b85dc.patch::version=0.6.0&hash=bf8c52"],\
-          ["flatted", "npm:3.3.1"],\
-          ["graphql", "npm:16.9.0"],\
-          ["history", "npm:5.3.0"],\
-          ["jest", "virtual:b327d7e228fba669b88a8bb23bcf526374e46fa67e617b1e6848e8a205357fee5ce94b47c49b5a570fd9e8a44fa218a13cd00e2eca327c99114cbd21d72ecf9c#npm:29.7.0"],\
-          ["react", "npm:18.3.1"],\
-          ["react-relay", "virtual:991015ceb8acca106af7e64cf676369bf8fb98370003b1af0559fb22931c330c3a09d064107412d6cc26ef286f0afdd26340443bd43177eeda3558644ba5f206#npm:17.0.0"],\
-          ["relay-compiler", "npm:17.0.0"],\
-          ["relay-runtime", "npm:17.0.0"],\
-          ["rimraf", "npm:3.0.2"],\
-          ["solid-js", "npm:1.9.2"],\
-          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"],\
-          ["url-pattern", "npm:1.0.3"]\
-        ],\
-        "linkType": "SOFT"\
-      }]\
-    ]],\
     ["@stackflow/plugin-map-initial-activity", [\
       ["virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-map-initial-activity", {\
         "packageLocation": "./.yarn/__virtual__/@stackflow-plugin-map-initial-activity-virtual-3f909b4f3d/1/extensions/plugin-map-initial-activity/",\
@@ -3814,182 +4077,6 @@ const RAW_RUNTIME_STATE =
           ["@stackflow/esbuild-config", "workspace:packages/esbuild-config"],\
           ["esbuild", "npm:0.23.0"],\
           ["rimraf", "npm:3.0.2"],\
-          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"]\
-        ],\
-        "linkType": "SOFT"\
-      }]\
-    ]],\
-    ["@stackflow/plugin-preload", [\
-      ["virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-preload", {\
-        "packageLocation": "./.yarn/__virtual__/@stackflow-plugin-preload-virtual-78b2f9bad9/1/extensions/plugin-preload/",\
-        "packageDependencies": [\
-          ["@stackflow/plugin-preload", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-preload"],\
-          ["@stackflow/core", "workspace:core"],\
-          ["@stackflow/esbuild-config", "workspace:packages/esbuild-config"],\
-          ["@stackflow/plugin-history-sync", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-history-sync"],\
-          ["@stackflow/react", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:integrations/react"],\
-          ["@types/react", "npm:18.3.3"],\
-          ["@types/stackflow__core", null],\
-          ["@types/stackflow__plugin-history-sync", null],\
-          ["@types/stackflow__react", null],\
-          ["esbuild", "npm:0.23.0"],\
-          ["react", "npm:18.3.1"],\
-          ["rimraf", "npm:3.0.2"],\
-          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"]\
-        ],\
-        "packagePeers": [\
-          "@stackflow/core",\
-          "@stackflow/plugin-history-sync",\
-          "@stackflow/react",\
-          "@types/react",\
-          "@types/stackflow__core",\
-          "@types/stackflow__plugin-history-sync",\
-          "@types/stackflow__react",\
-          "react"\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#workspace:extensions/plugin-preload", {\
-        "packageLocation": "./.yarn/__virtual__/@stackflow-plugin-preload-virtual-39d8b0e9e9/1/extensions/plugin-preload/",\
-        "packageDependencies": [\
-          ["@stackflow/plugin-preload", "virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#workspace:extensions/plugin-preload"],\
-          ["@stackflow/core", "workspace:core"],\
-          ["@stackflow/esbuild-config", "workspace:packages/esbuild-config"],\
-          ["@stackflow/plugin-history-sync", "virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#workspace:extensions/plugin-history-sync"],\
-          ["@stackflow/react", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:integrations/react"],\
-          ["@types/react", "npm:18.3.3"],\
-          ["@types/stackflow__core", null],\
-          ["@types/stackflow__plugin-history-sync", null],\
-          ["@types/stackflow__react", null],\
-          ["esbuild", "npm:0.23.0"],\
-          ["react", "npm:18.3.1"],\
-          ["rimraf", "npm:3.0.2"],\
-          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"]\
-        ],\
-        "packagePeers": [\
-          "@stackflow/core",\
-          "@stackflow/plugin-history-sync",\
-          "@types/stackflow__core",\
-          "@types/stackflow__plugin-history-sync",\
-          "@types/stackflow__react"\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["workspace:extensions/plugin-preload", {\
-        "packageLocation": "./extensions/plugin-preload/",\
-        "packageDependencies": [\
-          ["@stackflow/plugin-preload", "workspace:extensions/plugin-preload"],\
-          ["@stackflow/core", "workspace:core"],\
-          ["@stackflow/esbuild-config", "workspace:packages/esbuild-config"],\
-          ["@stackflow/plugin-history-sync", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-history-sync"],\
-          ["@stackflow/react", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:integrations/react"],\
-          ["@types/react", "npm:18.3.3"],\
-          ["esbuild", "npm:0.23.0"],\
-          ["react", "npm:18.3.1"],\
-          ["rimraf", "npm:3.0.2"],\
-          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"]\
-        ],\
-        "linkType": "SOFT"\
-      }]\
-    ]],\
-    ["@stackflow/plugin-renderer-basic", [\
-      ["virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-renderer-basic", {\
-        "packageLocation": "./.yarn/__virtual__/@stackflow-plugin-renderer-basic-virtual-84c5c2a317/1/extensions/plugin-renderer-basic/",\
-        "packageDependencies": [\
-          ["@stackflow/plugin-renderer-basic", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:extensions/plugin-renderer-basic"],\
-          ["@stackflow/core", "workspace:core"],\
-          ["@stackflow/esbuild-config", "workspace:packages/esbuild-config"],\
-          ["@stackflow/react", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:integrations/react"],\
-          ["@stackflow/solid", "virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#workspace:integrations/solid"],\
-          ["@types/react", "npm:18.3.3"],\
-          ["@types/solid-js", null],\
-          ["@types/stackflow__core", null],\
-          ["@types/stackflow__react", null],\
-          ["@types/stackflow__solid", null],\
-          ["esbuild", "npm:0.23.0"],\
-          ["esbuild-plugin-solid", "virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#patch:esbuild-plugin-solid@npm%3A0.6.0#~/.yarn/patches/esbuild-plugin-solid-npm-0.6.0-49835b85dc.patch::version=0.6.0&hash=bf8c52"],\
-          ["react", "npm:18.3.1"],\
-          ["rimraf", "npm:3.0.2"],\
-          ["solid-js", "npm:1.9.2"],\
-          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"]\
-        ],\
-        "packagePeers": [\
-          "@stackflow/core",\
-          "@stackflow/react",\
-          "@types/react",\
-          "@types/solid-js",\
-          "@types/stackflow__core",\
-          "@types/stackflow__react",\
-          "@types/stackflow__solid",\
-          "react"\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#workspace:extensions/plugin-renderer-basic", {\
-        "packageLocation": "./.yarn/__virtual__/@stackflow-plugin-renderer-basic-virtual-6025075581/1/extensions/plugin-renderer-basic/",\
-        "packageDependencies": [\
-          ["@stackflow/plugin-renderer-basic", "virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#workspace:extensions/plugin-renderer-basic"],\
-          ["@stackflow/core", "workspace:core"],\
-          ["@stackflow/esbuild-config", "workspace:packages/esbuild-config"],\
-          ["@stackflow/react", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:integrations/react"],\
-          ["@stackflow/solid", "virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#workspace:integrations/solid"],\
-          ["@types/react", "npm:18.3.3"],\
-          ["@types/solid-js", null],\
-          ["@types/stackflow__core", null],\
-          ["@types/stackflow__react", null],\
-          ["@types/stackflow__solid", null],\
-          ["esbuild", "npm:0.23.0"],\
-          ["esbuild-plugin-solid", "virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#patch:esbuild-plugin-solid@npm%3A0.6.0#~/.yarn/patches/esbuild-plugin-solid-npm-0.6.0-49835b85dc.patch::version=0.6.0&hash=bf8c52"],\
-          ["react", "npm:18.3.1"],\
-          ["rimraf", "npm:3.0.2"],\
-          ["solid-js", "npm:1.9.2"],\
-          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"]\
-        ],\
-        "packagePeers": [\
-          "@stackflow/core",\
-          "@stackflow/solid",\
-          "@types/solid-js",\
-          "@types/stackflow__core",\
-          "@types/stackflow__react",\
-          "@types/stackflow__solid",\
-          "solid-js"\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["workspace:extensions/plugin-renderer-basic", {\
-        "packageLocation": "./extensions/plugin-renderer-basic/",\
-        "packageDependencies": [\
-          ["@stackflow/plugin-renderer-basic", "workspace:extensions/plugin-renderer-basic"],\
-          ["@stackflow/core", "workspace:core"],\
-          ["@stackflow/esbuild-config", "workspace:packages/esbuild-config"],\
-          ["@stackflow/react", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:integrations/react"],\
-          ["@stackflow/solid", "virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#workspace:integrations/solid"],\
-          ["@types/react", "npm:18.3.3"],\
-          ["esbuild", "npm:0.23.0"],\
-          ["esbuild-plugin-solid", "virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#patch:esbuild-plugin-solid@npm%3A0.6.0#~/.yarn/patches/esbuild-plugin-solid-npm-0.6.0-49835b85dc.patch::version=0.6.0&hash=bf8c52"],\
-          ["react", "npm:18.3.1"],\
-          ["rimraf", "npm:3.0.2"],\
-          ["solid-js", "npm:1.9.2"],\
-          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"]\
-        ],\
-        "linkType": "SOFT"\
-      }]\
-    ]],\
-    ["@stackflow/plugin-renderer-web", [\
-      ["workspace:extensions/plugin-renderer-web", {\
-        "packageLocation": "./extensions/plugin-renderer-web/",\
-        "packageDependencies": [\
-          ["@stackflow/plugin-renderer-web", "workspace:extensions/plugin-renderer-web"],\
-          ["@stackflow/core", "workspace:core"],\
-          ["@stackflow/esbuild-config", "workspace:packages/esbuild-config"],\
-          ["@stackflow/react", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:integrations/react"],\
-          ["@stackflow/solid", "virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#workspace:integrations/solid"],\
-          ["@types/react", "npm:18.3.3"],\
-          ["esbuild", "npm:0.23.0"],\
-          ["esbuild-plugin-solid", "virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#patch:esbuild-plugin-solid@npm%3A0.6.0#~/.yarn/patches/esbuild-plugin-solid-npm-0.6.0-49835b85dc.patch::version=0.6.0&hash=bf8c52"],\
-          ["react", "npm:18.3.1"],\
-          ["rimraf", "npm:3.0.2"],\
-          ["solid-js", "npm:1.9.2"],\
           ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"]\
         ],\
         "linkType": "SOFT"\
@@ -4079,10 +4166,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@stackflow/react-ui-core", [\
-      ["virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#workspace:extensions/react-ui-core", {\
-        "packageLocation": "./.yarn/__virtual__/@stackflow-react-ui-core-virtual-347e420a8c/1/extensions/react-ui-core/",\
+      ["virtual:3a45caa1b2bc385e8c50f05a491a102f4acbd661408940917e35407388a5817209632364a41018747631d6faa70465552d7189a4defa0d13c7815d17737537ef#workspace:extensions/react-ui-core", {\
+        "packageLocation": "./.yarn/__virtual__/@stackflow-react-ui-core-virtual-c0cb5d049d/1/extensions/react-ui-core/",\
         "packageDependencies": [\
-          ["@stackflow/react-ui-core", "virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#workspace:extensions/react-ui-core"],\
+          ["@stackflow/react-ui-core", "virtual:3a45caa1b2bc385e8c50f05a491a102f4acbd661408940917e35407388a5817209632364a41018747631d6faa70465552d7189a4defa0d13c7815d17737537ef#workspace:extensions/react-ui-core"],\
           ["@stackflow/core", "workspace:core"],\
           ["@stackflow/esbuild-config", "workspace:packages/esbuild-config"],\
           ["@stackflow/react", "virtual:413bca98ff76262f6f1f73762ccc4b7edee04a5da42f3d6b9ed2cb2d6dbc397b2094da59b50f6e828091c88e7b5f86990feff596c43f0eb50a58fc42aae64a20#workspace:integrations/react"],\
@@ -4115,93 +4202,6 @@ const RAW_RUNTIME_STATE =
           ["esbuild", "npm:0.23.0"],\
           ["react", "npm:18.3.1"],\
           ["rimraf", "npm:3.0.2"],\
-          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"]\
-        ],\
-        "linkType": "SOFT"\
-      }]\
-    ]],\
-    ["@stackflow/solid", [\
-      ["virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#workspace:integrations/solid", {\
-        "packageLocation": "./.yarn/__virtual__/@stackflow-solid-virtual-25461bd459/1/integrations/solid/",\
-        "packageDependencies": [\
-          ["@stackflow/solid", "virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#workspace:integrations/solid"],\
-          ["@stackflow/config", "workspace:config"],\
-          ["@stackflow/core", "workspace:core"],\
-          ["@stackflow/esbuild-config", "workspace:packages/esbuild-config"],\
-          ["@types/solid-js", null],\
-          ["@types/stackflow__config", null],\
-          ["@types/stackflow__core", null],\
-          ["esbuild", "npm:0.23.0"],\
-          ["esbuild-plugin-file-path-extensions", "npm:2.1.3"],\
-          ["esbuild-plugin-solid", "virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#patch:esbuild-plugin-solid@npm%3A0.6.0#~/.yarn/patches/esbuild-plugin-solid-npm-0.6.0-49835b85dc.patch::version=0.6.0&hash=bf8c52"],\
-          ["rimraf", "npm:3.0.2"],\
-          ["solid-js", "npm:1.9.2"],\
-          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"]\
-        ],\
-        "packagePeers": [\
-          "@stackflow/core",\
-          "@types/solid-js",\
-          "@types/stackflow__config",\
-          "@types/stackflow__core",\
-          "solid-js"\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["workspace:integrations/solid", {\
-        "packageLocation": "./integrations/solid/",\
-        "packageDependencies": [\
-          ["@stackflow/solid", "workspace:integrations/solid"],\
-          ["@stackflow/config", "workspace:config"],\
-          ["@stackflow/core", "workspace:core"],\
-          ["@stackflow/esbuild-config", "workspace:packages/esbuild-config"],\
-          ["esbuild", "npm:0.23.0"],\
-          ["esbuild-plugin-file-path-extensions", "npm:2.1.3"],\
-          ["esbuild-plugin-solid", "virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#patch:esbuild-plugin-solid@npm%3A0.6.0#~/.yarn/patches/esbuild-plugin-solid-npm-0.6.0-49835b85dc.patch::version=0.6.0&hash=bf8c52"],\
-          ["rimraf", "npm:3.0.2"],\
-          ["solid-js", "npm:1.9.2"],\
-          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"]\
-        ],\
-        "linkType": "SOFT"\
-      }]\
-    ]],\
-    ["@stackflow/solid-ui-core", [\
-      ["virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#workspace:extensions/solid-ui-core", {\
-        "packageLocation": "./.yarn/__virtual__/@stackflow-solid-ui-core-virtual-7b9c7bae74/1/extensions/solid-ui-core/",\
-        "packageDependencies": [\
-          ["@stackflow/solid-ui-core", "virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#workspace:extensions/solid-ui-core"],\
-          ["@stackflow/core", "workspace:core"],\
-          ["@stackflow/esbuild-config", "workspace:packages/esbuild-config"],\
-          ["@stackflow/solid", "virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#workspace:integrations/solid"],\
-          ["@types/solid-js", null],\
-          ["@types/stackflow__core", null],\
-          ["@types/stackflow__solid", null],\
-          ["esbuild", "npm:0.23.0"],\
-          ["esbuild-plugin-solid", "virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#patch:esbuild-plugin-solid@npm%3A0.6.0#~/.yarn/patches/esbuild-plugin-solid-npm-0.6.0-49835b85dc.patch::version=0.6.0&hash=bf8c52"],\
-          ["rimraf", "npm:3.0.2"],\
-          ["solid-js", "npm:1.9.2"],\
-          ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"]\
-        ],\
-        "packagePeers": [\
-          "@stackflow/core",\
-          "@stackflow/solid",\
-          "@types/solid-js",\
-          "@types/stackflow__core",\
-          "@types/stackflow__solid",\
-          "solid-js"\
-        ],\
-        "linkType": "SOFT"\
-      }],\
-      ["workspace:extensions/solid-ui-core", {\
-        "packageLocation": "./extensions/solid-ui-core/",\
-        "packageDependencies": [\
-          ["@stackflow/solid-ui-core", "workspace:extensions/solid-ui-core"],\
-          ["@stackflow/core", "workspace:core"],\
-          ["@stackflow/esbuild-config", "workspace:packages/esbuild-config"],\
-          ["@stackflow/solid", "virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#workspace:integrations/solid"],\
-          ["esbuild", "npm:0.23.0"],\
-          ["esbuild-plugin-solid", "virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#patch:esbuild-plugin-solid@npm%3A0.6.0#~/.yarn/patches/esbuild-plugin-solid-npm-0.6.0-49835b85dc.patch::version=0.6.0&hash=bf8c52"],\
-          ["rimraf", "npm:3.0.2"],\
-          ["solid-js", "npm:1.9.2"],\
           ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"]\
         ],\
         "linkType": "SOFT"\
@@ -4988,10 +4988,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#npm:0.5.3", {\
-        "packageLocation": "./.yarn/__virtual__/@vanilla-extract-recipes-virtual-4d952fe6c5/0/cache/@vanilla-extract-recipes-npm-0.5.3-520cb7a00b-2ddf10ce34.zip/node_modules/@vanilla-extract/recipes/",\
+      ["virtual:3a45caa1b2bc385e8c50f05a491a102f4acbd661408940917e35407388a5817209632364a41018747631d6faa70465552d7189a4defa0d13c7815d17737537ef#npm:0.5.3", {\
+        "packageLocation": "./.yarn/__virtual__/@vanilla-extract-recipes-virtual-7fbee83c58/0/cache/@vanilla-extract-recipes-npm-0.5.3-520cb7a00b-2ddf10ce34.zip/node_modules/@vanilla-extract/recipes/",\
         "packageDependencies": [\
-          ["@vanilla-extract/recipes", "virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#npm:0.5.3"],\
+          ["@vanilla-extract/recipes", "virtual:3a45caa1b2bc385e8c50f05a491a102f4acbd661408940917e35407388a5817209632364a41018747631d6faa70465552d7189a4defa0d13c7815d17737537ef#npm:0.5.3"],\
           ["@types/vanilla-extract__css", null],\
           ["@vanilla-extract/css", "npm:1.15.3"]\
         ],\
@@ -5389,13 +5389,13 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["virtual:a0529edfc45c9aedfebde72dbfbbe197991863336ccad30b160bfeb0d3b81383ffb4c5f48709597e648deb1d63842463592c7cb6e60df06a4f6cfb64feefb1ce#npm:0.39.2", {\
-        "packageLocation": "./.yarn/__virtual__/babel-plugin-jsx-dom-expressions-virtual-4d8cf7b17c/0/cache/babel-plugin-jsx-dom-expressions-npm-0.39.2-b6f4f3d03c-60a43146d5.zip/node_modules/babel-plugin-jsx-dom-expressions/",\
+      ["virtual:f8e43ac513f2ebdb30890f4e71abee1920fccd9e376d7ea3fb421f6f266ba6c6d2d32e9fb5ab006c07e85b91636263c0687bb8db0160a099bf72fd87b54146b9#npm:0.39.2", {\
+        "packageLocation": "./.yarn/__virtual__/babel-plugin-jsx-dom-expressions-virtual-59e04faab7/0/cache/babel-plugin-jsx-dom-expressions-npm-0.39.2-b6f4f3d03c-60a43146d5.zip/node_modules/babel-plugin-jsx-dom-expressions/",\
         "packageDependencies": [\
-          ["babel-plugin-jsx-dom-expressions", "virtual:a0529edfc45c9aedfebde72dbfbbe197991863336ccad30b160bfeb0d3b81383ffb4c5f48709597e648deb1d63842463592c7cb6e60df06a4f6cfb64feefb1ce#npm:0.39.2"],\
+          ["babel-plugin-jsx-dom-expressions", "virtual:f8e43ac513f2ebdb30890f4e71abee1920fccd9e376d7ea3fb421f6f266ba6c6d2d32e9fb5ab006c07e85b91636263c0687bb8db0160a099bf72fd87b54146b9#npm:0.39.2"],\
           ["@babel/core", "npm:7.25.8"],\
           ["@babel/helper-module-imports", "npm:7.18.6"],\
-          ["@babel/plugin-syntax-jsx", "virtual:a49e7c7391fc324b7960796fda92a13b08a3be41256a14fa848af201fd67467b86e686b912de1e8d6b3167e184e2e0b9c4fb44e23bbbbcb1d6711d6da634a31e#npm:7.25.7"],\
+          ["@babel/plugin-syntax-jsx", "virtual:d3362da3958155e900a4b39f154cf894aaacfda0ee8f5bb6129d16d17842c4941b7897b2387cd56cfb1ccc8b5f9b1e6eb50fb06e40d9ac808cf510b76d2a4d7f#npm:7.25.7"],\
           ["@babel/types", "npm:7.24.7"],\
           ["@types/babel__core", null],\
           ["html-entities", "npm:2.3.3"],\
@@ -5501,13 +5501,13 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:ab31efd3d7312653d47cbbf5769b6ffc0d512ea4472fdc6e5551bbcc56c160ffc1ffacd204d496f3ee2103be25e79aab27954e12fac4b3f210daa7f0bc6f92f0#npm:1.9.2", {\
-        "packageLocation": "./.yarn/__virtual__/babel-preset-solid-virtual-a0529edfc4/0/cache/babel-preset-solid-npm-1.9.2-a76754baa5-09d6a95259.zip/node_modules/babel-preset-solid/",\
+      ["virtual:831405067794c500c75a12f1d8fa4a6e734c6bc43a6146b513ae8c98814185c08c8dcb163e049f92518b6532f97996c64a395688157dcce661ef562fcd0dd244#npm:1.9.2", {\
+        "packageLocation": "./.yarn/__virtual__/babel-preset-solid-virtual-f8e43ac513/0/cache/babel-preset-solid-npm-1.9.2-a76754baa5-09d6a95259.zip/node_modules/babel-preset-solid/",\
         "packageDependencies": [\
-          ["babel-preset-solid", "virtual:ab31efd3d7312653d47cbbf5769b6ffc0d512ea4472fdc6e5551bbcc56c160ffc1ffacd204d496f3ee2103be25e79aab27954e12fac4b3f210daa7f0bc6f92f0#npm:1.9.2"],\
+          ["babel-preset-solid", "virtual:831405067794c500c75a12f1d8fa4a6e734c6bc43a6146b513ae8c98814185c08c8dcb163e049f92518b6532f97996c64a395688157dcce661ef562fcd0dd244#npm:1.9.2"],\
           ["@babel/core", "npm:7.25.8"],\
           ["@types/babel__core", null],\
-          ["babel-plugin-jsx-dom-expressions", "virtual:a0529edfc45c9aedfebde72dbfbbe197991863336ccad30b160bfeb0d3b81383ffb4c5f48709597e648deb1d63842463592c7cb6e60df06a4f6cfb64feefb1ce#npm:0.39.2"]\
+          ["babel-plugin-jsx-dom-expressions", "virtual:f8e43ac513f2ebdb30890f4e71abee1920fccd9e376d7ea3fb421f6f266ba6c6d2d32e9fb5ab006c07e85b91636263c0687bb8db0160a099bf72fd87b54146b9#npm:0.39.2"]\
         ],\
         "packagePeers": [\
           "@babel/core",\
@@ -6949,15 +6949,15 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#patch:esbuild-plugin-solid@npm%3A0.6.0#~/.yarn/patches/esbuild-plugin-solid-npm-0.6.0-49835b85dc.patch::version=0.6.0&hash=bf8c52", {\
-        "packageLocation": "./.yarn/__virtual__/esbuild-plugin-solid-virtual-ab31efd3d7/0/cache/esbuild-plugin-solid-patch-6ed6ca3665-3f3b173176.zip/node_modules/esbuild-plugin-solid/",\
+      ["virtual:3a45caa1b2bc385e8c50f05a491a102f4acbd661408940917e35407388a5817209632364a41018747631d6faa70465552d7189a4defa0d13c7815d17737537ef#patch:esbuild-plugin-solid@npm%3A0.6.0#~/.yarn/patches/esbuild-plugin-solid-npm-0.6.0-49835b85dc.patch::version=0.6.0&hash=bf8c52", {\
+        "packageLocation": "./.yarn/__virtual__/esbuild-plugin-solid-virtual-8314050677/0/cache/esbuild-plugin-solid-patch-6ed6ca3665-3f3b173176.zip/node_modules/esbuild-plugin-solid/",\
         "packageDependencies": [\
-          ["esbuild-plugin-solid", "virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#patch:esbuild-plugin-solid@npm%3A0.6.0#~/.yarn/patches/esbuild-plugin-solid-npm-0.6.0-49835b85dc.patch::version=0.6.0&hash=bf8c52"],\
+          ["esbuild-plugin-solid", "virtual:3a45caa1b2bc385e8c50f05a491a102f4acbd661408940917e35407388a5817209632364a41018747631d6faa70465552d7189a4defa0d13c7815d17737537ef#patch:esbuild-plugin-solid@npm%3A0.6.0#~/.yarn/patches/esbuild-plugin-solid-npm-0.6.0-49835b85dc.patch::version=0.6.0&hash=bf8c52"],\
           ["@babel/core", "npm:7.25.8"],\
-          ["@babel/preset-typescript", "virtual:ab31efd3d7312653d47cbbf5769b6ffc0d512ea4472fdc6e5551bbcc56c160ffc1ffacd204d496f3ee2103be25e79aab27954e12fac4b3f210daa7f0bc6f92f0#npm:7.25.7"],\
+          ["@babel/preset-typescript", "virtual:831405067794c500c75a12f1d8fa4a6e734c6bc43a6146b513ae8c98814185c08c8dcb163e049f92518b6532f97996c64a395688157dcce661ef562fcd0dd244#npm:7.25.7"],\
           ["@types/esbuild", null],\
           ["@types/solid-js", null],\
-          ["babel-preset-solid", "virtual:ab31efd3d7312653d47cbbf5769b6ffc0d512ea4472fdc6e5551bbcc56c160ffc1ffacd204d496f3ee2103be25e79aab27954e12fac4b3f210daa7f0bc6f92f0#npm:1.9.2"],\
+          ["babel-preset-solid", "virtual:831405067794c500c75a12f1d8fa4a6e734c6bc43a6146b513ae8c98814185c08c8dcb163e049f92518b6532f97996c64a395688157dcce661ef562fcd0dd244#npm:1.9.2"],\
           ["esbuild", "npm:0.23.0"],\
           ["solid-js", "npm:1.9.2"]\
         ],\
@@ -11371,10 +11371,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:991015ceb8acca106af7e64cf676369bf8fb98370003b1af0559fb22931c330c3a09d064107412d6cc26ef286f0afdd26340443bd43177eeda3558644ba5f206#npm:17.0.0", {\
-        "packageLocation": "./.yarn/__virtual__/react-relay-virtual-33ed9a4324/0/cache/react-relay-npm-17.0.0-b76694d525-5f4c3f1e99.zip/node_modules/react-relay/",\
+      ["virtual:34742779f53b35ce360a787fe90920999f9219b5a879f313cb62ce0e32661b412c568f569ea31493034faab36e9edecfd44085e9d0ecfa5eaf9f985c8b64ac2c#npm:17.0.0", {\
+        "packageLocation": "./.yarn/__virtual__/react-relay-virtual-b18a73d6bb/0/cache/react-relay-npm-17.0.0-b76694d525-5f4c3f1e99.zip/node_modules/react-relay/",\
         "packageDependencies": [\
-          ["react-relay", "virtual:991015ceb8acca106af7e64cf676369bf8fb98370003b1af0559fb22931c330c3a09d064107412d6cc26ef286f0afdd26340443bd43177eeda3558644ba5f206#npm:17.0.0"],\
+          ["react-relay", "virtual:34742779f53b35ce360a787fe90920999f9219b5a879f313cb62ce0e32661b412c568f569ea31493034faab36e9edecfd44085e9d0ecfa5eaf9f985c8b64ac2c#npm:17.0.0"],\
           ["@babel/runtime", "npm:7.25.0"],\
           ["@types/react", "npm:18.3.3"],\
           ["fbjs", "npm:3.0.5"],\

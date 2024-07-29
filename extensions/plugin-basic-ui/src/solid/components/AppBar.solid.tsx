@@ -1,11 +1,11 @@
 /* @jsxImportSource solid-js */
 
-import { useActions, useActivity } from "@stackflow/solid";
+import { useActions, useActivity } from "@contentstech/stackflow-solid";
 import { assignInlineVars } from "@vanilla-extract/dynamic";
 import type { JSXElement } from "solid-js";
 import { Match, Show, Switch, createMemo, mergeProps } from "solid-js";
 
-import { useAppBarTitleMaxWidth } from "@stackflow/solid-ui-core";
+import { useAppBarTitleMaxWidth } from "@contentstech/stackflow-solid-ui-core";
 import { IconBack, IconClose } from "../../common/assets";
 import type { GlobalVars } from "../../common/basicUIPlugin.css";
 import { globalVars } from "../../common/basicUIPlugin.css";

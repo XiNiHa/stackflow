@@ -1,5 +1,23 @@
 # @stackflow/plugin-preload
 
+## 0.2.0
+
+### Minor Changes
+
+- a2fa541: Port missing APIs for `@contentstech/stackflow-solid` (rebase over b13619d11069d60f242d8a737d232f3c7056e511)
+
+### Patch Changes
+
+- Updated dependencies [a2fa541]
+  - @contentstech/stackflow-plugin-history-sync@0.5.0
+
+## 0.1.1
+
+### Patch Changes
+
+- Updated dependencies [cde4ac9]
+  - @contentstech/stackflow-plugin-history-sync@0.4.0
+
 ## 1.4.3
 
 ## 1.4.3-canary.0
