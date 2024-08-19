@@ -1,5 +1,17 @@
 # @stackflow/plugin-basic-ui
 
+## 0.2.0
+
+### Minor Changes
+
+- 5b773b5: Rebase over 98d5edec3021684faeb2cc89b563cd721397b215
+
+### Patch Changes
+
+- Updated dependencies [5b773b5]
+  - @contentstech/stackflow-solid@0.2.0
+  - @contentstech/stackflow-solid-ui-core@0.1.1
+
 ## 1.9.1
 
 ### Patch Changes
