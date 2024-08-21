@@ -1,5 +1,12 @@
 # @stackflow/link
 
+## 0.1.1
+
+### Patch Changes
+
+- Updated dependencies [cde4ac9]
+  - @contentstech/stackflow-plugin-history-sync@0.4.0
+
 ## 1.4.4
 
 ## 1.4.4-canary.0
