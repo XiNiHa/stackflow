@@ -1,6 +1,6 @@
 import { createEffect } from "solid-js";
 
-import { useActivity } from "./activity/useActivity";
+import { useActivity } from "../__internal__/activity/useActivity";
 
 export const createEnterDoneEffect = (
   effect: () => void,

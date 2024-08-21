@@ -1,8 +1,8 @@
 import type { Component } from "solid-js";
 import { mergeProps } from "solid-js";
 
+import type { ActivityComponentType } from "./ActivityComponentType";
 import PluginRenderer, { createPluginRenderProps } from "./PluginRenderer";
-import type { ActivityComponentType } from "./activity";
 import { useCoreState } from "./core";
 import { usePlugins } from "./plugins";
 import type { WithRequired } from "./utils";

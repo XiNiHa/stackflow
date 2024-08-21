@@ -5,15 +5,16 @@ import type {
   StackflowActions,
 } from "@stackflow/core";
 import { makeCoreStore, makeEvent } from "@stackflow/core";
-import MainRenderer from "MainRenderer";
-import { CoreProvider } from "core";
-import { PluginsProvider } from "plugins";
 import type { Component } from "solid-js";
+import MainRenderer from "../__internal__/MainRenderer";
+import { CoreProvider } from "../__internal__/core";
+import { PluginsProvider } from "../__internal__/plugins";
 
+import type { ActivityComponentType } from "../__internal__/ActivityComponentType";
+import type { StackflowSolidPlugin } from "../__internal__/StackflowSolidPlugin";
+import { makeActivityId, makeStepId } from "../__internal__/activity";
+import { isBrowser } from "../__internal__/utils";
 import type { BaseActivities } from "./BaseActivities";
-import type { StackflowSolidPlugin } from "./StackflowSolidPlugin";
-import type { ActivityComponentType } from "./activity";
-import { makeActivityId, makeStepId } from "./activity";
 import type { UseActionsOutputType } from "./useActions";
 import { parseActionOptions, useActions } from "./useActions";
 import type {
@@ -21,7 +22,6 @@ import type {
   UseStepActionsOutputType,
 } from "./useStepActions";
 import { useStepActions } from "./useStepActions";
-import { isBrowser } from "./utils";
 
 export type StackComponentType = Component<{
   initialContext?: any;

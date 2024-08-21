@@ -1,15 +1,9 @@
 import type { Activity, Stack } from "@stackflow/core";
 import type { Accessor, Component, JSXElement } from "solid-js";
-import {
-  createMemo,
-  getOwner,
-  mapArray,
-  mergeProps,
-  runWithOwner,
-} from "solid-js";
+import { createMemo, mergeProps } from "solid-js";
 
+import type { ActivityComponentType } from "./ActivityComponentType";
 import type { StackflowSolidPlugin } from "./StackflowSolidPlugin";
-import type { ActivityComponentType } from "./activity";
 import { ActivityProvider } from "./activity";
 import { useCoreState } from "./core";
 import { usePlugins } from "./plugins";

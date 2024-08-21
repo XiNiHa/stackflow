@@ -1,9 +1,9 @@
 import type { Accessor } from "solid-js";
 
+import type { ActivityComponentType } from "../__internal__/ActivityComponentType";
+import { makeStepId } from "../__internal__/activity";
+import { useCoreActions, useCoreState } from "../__internal__/core";
 import type { BaseActivities } from "./BaseActivities";
-import type { ActivityComponentType } from "./activity";
-import { makeStepId } from "./activity";
-import { useCoreActions, useCoreState } from "./core";
 
 export type UseStepActionsOutputType<P> = {
   pending: Accessor<boolean>;

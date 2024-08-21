@@ -1,7 +1,7 @@
 import type { ActivityStep } from "@stackflow/core";
 import { type Accessor, useContext } from "solid-js";
 
-import { ActivityContext } from "./activity/ActivityProvider";
+import { ActivityContext } from "../__internal__/activity/ActivityProvider";
 
 /**
  * Get current step

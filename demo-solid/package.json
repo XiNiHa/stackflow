@@ -6,15 +6,15 @@
 	"type": "module",
 	"exports": {
 		".": {
-			"types": "./dist/stackflow-docs.d.ts",
-			"require": "./dist/stackflow-docs.js",
-			"import": "./dist/stackflow-docs.mjs"
+			"types": "./dist/stackflow/stackflow.docs.d.ts",
+			"require": "./dist/stackflow/stackflow.docs.js",
+			"import": "./dist/stackflow/stackflow.docs.mjs"
 		},
-		"./style.css": "./dist/stackflow-docs.css"
+		"./style.css": "./dist/stackflow/stackflow.docs.css"
 	},
-	"main": "./dist/stackflow-docs.js",
-	"module": "./dist/stackflow-docs.mjs",
-	"types": "./dist/stackflow-docs.d.ts",
+	"main": "./dist/stackflow/stackflow.docs.js",
+	"module": "./dist/stackflow/stackflow.docs.mjs",
+	"types": "./dist/stackflow/stackflow.docs.d.ts",
 	"files": [
 		"dist",
 		"src"
@@ -33,6 +33,7 @@
 		"@seed-design/design-token": "^1.0.3",
 		"@seed-design/stylesheet": "^1.0.4",
 		"@stackflow/compat-await-push": "^1.1.12",
+		"@stackflow/config": "^1.1.0",
 		"@stackflow/core": "^1.1.0",
 		"@stackflow/link": "^1.4.4",
 		"@stackflow/plugin-basic-ui": "^1.9.1",
@@ -58,7 +59,8 @@
 		"esbuild-plugin-solid": "^0.6.0",
 		"rimraf": "^3.0.2",
 		"typescript": "^5.5.3",
-		"vite-plugin-solid": "^2.10.2"
+		"vite-plugin-solid": "^2.10.2",
+		"zod": "^3.23.8"
 	},
 	"ultra": {
 		"concurrent": [
