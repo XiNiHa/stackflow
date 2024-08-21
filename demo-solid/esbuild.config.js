@@ -13,7 +13,8 @@ const external = Object.keys({
 Promise.all([
   context({
     ...config({
-      entryPoints: ["./src/stackflow-docs.tsx"],
+      entryPoints: ["./src/stackflow/stackflow.docs.tsx"],
+      outdir: "./dist/stackflow",
       vanillaExtractExternal: ["@seed-design"],
       plugins: [solidPlugin({ solid: { generate: "dom" } })],
     }),
@@ -24,7 +25,8 @@ Promise.all([
   ),
   context({
     ...config({
-      entryPoints: ["./src/stackflow-docs.tsx"],
+      entryPoints: ["./src/stackflow/stackflow.docs.tsx"],
+      outdir: "./dist/stackflow",
       vanillaExtractExternal: ["@seed-design"],
       plugins: [solidPlugin({ solid: { generate: "dom" } })],
     }),

@@ -3393,6 +3393,7 @@ const RAW_RUNTIME_STATE =
           ["@seed-design/design-token", "npm:1.0.3"],\
           ["@seed-design/stylesheet", "npm:1.0.4"],\
           ["@stackflow/compat-await-push", "virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#workspace:extensions/compat-await-push"],\
+          ["@stackflow/config", "workspace:config"],\
           ["@stackflow/core", "workspace:core"],\
           ["@stackflow/esbuild-config", "workspace:packages/esbuild-config"],\
           ["@stackflow/link", "virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#workspace:extensions/link"],\
@@ -3416,7 +3417,8 @@ const RAW_RUNTIME_STATE =
           ["solid-js", "npm:1.8.18"],\
           ["typescript", "patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"],\
           ["vite", "virtual:2c30557d8ca5e7c67e7558d45bc44bef6c7a622b34a97fa8102f3235f92769c87777d34ed37059c12d8f3a21841ea06cf4badc5dc796697b0f765c17db6e24e5#npm:5.3.2"],\
-          ["vite-plugin-solid", "virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#npm:2.10.2"]\
+          ["vite-plugin-solid", "virtual:f02c81452ff867c51068ba24d1154dc4fd3d1c7604f453ffee4229d2511559426c90d236211f3a0cdc7936f57f86390b27d2faabd3ea70d6ab368b4517c54f80#npm:2.10.2"],\
+          ["zod", "npm:3.23.8"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -3783,6 +3785,7 @@ const RAW_RUNTIME_STATE =
           ["url-pattern", "npm:1.0.3"]\
         ],\
         "packagePeers": [\
+          "@stackflow/config",\
           "@stackflow/core",\
           "@stackflow/solid",\
           "@types/solid-js",\
@@ -4159,11 +4162,14 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/@stackflow-solid-virtual-25461bd459/1/integrations/solid/",\
         "packageDependencies": [\
           ["@stackflow/solid", "virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#workspace:integrations/solid"],\
+          ["@stackflow/config", "workspace:config"],\
           ["@stackflow/core", "workspace:core"],\
           ["@stackflow/esbuild-config", "workspace:packages/esbuild-config"],\
           ["@types/solid-js", null],\
+          ["@types/stackflow__config", null],\
           ["@types/stackflow__core", null],\
           ["esbuild", "npm:0.23.0"],\
+          ["esbuild-plugin-file-path-extensions", "npm:2.1.2"],\
           ["esbuild-plugin-solid", "virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#patch:esbuild-plugin-solid@npm%3A0.6.0#~/.yarn/patches/esbuild-plugin-solid-npm-0.6.0-49835b85dc.patch::version=0.6.0&hash=bf8c52"],\
           ["rimraf", "npm:3.0.2"],\
           ["solid-js", "npm:1.8.18"],\
@@ -4172,6 +4178,7 @@ const RAW_RUNTIME_STATE =
         "packagePeers": [\
           "@stackflow/core",\
           "@types/solid-js",\
+          "@types/stackflow__config",\
           "@types/stackflow__core",\
           "solid-js"\
         ],\
@@ -4181,9 +4188,11 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./integrations/solid/",\
         "packageDependencies": [\
           ["@stackflow/solid", "workspace:integrations/solid"],\
+          ["@stackflow/config", "workspace:config"],\
           ["@stackflow/core", "workspace:core"],\
           ["@stackflow/esbuild-config", "workspace:packages/esbuild-config"],\
           ["esbuild", "npm:0.23.0"],\
+          ["esbuild-plugin-file-path-extensions", "npm:2.1.2"],\
           ["esbuild-plugin-solid", "virtual:669046a185e83900af978519e5adddf8e8f1f8fed824849248ba56cf8fcd4e4208872f27e14c3c844d3b769f42be1ba6e0aa90f12df9fa6c38a55aedee211f53#patch:esbuild-plugin-solid@npm%3A0.6.0#~/.yarn/patches/esbuild-plugin-solid-npm-0.6.0-49835b85dc.patch::version=0.6.0&hash=bf8c52"],\
           ["rimraf", "npm:3.0.2"],\
           ["solid-js", "npm:1.8.18"],\

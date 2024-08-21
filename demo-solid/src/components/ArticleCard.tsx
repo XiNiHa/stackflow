@@ -1,5 +1,5 @@
+import { useFlow } from "@stackflow/solid/future";
 import { type Component, createMemo } from "solid-js";
-import { useFlow } from "../useFlow";
 import * as css from "./ArticleCard.css";
 
 interface ArticleCardProps {

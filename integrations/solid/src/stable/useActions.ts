@@ -1,9 +1,9 @@
-import { useCoreActions, useCoreState } from "core";
 import type { Accessor } from "solid-js";
+import { useCoreActions, useCoreState } from "../__internal__/core";
 
+import type { ActivityComponentType } from "../__internal__/ActivityComponentType";
+import { makeActivityId } from "../__internal__/activity";
 import type { BaseActivities } from "./BaseActivities";
-import type { ActivityComponentType } from "./activity";
-import { makeActivityId } from "./activity";
 
 export function parseActionOptions(options?: { animate?: boolean }) {
   if (!options) {
