@@ -1,5 +1,17 @@
 # @stackflow/plugin-history-sync
 
+## 0.4.0
+
+### Minor Changes
+
+- cde4ac9: Rebase over 03e1d3aada2891d7f7784efb2257298348f0d115
+
+### Patch Changes
+
+- Updated dependencies [cde4ac9]
+- Updated dependencies [cde4ac9]
+  - @contentstech/stackflow-solid@0.3.0
+
 ## 1.6.3
 
 ### Patch Changes
