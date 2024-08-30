@@ -1,5 +1,16 @@
 # @stackflow/demo
 
+## 1.3.4
+
+### Patch Changes
+
+- Updated dependencies [a2fa541]
+  - @contentstech/stackflow-link@0.2.0
+  - @contentstech/stackflow-plugin-basic-ui@0.4.0
+  - @contentstech/stackflow-plugin-history-sync@0.5.0
+  - @contentstech/stackflow-plugin-preload@0.2.0
+  - @contentstech/stackflow-plugin-renderer-basic@0.4.0
+
 ## 1.3.3
 
 ### Patch Changes
