@@ -13,6 +13,7 @@ export const CoreStateContext = createContext<{
 
 export interface CoreProviderProps {
   coreStore: CoreStore;
+  transition: boolean;
   children: JSXElement;
 }
 export const CoreProvider: Component<CoreProviderProps> = (props) => {
@@ -20,9 +21,10 @@ export const CoreProvider: Component<CoreProviderProps> = (props) => {
   const [pending, startTransition] = useTransition();
 
   props.coreStore.subscribe(() => {
-    startTransition(() => {
+    const update = () =>
       setStack(reconcile(props.coreStore.actions.getStack(), { merge: true }));
-    });
+    if (props.transition) startTransition(update);
+    else update();
   });
 
   return (
