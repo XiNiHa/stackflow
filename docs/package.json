@@ -1,6 +1,6 @@
 {
   "name": "@stackflow/docs",
-  "version": "1.2.29",
+  "version": "1.2.30",
   "private": true,
   "description": "Mobile-first stack navigator framework with Composable Plugin System",
   "license": "MIT",
@@ -16,13 +16,13 @@
     "generate:plugins-docs": "rm -rf ./pages/plugins && node scripts/generate-plugins-docs.js"
   },
   "dependencies": {
-    "@contentstech/stackflow-plugin-basic-ui": "^0.4.0",
-    "@contentstech/stackflow-plugin-history-sync": "^0.5.0",
-    "@contentstech/stackflow-plugin-renderer-basic": "^0.4.0",
+    "@contentstech/stackflow-plugin-basic-ui": "^0.5.0",
+    "@contentstech/stackflow-plugin-history-sync": "^0.6.0",
+    "@contentstech/stackflow-plugin-renderer-basic": "^0.5.0",
     "@mdx-js/react": "^3.0.1",
     "@stackflow/core": "^1.1.0",
-    "@stackflow/demo": "^1.4.0",
-    "@stackflow/demo-solid": "^1.4.0",
+    "@stackflow/demo": "^1.4.1",
+    "@stackflow/demo-solid": "^1.4.1",
     "@stackflow/react": "^1.4.0",
     "@types/react": "^18.3.3",
     "next": "^14.2.4",

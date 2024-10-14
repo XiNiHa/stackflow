@@ -1,5 +1,16 @@
 # @stackflow/docs
 
+## 1.2.30
+
+### Patch Changes
+
+- Updated dependencies [ece2314]
+  - @contentstech/stackflow-plugin-basic-ui@0.5.0
+  - @contentstech/stackflow-plugin-history-sync@0.6.0
+  - @contentstech/stackflow-plugin-renderer-basic@0.5.0
+  - @stackflow/demo@1.4.1
+  - @stackflow/demo-solid@1.4.1
+
 ## 1.2.29
 
 ### Patch Changes
