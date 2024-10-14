@@ -1,5 +1,11 @@
 # @contentstech/stackflow-solid
 
+## 0.5.0
+
+### Minor Changes
+
+- ece2314: Rebase over abf74d37706cc27b604955007fc6683b19b4985c
+
 ## 0.4.0
 
 ### Minor Changes

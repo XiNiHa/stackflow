@@ -1,5 +1,16 @@
 # @stackflow/plugin-history-sync
 
+## 0.6.0
+
+### Minor Changes
+
+- ece2314: Rebase over abf74d37706cc27b604955007fc6683b19b4985c
+
+### Patch Changes
+
+- Updated dependencies [ece2314]
+  - @contentstech/stackflow-solid@0.5.0
+
 ## 0.5.0
 
 ### Minor Changes
