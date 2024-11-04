@@ -1,5 +1,14 @@
 # @stackflow/plugin-renderer-basic
 
+## 0.5.1
+
+### Patch Changes
+
+- Updated dependencies [58da787]
+- Updated dependencies [58da787]
+- Updated dependencies [58da787]
+  - @contentstech/stackflow-solid@0.6.0
+
 ## 0.5.0
 
 ### Minor Changes
