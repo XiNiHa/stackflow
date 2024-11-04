@@ -1,5 +1,14 @@
 # @contentstech/stackflow-solid-ui-core
 
+## 0.3.1
+
+### Patch Changes
+
+- Updated dependencies [58da787]
+- Updated dependencies [58da787]
+- Updated dependencies [58da787]
+  - @contentstech/stackflow-solid@0.6.0
+
 ## 0.3.0
 
 ### Minor Changes

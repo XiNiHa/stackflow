@@ -1,5 +1,13 @@
 # @contentstech/stackflow-solid
 
+## 0.6.0
+
+### Minor Changes
+
+- 58da787: Rebase over bc32f3b3bfea852bc1b3d1cca28392636953b4bc
+- 58da787: Workaround core state reconcilation issue
+- 58da787: Optimize activity render on stack change
+
 ## 0.5.0
 
 ### Minor Changes
