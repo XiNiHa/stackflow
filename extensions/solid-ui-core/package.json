@@ -1,6 +1,6 @@
 {
 	"name": "@contentstech/stackflow-solid-ui-core",
-	"version": "0.3.1",
+	"version": "0.4.0",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/daangn/stackflow.git",
@@ -32,7 +32,7 @@
 		"typecheck": "tsc --noEmit"
 	},
 	"devDependencies": {
-		"@contentstech/stackflow-solid": "^0.6.0",
+		"@contentstech/stackflow-solid": "^0.7.0",
 		"@stackflow/core": "^1.1.0",
 		"@stackflow/esbuild-config": "^1.0.2",
 		"esbuild": "^0.23.0",
@@ -42,7 +42,7 @@
 		"typescript": "^5.5.3"
 	},
 	"peerDependencies": {
-		"@contentstech/stackflow-solid": "^0.6.0",
+		"@contentstech/stackflow-solid": "^0.7.0",
 		"@stackflow/core": "^1.1.0-canary.0",
 		"solid-js": ">=1.4.0"
 	},

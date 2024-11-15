@@ -1,5 +1,18 @@
 # @stackflow/plugin-history-sync
 
+## 0.7.0
+
+### Minor Changes
+
+- e3c7070: Rebase over 0a105c3f669e27d3b06f9334289f53fe52c1d3fb
+- 04f54c2: Add `encode` interface
+- 0a105c3: Enable usage of `encode` and `decode` with Future API
+
+### Patch Changes
+
+- Updated dependencies [e3c7070]
+  - @contentstech/stackflow-solid@0.7.0
+
 ## 0.6.1
 
 ### Patch Changes
