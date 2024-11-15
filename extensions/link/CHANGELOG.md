@@ -1,5 +1,19 @@
 # @stackflow/link
 
+## 0.4.0
+
+### Minor Changes
+
+- e3c7070: Rebase over 0a105c3f669e27d3b06f9334289f53fe52c1d3fb
+
+### Patch Changes
+
+- Updated dependencies [e3c7070]
+- Updated dependencies [04f54c2]
+- Updated dependencies [0a105c3]
+  - @contentstech/stackflow-plugin-history-sync@0.7.0
+  - @contentstech/stackflow-plugin-preload@0.4.0
+
 ## 0.3.0
 
 ### Minor Changes
