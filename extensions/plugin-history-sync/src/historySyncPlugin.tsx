@@ -26,6 +26,8 @@ declare module "@stackflow/config" {
   interface ActivityDefinition<ActivityName extends string> {
     path: string;
     routePriority?: number;
+    decodePath?: (params: Record<string, string>) => Record<string, unknown> | null;
+    encodePath?: (params: Record<string, unknown>) => Record<string, string>;
   }
 
   interface Config<T extends ActivityDefinition<string>> {
@@ -77,8 +79,10 @@ export function historySyncPlugin<
             ...acc,
             [a.name]: {
               path: a.path,
-              priority: a.routePriority
-            }
+              priority: a.routePriority,
+              decode: a.decodePath,
+              encode: a.encodePath,
+            },
           }),
           {},
         );
