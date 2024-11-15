@@ -1,6 +1,6 @@
 {
   "name": "@contentstech/stackflow-plugin-history-sync",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/contentstech-com/stackflow.git",

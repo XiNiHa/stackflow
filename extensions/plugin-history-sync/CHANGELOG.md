@@ -1,5 +1,11 @@
 # @stackflow/plugin-history-sync
 
+## 0.8.0
+
+### Minor Changes
+
+- b733361: Fix invalid rebase
+
 ## 0.7.0
 
 ### Minor Changes

@@ -1,5 +1,14 @@
 # @stackflow/demo
 
+## 1.4.3
+
+### Patch Changes
+
+- Updated dependencies [b733361]
+  - @contentstech/stackflow-plugin-history-sync@0.8.0
+  - @contentstech/stackflow-link@0.4.1
+  - @contentstech/stackflow-plugin-preload@0.4.1
+
 ## 1.4.2
 
 ### Patch Changes

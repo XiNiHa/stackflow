@@ -1,5 +1,13 @@
 # @stackflow/docs
 
+## 2.0.3
+
+### Patch Changes
+
+- Updated dependencies [b733361]
+  - @contentstech/stackflow-plugin-history-sync@0.8.0
+  - @stackflow/demo@1.4.3
+
 ## 2.0.2
 
 ### Patch Changes
