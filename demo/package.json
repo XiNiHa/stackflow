@@ -1,6 +1,6 @@
 {
   "name": "@stackflow/demo",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "private": true,
   "license": "MIT",
   "type": "module",
@@ -30,10 +30,10 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@contentstech/stackflow-link": "^0.4.0",
+    "@contentstech/stackflow-link": "^0.4.1",
     "@contentstech/stackflow-plugin-basic-ui": "^0.6.0",
-    "@contentstech/stackflow-plugin-history-sync": "^0.7.0",
-    "@contentstech/stackflow-plugin-preload": "^0.4.0",
+    "@contentstech/stackflow-plugin-history-sync": "^0.8.0",
+    "@contentstech/stackflow-plugin-preload": "^0.4.1",
     "@contentstech/stackflow-plugin-renderer-basic": "^0.6.0",
     "@seed-design/design-token": "^1.0.3",
     "@seed-design/stylesheet": "^1.0.4",

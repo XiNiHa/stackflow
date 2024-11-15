@@ -1,5 +1,12 @@
 # @stackflow/link
 
+## 0.4.1
+
+### Patch Changes
+
+- Updated dependencies [b733361]
+  - @contentstech/stackflow-plugin-history-sync@0.8.0
+
 ## 0.4.0
 
 ### Minor Changes
