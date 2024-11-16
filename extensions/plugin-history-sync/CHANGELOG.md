@@ -1,5 +1,11 @@
 # @stackflow/plugin-history-sync
 
+## 0.9.0
+
+### Minor Changes
+
+- bd65894: Rebase over 8f688349790df7dd28c29914e012b93964f57b42
+
 ## 0.8.0
 
 ### Minor Changes
