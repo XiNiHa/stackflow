@@ -1,6 +1,6 @@
 {
   "name": "@stackflow/docs",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "private": true,
   "description": "Mobile-first stack navigator framework with Composable Plugin System",
   "license": "MIT",
@@ -11,12 +11,12 @@
   },
   "dependencies": {
     "@contentstech/stackflow-plugin-basic-ui": "^0.6.0",
-    "@contentstech/stackflow-plugin-history-sync": "^0.9.0",
+    "@contentstech/stackflow-plugin-history-sync": "^0.10.0",
     "@contentstech/stackflow-plugin-renderer-basic": "^0.6.0",
     "@mdx-js/react": "^3.0.1",
     "@seed-design/design-token": "^1.0.3",
     "@stackflow/core": "^1.1.0",
-    "@stackflow/demo": "^1.4.4",
+    "@stackflow/demo": "^1.4.5",
     "@stackflow/react": "^1.4.0",
     "@types/react": "^18.3.3",
     "autoprefixer": "^10.4.20",
