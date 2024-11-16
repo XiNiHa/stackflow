@@ -1,5 +1,12 @@
 # @stackflow/plugin-history-sync
 
+## 0.10.0
+
+### Minor Changes
+
+- bc2d1cb: Rebase over 5a9b0de76ed4b6b1ff359d7e529bd4642b25f898 and 916185d4d97c2cf283a8764d6f6ac428fa54460c
+- 916185d: Allow setting priority for each route
+
 ## 0.9.0
 
 ### Minor Changes
